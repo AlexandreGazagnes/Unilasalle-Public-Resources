@@ -14,7 +14,7 @@ a <- 200
 b <- 33
 
 if (b > a) { # if b is greater than a
-  print ("b is greater than a")
+  print ("b is greater than a") 
 } else { # if b is not greater than a
   print("b is not greater than a")
 } 
@@ -22,7 +22,6 @@ if (b > a) { # if b is greater than a
 
 # Nested if else 
 x <- 41
-
 if (x > 10) {
   print("Above ten")
   if (x > 20) { # and if inside the first if
@@ -44,7 +43,6 @@ if (a > b & c > a) { # both conditions are true
   print("Both conditions are true")
 } 
 
-
 # Using if + or 
 a <- 200
 b <- 33
@@ -52,7 +50,7 @@ c <- 500
 
 if (a > b | a > c) { # at least one condition is true
   print("At least one of the conditions is true")
-} 
+}
 
 
 # Using in operator
@@ -146,9 +144,9 @@ for (x in fruits) {
 # basic function
 my_function <- function() { # create a function with the name my_function
   print("Hello World!")
-} 
+}
 
-# using arguments 
+# using arguments
 my_function <- function(fname) {
   paste(fname, "Griffin")
 }

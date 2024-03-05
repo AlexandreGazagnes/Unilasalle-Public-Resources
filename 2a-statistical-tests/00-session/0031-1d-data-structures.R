@@ -17,7 +17,6 @@ fruits
 
 
 # length
-fruits <- c("banana", "apple", "orange")
 length(fruits) 
 
 
@@ -63,17 +62,17 @@ sum(numbers) # Sum of numbers
 sum(numbers, na.rm = TRUE) # Sum of numbers, ignoring NA values
 
 
-# names of the elements
+# Names of the elements
 fruits <- c("banana", "apple", "orange")
-names(fruits) <- c("first", "second", "third")
 names(fruits) <- c("first", "second", "third")
 fruits
 
 
-# access
+# Accessssing items
 fruits <- c("banana", "apple", "orange")
 fruits[1]  # 1-based index => 1st item
 fruits[2]  # 1-based index => 2nd item
+
 
 # Access the last item (orange)
 fruits[length(fruits)] # 1-based index => last item
@@ -90,7 +89,7 @@ fruits[v]  # 1-based index => 1st and 3rd items
 fruits <- c("banana", "apple", "orange", "mango", "lemon")
 v = c(-1, -3) # indices
 fruits[v]  # 1-based index => all but 1st and 3rd items
-# better : 
+# better :
 v = c(1,3)
 fruits[-v]  # 1-based index => all but 1st and 3rd items
 
@@ -99,13 +98,13 @@ fruits[-v]  # 1-based index => all but 1st and 3rd items
 fruits <- c("banana", "apple", "orange", "mango", "lemon")
 v = 1:3
 fruits[v]  # 1-based index => 1st to 3rd items
-# better : 
+# better :
 fruits[1:3]  # 1-based index => 1st to 3rd items
 
 
 # Change "banana" to "pear"
 fruits[1] <- "pear"
-fruits 
+fruits
 
 
 # Repetition and sequences
@@ -116,7 +115,7 @@ repeat_each <- rep(c(1,2,3), each = 3)
 repeat_each 
 
 
-# sequences 
+# sequences
 numbers <- seq(0, 100, 20)
 numbers <- seq(from = 0, to = 100, by = 20)
-numbers 
+numbers

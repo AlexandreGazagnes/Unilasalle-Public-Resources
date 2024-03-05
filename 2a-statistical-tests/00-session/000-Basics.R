@@ -56,10 +56,10 @@ myvar2 <- "John"
 
 
 # Illegal variable names:
-2myvar <- "John"
-my-var <- "John"
-my var <- "John"
-_my_var <- "John"
-my_v@ar <- "John"
-TRUE <- "John"
+# 2myvar <- "John"
+# my-var <- "John"
+# my var <- "John"
+# _my_var <- "John"
+# my_v@ar <- "John"
+# TRUE <- "John"
 
