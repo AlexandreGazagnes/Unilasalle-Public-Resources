@@ -1,10 +1,13 @@
-# written by Alexandre Gazagnes
-# based on https://www.w3schools.com/r/default.asp
+# Written by Alexandre Gazagnes
+# Last update: 2024-02-01
+# Based on https://www.w3schools.com/r/default.asp
 
 
-####################################
-#   Control Structures
-####################################
+#################################
+# TP 03 - R Control Statements  #
+#        3/4                    #
+#################################
+
 
 # If Statement
 #########################
@@ -91,7 +94,7 @@ while (i < 6) {
 } 
 
 
-# for loops
+# For loops
 #########################
 
 # Basic for
@@ -118,7 +121,7 @@ for (x in fruits) {
 } 
 
 
-# nested for 
+# Nested for 
 adj <- list("red", "big", "tasty")
 fruits <- list("apple", "banana", "cherry")
 for (x in adj) {
@@ -141,12 +144,12 @@ for (x in fruits) {
 # Functions 
 #########################
 
-# basic function
+# Basic function
 my_function <- function() { # create a function with the name my_function
   print("Hello World!")
 }
 
-# using arguments
+# Using arguments
 my_function <- function(fname) {
   paste(fname, "Griffin")
 }
@@ -154,16 +157,28 @@ my_function <- function(fname) {
 my_function("Peter")
 
 
-# default arguments 
+# will you get an error?
+my_function() 
+
+
+# Default arguments 
 my_function <- function(country = "Norway") {
   paste("I am from", country)
 }
+my_function("Sweden")
 
 
-# using return statement 
+# will you get an error?
+my_function() 
+
+
+# Using return statement 
 my_function <- function(x) {
   return (5 * x)
 }
 
 print(my_function(3))
-print(my_function(5))
+
+# Thanks to the return statement, the function will return the value 15.
+y = 12 + my_function(3)
+y

@@ -1,10 +1,12 @@
-# written by Alexandre Gazagnes
-# based on https://www.w3schools.com/r/default.asp
+# Written by Alexandre Gazagnes
+# Last update: 2024-02-01
+# Based on https://www.w3schools.com/r/default.asp
 
 
-#################################################################
-# Data Structures
-#################################################################
+#################################
+#     TP 04 - Data Structures   #
+#        4/4                    #
+#################################
 
 
 # Vectors
@@ -13,19 +15,19 @@
 # Vector of strings
 fruits <- c("banana", "apple", "orange")
 # Print fruits
-fruits 
+fruits
 
 
-# length
-length(fruits) 
+# Length
+length(fruits)
 
 
-# vector of numbers
+# Vector of numbers
 numbers <- c(1, 2, 3, 4, 5)
 numbers
 
 
-# vector of mixed data types
+# Vector of mixed data types
 mixed <- c("apple", 1, 2, 3, 4, 5)
 mixed # "apple" "1" "2" "3" "4" "5"
 
@@ -34,17 +36,17 @@ mixed  = c(1.4, 1, 0, 12)
 mixed # 1.4 1.0 0.0 12.0
 
 
-# vector concatenation
+# Vector concatenation
 fruits <- c("banana", "apple", "orange")
 veggies <- c("tomato", "potato", "onion")
 food <- c(fruits, veggies)
 
-# be careful with the order of operations
+# Be careful with the order of operations
 fruits <- c("banana", "apple")
 food # here food was not modified
 
 
-# sort
+# Sort
 fruits <- c("banana", "apple", "orange", "mango", "lemon")
 numbers <- c(13, 3, 5, 7, 20, 2)
 sort(fruits)  # Sort a string
@@ -52,12 +54,12 @@ sort(numbers) # Sort numbers
 sort(numbers, decreasing = TRUE) # Sort numbers in decreasing order
 
 
-# rank
+# Rank
 rank(fruits)  # Rank a string
 rank(numbers) # Rank numbers
 
 
-# sum
+# Sum
 sum(numbers) # Sum of numbers
 sum(numbers, na.rm = TRUE) # Sum of numbers, ignoring NA values
 
@@ -110,12 +112,12 @@ fruits
 # Repetition and sequences
 ##########################
 
-# repetitions
+# Repetitions
 repeat_each <- rep(c(1,2,3), each = 3)
-repeat_each 
+repeat_each
 
 
-# sequences
+# Sequences
 numbers <- seq(0, 100, 20)
 numbers <- seq(from = 0, to = 100, by = 20)
 numbers

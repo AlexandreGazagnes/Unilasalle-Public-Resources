@@ -1,32 +1,35 @@
-# written by Alexandre Gazagnes
-# based on https://www.w3schools.com/r/default.asp
+# Written by Alexandre Gazagnes
+# Last update: 2024-02-01
+# Based on https://www.w3schools.com/r/default.asp
 
 
-####################################
-#   Data Types
-####################################
+#################################
+#   TP 02 - R Data Types        #
+#        2/4                    #
+#################################
 
-# Numeric
+
+# Numerics
 ############################
 
-# numeric
+# Numeric
 x <- 10.5
 class(x)
 
-# integer
-x <- 1000L
+# Integer
+x <- 1000
 class(x)
 
-# complex
+# Complex
 x <- 9i + 3
 class(x)
 
 # Numbers ?
 x <- 10.5   # numeric
-y <- 10L    # integer
-z <- 1i     # complex 
+y <- 10     # integer
+z <- 1i     # complex
 
-# Basic Maths operations on numbers 
+# Basic Maths operations on numbers
 sqrt(16)  # square root
 
 log(10)  # logarithm
@@ -55,6 +58,9 @@ floor(1.4)  # round down
 round(1.4) # round to the nearest integer
 round(1.556789, 2) # round to 2 decimals
 
+# Is it numeric ?
+is.numeric(10) # TRUE
+
 
 # Strings
 ############################
@@ -68,18 +74,18 @@ str <- "Lorem ipsum dolor sit amet,
 consectetur adipiscing elit,
 sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua."
-str # print the value of str 
+str # print the value of str
 
-# strings with cat 
+# strings with cat
 str <- "Lorem ipsum dolor sit amet,
 consectetur adipiscing elit,
 sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua."
-cat(str) 
+cat(str)
 
 # nb of chars
 str <- "Hello World!"
-nchar(str) 
+nchar(str)
 
 # grep 
 str <- "Hello World!"
@@ -93,6 +99,7 @@ grepl("X", str)
 
 # logical/boolean
 x <- TRUE
+x = FALSE
 class(x) 
 
 # Please note that 
@@ -108,7 +115,7 @@ FALSE * FALSE # is 0
 10 > 9    # TRUE because 10 is greater than 9
 10 >= 9   # TRUE because 10 is greater than 9
 10 == 9   # FALSE because 10 is not equal to 9
-10 < 9    # FALSE because 10 is greater than 9 
+10 < 9    # FALSE because 10 is greater than 9
 10 <= 9   # FALSE because 10 is greater than 9
 10 !=9     # TRUE because 10 is not equal to 9
 
@@ -168,8 +175,3 @@ class(range)
 
 # BUT : 
 100 %in% 1:100
-
-
-# Is it numeric ?
-#############################
-is.numeric(10) # TRUE
