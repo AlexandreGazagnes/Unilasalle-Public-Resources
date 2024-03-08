@@ -13,7 +13,7 @@
 ###############################################################
 
 # Url to the csv file
-url = "https://raw.githubusercontent.com/AlexandreGazagnes/Unilassalle-Public-Ressources/main/2a-statistical-tests/01-session/database.csv"
+url = "https://raw.githubusercontent.com/AlexandreGazagnes/Unilassalle-Public-Ressources/main/2a-statistical-tests/02-session/database.csv"
 
 
 # Local file
