@@ -1,18 +1,23 @@
-pandas 
-numpy
+pandas          # DataFrame
+numpy           # Matrix
 
-matplotlib
-seaborn
-plotly
+scikit-learn    # ML, PCA, Clustering
+scipy           # Scientific computations
+statsmodels     # Advanced stat tools
 
-jupyter
-notebook
-jupyterlab
+matplotlib      # Viz 
+seaborn         # Viz
+plotly          # Viz
 
-scikit-learn
+jupyter         # Notebook
+notebook        # Notebook
+jupyterlab      # Notebook
+jupytext        # Notebook
+nbconvert       # Notebook
 
-pytest
-black
-black[jupyter] 
-mypy
-isort
+
+pytest          # Tests
+black           # Code formating
+black[jupyter]  # Code formationg
+mypy            # Code QA
+isort           # Code formating
