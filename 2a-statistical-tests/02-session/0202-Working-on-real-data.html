@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>002-Main-data-types</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>0202-Working-on-real-data</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7516,18 +7516,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="TP-02---R-Data-Types---2/4">TP 02 - R Data Types - 2/4<a class="anchor-link" href="#TP-02---R-Data-Types---2/4">¶</a></h1>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ul>
+<h1 id="TP-02---About-Data-Frames---2/2">TP 02 - About Data Frames - 2/2<a class="anchor-link" href="#TP-02---About-Data-Frames---2/2">¶</a></h1><ul>
 <li>Written by Alexandre Gazagnes</li>
 <li>Last update: 2024-02-01</li>
 <li>Based on <a href="https://www.w3schools.com/r/default.asp">https://www.w3schools.com/r/default.asp</a></li>
@@ -7542,7 +7531,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Numerics">Numerics<a class="anchor-link" href="#Numerics">¶</a></h2>
+<h2 id="Load-the-dataset">Load the dataset<a class="anchor-link" href="#Load-the-dataset">¶</a></h2>
 </div>
 </div>
 </div>
@@ -7554,9 +7543,8 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Numeric</span>
-<span class="n">x</span> <span class="o">&lt;-</span> <span class="mf">10.5</span>
-<span class="n">class</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<div class="highlight hl-python"><pre><span></span><span class="c1"># Url to the csv file</span>
+<span class="n">url</span> <span class="o">=</span> <span class="s2">"https://raw.githubusercontent.com/AlexandreGazagnes/Unilassalle-Public-Ressources/main/2a-statistical-tests/02-session/database.csv"</span>
 </pre></div>
 </div>
 </div>
@@ -7570,9 +7558,8 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Integer</span>
-<span class="n">x</span> <span class="o">&lt;-</span> <span class="mi">1000</span>
-<span class="n">class</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<div class="highlight hl-python"><pre><span></span><span class="c1"># Local file</span>
+<span class="n">fn</span> <span class="o">=</span> <span class="s2">"/home/alex/Downloads/my_awsome_db.csv"</span>
 </pre></div>
 </div>
 </div>
@@ -7586,142 +7573,8 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Complex</span>
-<span class="n">x</span> <span class="o">&lt;-</span> <span class="mi">9</span><span class="n">i</span> <span class="o">+</span> <span class="mi">3</span>
-<span class="n">class</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Numbers ?</span>
-<span class="n">x</span> <span class="o">&lt;-</span> <span class="mf">10.5</span>   <span class="c1"># numeric</span>
-<span class="n">y</span> <span class="o">&lt;-</span> <span class="mi">10</span>     <span class="c1"># integer</span>
-<span class="n">z</span> <span class="o">&lt;-</span> <span class="mi">1</span><span class="n">i</span>     <span class="c1"># complex</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Basic Maths operations on numbers</span>
-<span class="n">sqrt</span><span class="p">(</span><span class="mi">16</span><span class="p">)</span>  <span class="c1"># square root</span>
-
-<span class="n">log</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>  <span class="c1"># logarithm</span>
-<span class="n">log</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="n">base</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>  <span class="c1"># logarithm with base 2</span>
-
-<span class="n">exp</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>  <span class="c1"># exponential</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">sin</span><span class="p">(</span><span class="n">pi</span><span class="p">)</span>  <span class="c1"># sine</span>
-<span class="n">cos</span><span class="p">(</span><span class="n">pi</span><span class="p">)</span>  <span class="c1"># cosine</span>
-<span class="n">tan</span><span class="p">(</span><span class="n">pi</span><span class="p">)</span>  <span class="c1"># tangent</span>
-
-<span class="n">asin</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>  <span class="c1"># arcsine</span>
-<span class="n">acos</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>  <span class="c1"># arccosine</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">factorial</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>  <span class="c1"># factorial</span>
-
-<span class="n">choose</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>  <span class="c1"># binomial coefficient</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="nb">max</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">15</span><span class="p">)</span>  <span class="c1"># max</span>
-<span class="nb">min</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">15</span><span class="p">)</span>  <span class="c1"># min</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="nb">abs</span><span class="p">(</span><span class="o">-</span><span class="mf">4.7</span><span class="p">)</span>  <span class="c1"># absolute value</span>
-<span class="n">ceiling</span><span class="p">(</span><span class="mf">1.4</span><span class="p">)</span>  <span class="c1"># round up</span>
-<span class="n">floor</span><span class="p">(</span><span class="mf">1.4</span><span class="p">)</span>  <span class="c1"># round down</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="nb">round</span><span class="p">(</span><span class="mf">1.4</span><span class="p">)</span>  <span class="c1"># round to the nearest integer</span>
-<span class="nb">round</span><span class="p">(</span><span class="mf">1.556789</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>  <span class="c1"># round to 2 decimals</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Is it numeric ?</span>
-<span class="ow">is</span><span class="o">.</span><span class="n">numeric</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span> <span class="c1"># TRUE</span>
+<div class="highlight hl-python"><pre><span></span><span class="c1"># Load the csv file</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">read</span><span class="o">.</span><span class="n">csv</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="n">TRUE</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">","</span><span class="p">,</span> <span class="n">dec</span><span class="o">=</span><span class="s2">"."</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -7734,7 +7587,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Strings">Strings<a class="anchor-link" href="#Strings">¶</a></h2>
+<h2 id="Data-Discovery">Data Discovery<a class="anchor-link" href="#Data-Discovery">¶</a></h2>
 </div>
 </div>
 </div>
@@ -7746,9 +7599,8 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># character/string</span>
-<span class="n">x</span> <span class="o">&lt;-</span> <span class="s2">"R is exciting"</span>
-<span class="n">class</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<div class="highlight hl-python"><pre><span></span><span class="c1"># head of the csv file</span>
+<span class="n">head</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>  <span class="c1"># first 2 rows</span>
 </pre></div>
 </div>
 </div>
@@ -7762,12 +7614,8 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Strings without cat</span>
-<span class="nb">str</span> <span class="o">&lt;-</span> <span class="s2">"Lorem ipsum dolor sit amet,</span>
-<span class="n">consectetur</span> <span class="n">adipiscing</span> <span class="n">elit</span><span class="p">,</span>
-<span class="n">sed</span> <span class="n">do</span> <span class="n">eiusmod</span> <span class="n">tempor</span> <span class="n">incididunt</span>
-<span class="n">ut</span> <span class="n">labore</span> <span class="n">et</span> <span class="n">dolore</span> <span class="n">magna</span> <span class="n">aliqua</span><span class="o">.</span><span class="s2">"</span>
-<span class="nb">str</span> <span class="c1"># print the value of str</span>
+<div class="highlight hl-python"><pre><span></span><span class="c1"># str of the csv file</span>
+<span class="nb">str</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>  <span class="c1"># compact display of the structure of an R object</span>
 </pre></div>
 </div>
 </div>
@@ -7781,12 +7629,9 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># strings with cat</span>
-<span class="nb">str</span> <span class="o">&lt;-</span> <span class="s2">"Lorem ipsum dolor sit amet,</span>
-<span class="n">consectetur</span> <span class="n">adipiscing</span> <span class="n">elit</span><span class="p">,</span>
-<span class="n">sed</span> <span class="n">do</span> <span class="n">eiusmod</span> <span class="n">tempor</span> <span class="n">incididunt</span>
-<span class="n">ut</span> <span class="n">labore</span> <span class="n">et</span> <span class="n">dolore</span> <span class="n">magna</span> <span class="n">aliqua</span><span class="o">.</span><span class="s2">"</span>
-<span class="n">cat</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span>
+<div class="highlight hl-python"><pre><span></span><span class="c1"># is.numeric</span>
+<span class="ow">is</span><span class="o">.</span><span class="n">numeric</span><span class="p">(</span><span class="n">df</span><span class="err">$</span><span class="n">Taille</span><span class="p">)</span> <span class="c1"># TRUE</span>
+<span class="ow">is</span><span class="o">.</span><span class="n">numeric</span><span class="p">(</span><span class="n">df</span><span class="err">$</span><span class="n">Nom</span><span class="p">)</span> <span class="c1"># TRUE</span>
 </pre></div>
 </div>
 </div>
@@ -7800,9 +7645,12 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># nb of chars</span>
-<span class="nb">str</span> <span class="o">&lt;</span> <span class="o">-</span><span class="s2">"Hello World!"</span>
-<span class="n">nchar</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span>
+<div class="highlight hl-python"><pre><span></span><span class="c1"># min and max</span>
+<span class="nb">min</span><span class="p">(</span><span class="n">df</span><span class="err">$</span><span class="n">Poids</span><span class="p">)</span> <span class="c1"># 1.5</span>
+<span class="nb">max</span><span class="p">(</span><span class="n">df</span><span class="err">$</span><span class="n">Poids</span><span class="p">)</span> <span class="c1"># 2.5</span>
+<span class="nb">min</span><span class="p">(</span><span class="n">df</span><span class="err">$</span><span class="n">Taille</span><span class="p">)</span> <span class="c1"># 1.5</span>
+<span class="nb">max</span><span class="p">(</span><span class="n">df</span><span class="err">$</span><span class="n">Taille</span><span class="p">)</span> <span class="c1"># 2.5</span>
+<span class="nb">max</span><span class="p">(</span><span class="n">df</span><span class="err">$</span><span class="n">Taille</span><span class="p">,</span> <span class="n">na</span><span class="o">.</span><span class="n">rm</span> <span class="o">=</span> <span class="n">TRUE</span><span class="p">)</span> <span class="c1"># 2.5</span>
 </pre></div>
 </div>
 </div>
@@ -7816,39 +7664,8 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># grep</span>
-<span class="nb">str</span> <span class="o">&lt;</span> <span class="o">-</span><span class="s2">"Hello World!"</span>
-<span class="n">grepl</span><span class="p">(</span><span class="s2">"H"</span><span class="p">,</span> <span class="nb">str</span><span class="p">)</span>
-<span class="n">grepl</span><span class="p">(</span><span class="s2">"Hello"</span><span class="p">,</span> <span class="nb">str</span><span class="p">)</span>
-<span class="n">grepl</span><span class="p">(</span><span class="s2">"X"</span><span class="p">,</span> <span class="nb">str</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Boolean">Boolean<a class="anchor-link" href="#Boolean">¶</a></h2>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># logical/boolean</span>
-<span class="n">x</span> <span class="o">&lt;-</span> <span class="n">TRUE</span>
-<span class="n">x</span> <span class="o">=</span> <span class="n">FALSE</span>
-<span class="n">class</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> 
+<div class="highlight hl-python"><pre><span></span><span class="c1"># Mr Blois</span>
+<span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="err">$</span><span class="n">Nom</span> <span class="o">==</span> <span class="s2">"Blois"</span><span class="p">,]</span>
 </pre></div>
 </div>
 </div>
@@ -7862,13 +7679,8 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Please note that  :</span>
-<span class="n">TRUE</span> <span class="o">+</span> <span class="n">TRUE</span>  <span class="c1"># is 2</span>
-<span class="n">TRUE</span> <span class="o">+</span> <span class="n">FALSE</span>  <span class="c1"># is 1</span>
-<span class="n">FALSE</span> <span class="o">+</span> <span class="n">FALSE</span>  <span class="c1"># is 0</span>
-<span class="n">TRUE</span> <span class="o">*</span> <span class="n">TRUE</span>  <span class="c1"># is 1</span>
-<span class="n">TRUE</span> <span class="o">*</span> <span class="n">FALSE</span>  <span class="c1"># is 0</span>
-<span class="n">FALSE</span> <span class="o">*</span> <span class="n">FALSE</span>  <span class="c1"># is 0</span>
+<div class="highlight hl-python"><pre><span></span><span class="c1"># Try this</span>
+<span class="s2">"Coucou"</span> <span class="o">%</span><span class="ow">in</span><span class="o">%</span> <span class="n">df</span><span class="err">$</span><span class="n">Nom</span>
 </pre></div>
 </div>
 </div>
@@ -7882,13 +7694,8 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Logical operators</span>
-<span class="mi">10</span> <span class="o">&gt;</span> <span class="mi">9</span>  <span class="c1"># TRUE because 10 is greater than 9</span>
-<span class="mi">10</span> <span class="o">&gt;=</span> <span class="mi">9</span>  <span class="c1"># TRUE because 10 is greater than 9</span>
-<span class="mi">10</span> <span class="o">==</span> <span class="mi">9</span>  <span class="c1"># FALSE because 10 is not equal to 9</span>
-<span class="mi">10</span> <span class="o">&lt;</span> <span class="mi">9</span>  <span class="c1"># FALSE because 10 is greater than 9</span>
-<span class="mi">10</span> <span class="o">&lt;=</span> <span class="mi">9</span>  <span class="c1"># FALSE because 10 is greater than 9</span>
-<span class="mi">10</span> <span class="o">!=</span> <span class="mi">9</span>  <span class="c1"># TRUE because 10 is not equal to 9</span>
+<div class="highlight hl-python"><pre><span></span><span class="c1"># Advanced selection</span>
+<span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="err">$</span><span class="n">Sexe</span> <span class="o">==</span> <span class="s2">"M"</span> <span class="o">&amp;</span> <span class="p">(</span> <span class="p">(</span><span class="n">df</span><span class="err">$</span><span class="n">Quart</span> <span class="o">==</span> <span class="s2">"Q4"</span><span class="p">)</span> <span class="o">|</span><span class="p">(</span><span class="n">df</span><span class="err">$</span><span class="n">Quart</span> <span class="o">==</span> <span class="s2">"Q1"</span><span class="p">)),</span> <span class="p">]</span>
 </pre></div>
 </div>
 </div>
@@ -7902,10 +7709,8 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># of course ...</span>
-<span class="n">ans</span> <span class="o">=</span> <span class="mi">10</span> <span class="o">&gt;</span> <span class="mi">9</span>
-<span class="n">class</span><span class="p">(</span><span class="n">ans</span><span class="p">)</span> <span class="c1"># bool ? </span>
-<span class="nb">print</span><span class="p">(</span><span class="n">ans</span><span class="p">)</span>
+<div class="highlight hl-python"><pre><span></span><span class="c1"># count the number of elements in each category</span>
+<span class="n">table</span><span class="p">(</span><span class="n">df</span><span class="err">$</span><span class="n">Sexe</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -7919,12 +7724,8 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># and and or</span>
-<span class="p">(</span><span class="mi">10</span> <span class="o">&gt;</span> <span class="mi">9</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="mi">10</span> <span class="o">&gt;</span> <span class="mi">9</span><span class="p">)</span>  <span class="c1"># TRUE because 10 is greater than 9 and 10 is greater than 9</span>
-<span class="p">(</span><span class="mi">10</span> <span class="o">&gt;</span> <span class="mi">9</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="mi">10</span> <span class="o">&lt;</span> <span class="mi">9</span><span class="p">)</span>  <span class="c1"># FALSE because 10 is greater than 9 but 10 is not greater than 9</span>
-<span class="p">(</span><span class="mi">10</span> <span class="o">&gt;</span> <span class="mi">9</span><span class="p">)</span> <span class="o">|</span> <span class="p">(</span><span class="mi">10</span> <span class="o">&lt;</span> <span class="mi">9</span><span class="p">)</span>  <span class="c1"># TRUE because 10 is greater than 9 and 10 is not greater than 9</span>
-<span class="o">!(</span><span class="m">10</span><span class="w"> </span>&gt;<span class="w"> </span><span class="m">9</span><span class="o">)</span><span class="w">            </span>#<span class="w"> </span>FALSE<span class="w"> </span>because<span class="w"> </span><span class="m">10</span><span class="w"> </span>is<span class="w"> </span>greater<span class="w"> </span>than<span class="w"> </span><span class="m">9</span>
-<span class="o">!(</span><span class="m">10</span><span class="w"> </span>&lt;<span class="w"> </span><span class="m">9</span><span class="o">)</span><span class="w">            </span>#<span class="w"> </span>TRUE<span class="w"> </span>because<span class="w"> </span><span class="m">10</span><span class="w"> </span>is<span class="w"> </span>not<span class="w"> </span>greater<span class="w"> </span>than<span class="w"> </span><span class="m">9</span>
+<div class="highlight hl-python"><pre><span></span><span class="c1"># ask for the shape of the dataframe</span>
+<span class="n">dim</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>  <span class="c1"># 4 rows and 2 columns</span>
 </pre></div>
 </div>
 </div>
@@ -7938,22 +7739,8 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># fun fact</span>
-<span class="n">pi</span> <span class="o">==</span> <span class="mf">3.14159265</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="nb">round</span><span class="p">(</span><span class="n">pi</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span> <span class="o">==</span> <span class="mf">3.14</span>
+<div class="highlight hl-python"><pre><span></span><span class="c1"># ask for the summary of the dataframe</span>
+<span class="n">summary</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -7966,7 +7753,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="NULL,-NA-and-NAN">NULL, NA and NAN<a class="anchor-link" href="#NULL,-NA-and-NAN">¶</a></h2>
+<h2 id="Answers">Answers<a class="anchor-link" href="#Answers">¶</a></h2>
 </div>
 </div>
 </div>
@@ -7978,9 +7765,8 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># in R Null is a special value that means "no value"</span>
-<span class="n">x</span> <span class="o">&lt;-</span> <span class="n">NULL</span>
-<span class="n">class</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<div class="highlight hl-python"><pre><span></span><span class="c1"># Calculate the means of the estimates of the teacher's weight (poids) in group D1 (then D2).</span>
+<span class="n">mean</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="err">$</span><span class="n">Groupe</span> <span class="o">==</span> <span class="s2">"D1"</span><span class="p">,]</span><span class="err">$</span><span class="n">Poids</span><span class="p">,</span> <span class="n">na</span><span class="o">.</span><span class="n">rm</span> <span class="o">=</span> <span class="n">TRUE</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -7994,9 +7780,8 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># NA is used to represent missing values in a dataset</span>
-<span class="n">x</span> <span class="o">&lt;-</span> <span class="n">NA</span>
-<span class="n">class</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<div class="highlight hl-python"><pre><span></span><span class="c1"># Calculate the average of the first random numbers (Nombre1) of the students in group D2?</span>
+<span class="n">mean</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="err">$</span><span class="n">Groupe</span> <span class="o">==</span> <span class="s2">"D2"</span><span class="p">,]</span><span class="err">$</span><span class="n">Nombre1</span><span class="p">,</span> <span class="n">na</span><span class="o">.</span><span class="n">rm</span> <span class="o">=</span> <span class="n">TRUE</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -8010,9 +7795,8 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Inf</span>
-<span class="n">x</span> <span class="o">&lt;-</span> <span class="mi">1000</span><span class="o">/</span><span class="mi">0</span>
-<span class="n">class</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<div class="highlight hl-python"><pre><span></span><span class="c1"># Estimate the variance of the size (Taille) of the teacher, we will take all the students.</span>
+<span class="n">var</span><span class="p">(</span><span class="n">df</span><span class="err">$</span><span class="n">Taille</span><span class="p">,</span> <span class="n">na</span><span class="o">.</span><span class="n">rm</span> <span class="o">=</span> <span class="n">TRUE</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -8026,62 +7810,8 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># NaN</span>
-<span class="n">x</span> <span class="o">&lt;-</span> <span class="mi">0</span><span class="o">/</span><span class="mi">0</span>
-<span class="n">class</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Ranges">Ranges<a class="anchor-link" href="#Ranges">¶</a></h2>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="nb">range</span> <span class="o">=</span> <span class="mi">1</span><span class="p">:</span><span class="mi">10</span>
-<span class="nb">range</span>
-<span class="n">class</span><span class="p">(</span><span class="nb">range</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="In-usage">In usage<a class="anchor-link" href="#In-usage">¶</a></h2>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="mi">3</span> <span class="o">%</span><span class="k">in</span>% 1:10
-<span class="mi">100</span> <span class="o">%</span><span class="k">in</span>% 1:99
+<div class="highlight hl-python"><pre><span></span><span class="c1"># Calculate the median of the sample consisting of the first random number (Nombre1)  between 0 and 99 given by the students (Men=M).</span>
+<span class="n">median</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="err">$</span><span class="n">Sexe</span> <span class="o">==</span> <span class="s2">"M"</span><span class="p">,]</span><span class="err">$</span><span class="n">Nombre1</span><span class="p">,</span> <span class="n">na</span><span class="o">.</span><span class="n">rm</span> <span class="o">=</span> <span class="n">TRUE</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -8095,8 +7825,236 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># BUT : </span>
-<span class="mi">100</span> <span class="o">%</span><span class="k">in</span>% 1:100
+<div class="highlight hl-python"><pre><span></span><span class="c1"># Calculate the deciles of the sample consisting of the first random number (Nombre1)  between 0 and 99 given by the students (Men).</span>
+<span class="n">quantile</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="err">$</span><span class="n">Sexe</span> <span class="o">==</span> <span class="s2">"M"</span><span class="p">,]</span><span class="err">$</span><span class="n">Nombre1</span><span class="p">,</span> <span class="n">na</span><span class="o">.</span><span class="n">rm</span> <span class="o">=</span> <span class="n">TRUE</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-python"><pre><span></span><span class="c1"># Calculate the coefficients of variation, skewness and kurtosis of the teacher's heights (taille) of all students.</span>
+<span class="n">cv</span><span class="p">(</span><span class="n">df</span><span class="err">$</span><span class="n">Taille</span><span class="p">,</span> <span class="n">na</span><span class="o">.</span><span class="n">rm</span> <span class="o">=</span> <span class="n">TRUE</span><span class="p">)</span>
+<span class="n">skewness</span><span class="p">(</span><span class="n">df</span><span class="err">$</span><span class="n">Taille</span><span class="p">,</span> <span class="n">na</span><span class="o">.</span><span class="n">rm</span> <span class="o">=</span> <span class="n">TRUE</span><span class="p">)</span>
+<span class="n">kurtosis</span><span class="p">(</span><span class="n">df</span><span class="err">$</span><span class="n">Taille</span><span class="p">,</span> <span class="n">na</span><span class="o">.</span><span class="n">rm</span> <span class="o">=</span> <span class="n">TRUE</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-python"><pre><span></span><span class="c1"># Summarize the series by these main characteristics (function summary).</span>
+<span class="n">summary</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-python"><pre><span></span><span class="c1"># 9) Display the division of the series made up of the second random number (Nombre2)   between 0 and 99 given by the students (Men =M and Women=M) according to the following breakdown:</span>
+<span class="c1"># ]-1 ; 9], ]9 ; 19], ]19 ; 29], ]29 ; 39], ]39 ; 49], ]49 ; 59], ]59 ; 69], ]69 ; 79], ]79 ; 89], ]89 ; 99].</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-python"><pre><span></span><span class="c1"># Create the breaks</span>
+<span class="n">breaks</span> <span class="o">=</span> <span class="n">seq</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">99</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-python"><pre><span></span><span class="c1"># Cut the data</span>
+<span class="n">df</span><span class="err">$</span><span class="n">cut</span> <span class="o">=</span> <span class="n">cut</span><span class="p">(</span><span class="n">df</span><span class="err">$</span><span class="n">Nombre2</span><span class="p">,</span> <span class="n">breaks</span> <span class="o">=</span> <span class="n">breaks</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-python"><pre><span></span><span class="c1"># Count the number of elements in each category</span>
+<span class="n">table</span><span class="p">(</span><span class="n">df</span><span class="err">$</span><span class="n">cut</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-python"><pre><span></span><span class="c1"># Display the distribution of the series made up of the second random number (Nombre2)   between 0 and 99 given by the</span>
+<span class="c1"># students</span>
+<span class="n">hist</span><span class="p">(</span><span class="n">df</span><span class="err">$</span><span class="n">Nombre2</span><span class="p">,</span> <span class="n">breaks</span> <span class="o">=</span> <span class="n">breaks</span><span class="p">,</span> <span class="n">main</span> <span class="o">=</span> <span class="s2">"Histogramme de la variable Nombre2"</span><span class="p">,</span> <span class="n">xlab</span> <span class="o">=</span> <span class="s2">"Nombre2"</span><span class="p">,</span> <span class="n">ylab</span> <span class="o">=</span> <span class="s2">"Fréquence"</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-python"><pre><span></span><span class="c1"># Give the contingency table for the factors Group (Demi) and Sex.</span>
+<span class="n">table</span><span class="p">(</span><span class="n">df</span><span class="err">$</span><span class="n">Demi</span><span class="p">,</span> <span class="n">df</span><span class="err">$</span><span class="n">Sexe</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-python"><pre><span></span><span class="c1"># Calculate the covariance between the first random number (Nombre1) and the second (Nombre2).</span>
+<span class="n">cov</span><span class="p">(</span><span class="n">df</span><span class="err">$</span><span class="n">Nombre1</span><span class="p">,</span> <span class="n">df</span><span class="err">$</span><span class="n">Nombre2</span><span class="p">,</span> <span class="n">use</span> <span class="o">=</span> <span class="s2">"complete.obs"</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-python"><pre><span></span><span class="c1"># Calculate the correlation coefficient between the first random number (Nombre1)   and the second (Nombre2).</span>
+<span class="n">cor</span><span class="p">(</span><span class="n">df</span><span class="err">$</span><span class="n">Nombre1</span><span class="p">,</span> <span class="n">df</span><span class="err">$</span><span class="n">Nombre2</span><span class="p">,</span> <span class="n">use</span> <span class="o">=</span> <span class="s2">"complete.obs"</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-python"><pre><span></span><span class="c1"># Calculate the correlation coefficient between the first random number (Nombre1)   and the second (Nombre2).</span>
+<span class="n">cor</span><span class="p">(</span><span class="n">df</span><span class="err">$</span><span class="n">Poids</span><span class="p">,</span> <span class="n">df</span><span class="err">$</span><span class="n">Taille</span><span class="p">,</span> <span class="n">use</span> <span class="o">=</span> <span class="s2">"complete.obs"</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-python"><pre><span></span><span class="c1"># Sort the dataframe by the column "Poids"</span>
+<span class="n">df</span><span class="p">[</span><span class="n">order</span><span class="p">(</span><span class="n">df</span><span class="err">$</span><span class="n">Poids</span><span class="p">),]</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-python"><pre><span></span><span class="c1"># Sort the dataframe by the column "Poids" in decreasing order</span>
+<span class="n">df</span><span class="p">[</span><span class="n">order</span><span class="p">(</span><span class="n">df</span><span class="err">$</span><span class="n">Poids</span><span class="p">,</span> <span class="n">decreasing</span> <span class="o">=</span> <span class="n">TRUE</span><span class="p">),]</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-python"><pre><span></span><span class="c1"># Sort the dataframe by the column "Poids" and "Taille"</span>
+<span class="n">df</span><span class="p">[</span><span class="n">order</span><span class="p">(</span><span class="n">df</span><span class="err">$</span><span class="n">Poids</span><span class="p">,</span> <span class="n">df</span><span class="err">$</span><span class="n">Taille</span><span class="p">),]</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-python"><pre><span></span><span class="c1"># Sort the dataframe by the column "Poids" and "Taille" in decreasing order</span>
+<span class="n">df</span><span class="p">[</span><span class="n">order</span><span class="p">(</span><span class="n">df</span><span class="err">$</span><span class="n">Poids</span><span class="p">,</span> <span class="n">df</span><span class="err">$</span><span class="n">Taille</span><span class="p">,</span> <span class="n">decreasing</span> <span class="o">=</span> <span class="n">TRUE</span><span class="p">),]</span>
 </pre></div>
 </div>
 </div>
