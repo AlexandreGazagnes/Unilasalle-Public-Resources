@@ -1,12 +1,11 @@
+#################################
+#   0102 - R Data Types         #
+#       TP 01 - 2/4             #
+#################################
+
+
 # Written by Alexandre Gazagnes
 # Last update: 2024-02-01
-# Based on https://www.w3schools.com/r/default.asp
-
-
-#################################
-#   TP 02 - R Data Types        #
-#        2/4                    #
-#################################
 
 
 # Numerics
@@ -16,18 +15,22 @@
 x <- 10.5
 class(x)
 
+
 # Integer
 x <- 1000
 class(x)
+
 
 # Complex
 x <- 9i + 3
 class(x)
 
+
 # Numbers ?
 x <- 10.5   # numeric
 y <- 10     # integer
 z <- 1i     # complex
+
 
 # Basic Maths operations on numbers
 sqrt(16)  # square root
@@ -58,6 +61,7 @@ floor(1.4)  # round down
 round(1.4) # round to the nearest integer
 round(1.556789, 2) # round to 2 decimals
 
+
 # Is it numeric ?
 is.numeric(10) # TRUE
 
@@ -69,25 +73,29 @@ is.numeric(10) # TRUE
 x <- "R is exciting"
 class(x)
 
-# Strings without cat
+
+# Strings without the 'cat' function
 str <- "Lorem ipsum dolor sit amet,
 consectetur adipiscing elit,
 sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua."
 str # print the value of str
 
-# strings with cat
+
+# strings with the 'cat' function
 str <- "Lorem ipsum dolor sit amet,
 consectetur adipiscing elit,
 sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua."
 cat(str)
 
+
 # nb of chars
 str <- "Hello World!"
 nchar(str)
 
-# grep 
+
+# grep => find in a string
 str <- "Hello World!"
 grepl("H", str)
 grepl("Hello", str)
@@ -102,6 +110,7 @@ x <- TRUE
 x = FALSE
 class(x) 
 
+
 # Please note that 
 TRUE + TRUE # is 2
 TRUE + FALSE # is 1
@@ -109,6 +118,7 @@ FALSE + FALSE # is 0
 TRUE * TRUE # is 1
 TRUE * FALSE # is 0
 FALSE * FALSE # is 0
+# Why ? 
 
 
 # Logical operators
@@ -119,10 +129,12 @@ FALSE * FALSE # is 0
 10 <= 9   # FALSE because 10 is greater than 9
 10 !=9     # TRUE because 10 is not equal to 9
 
+
 # of course 
 ans = 10 > 9
 class(ans) # bool ? 
 print(ans)
+
 
 # and and or
 (10 > 9) & (10 > 9)  # TRUE because 10 is greater than 9 and 10 is greater than 9
@@ -132,7 +144,7 @@ print(ans)
 !(10 < 9)            # TRUE because 10 is not greater than 9
 
 
-# fun fact
+# Fun fact
 pi == 3.14159265
 round(pi, 2) == 3.14
 
@@ -168,7 +180,7 @@ range
 class(range)
 
 
-# In usage
+# The 'in' usage
 ############################
 3 %in% 1:10
 100 %in% 1:99

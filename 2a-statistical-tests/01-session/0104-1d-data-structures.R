@@ -1,12 +1,11 @@
+#################################
+#      0104 - Data Structures   #
+#         TP01 -  4/4           #
+#################################
+
+
 # Written by Alexandre Gazagnes
 # Last update: 2024-02-01
-# Based on https://www.w3schools.com/r/default.asp
-
-
-#################################
-#     TP 04 - Data Structures   #
-#        4/4                    #
-#################################
 
 
 # Vectors
@@ -86,6 +85,7 @@ fruits[-2] # all but the second
 fruits <- c("banana", "apple", "orange", "mango", "lemon")
 v = c(1, 3) # indices
 fruits[v]  # 1-based index => 1st and 3rd items
+
 
 # Access all but the first and third item (apple and mango)
 fruits <- c("banana", "apple", "orange", "mango", "lemon")

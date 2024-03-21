@@ -1,17 +1,15 @@
 #################################
-#     TP 01 - R Basics          #
-#        1/4                    #
+#     0101 - R Basics          #
+#      TP 01 - 1/4             #
 #################################
 
 
 # Written by Alexandre Gazagnes
 # Last update: 2024-02-01
-# Based on https://www.w3schools.com/r/default.asp
 
 
 # About 
 #####################################
-
 
 info = "
 R is a programming language for statistical computing and data visualization. It has been adopted in the fields of data mining, bioinformatics, and data analysis.
@@ -34,13 +32,15 @@ print("Hello World!")
 txt <- "Hello World!"
 print(txt)
 
+
 # '<-' is the same than '=' 
 txt = "Hello World!"
 print(txt)
 
+
 # Concatenate 2 strings
 text1 <- "R is"
-text1 = "R is"
+text1 = "R is" # also OK
 text2 <- "awesome"
 paste(text1, text2) 
 
@@ -56,12 +56,14 @@ paste(text1, text2)
 3%%3 # Modulus / remainder
 3%/%3 # Integer division
 
+
 # A very basic error
 num <- 5
 num = 5
 text <- "Some text"
 num + text 
-# Not possible to cat text and num
+# Not possible to concatenante text and num
+
 
 # Variable names
 #####################################

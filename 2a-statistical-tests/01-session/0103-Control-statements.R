@@ -1,12 +1,11 @@
+#################################
+# 0103 - R Control Statements   #
+#     TP 01 - 3/4               #
+#################################
+
+
 # Written by Alexandre Gazagnes
 # Last update: 2024-02-01
-# Based on https://www.w3schools.com/r/default.asp
-
-
-#################################
-# TP 03 - R Control Statements  #
-#        3/4                    #
-#################################
 
 
 # If Statement
@@ -46,6 +45,7 @@ if (a > b & c > a) { # both conditions are true
   print("Both conditions are true")
 } 
 
+
 # Using if + or 
 a <- 200
 b <- 33
@@ -72,7 +72,7 @@ while (i < 6) {
 } 
 
 
-# break
+# While + break
 i <- 1
 while (i < 6) {
   print(i)
@@ -83,12 +83,12 @@ while (i < 6) {
 } 
 
 
-# next
+# While + next
 i <- 0
 while (i < 6) {
   i <- i + 1
   if (i == 3) {
-    next # skip the loop
+    next # skip the end of loop
   }
   print(i)
 } 
@@ -131,11 +131,11 @@ for (x in adj) {
 } 
 
 
-# for next
+# Using for + next
 fruits <- list("apple", "banana", "cherry")
 for (x in fruits) {
   if (x == "banana") {
-    next # skip the loop
+    next # skip the the end of the code
   }
   print(x)
 } 
@@ -149,6 +149,7 @@ my_function <- function() { # create a function with the name my_function
   print("Hello World!")
 }
 
+
 # Using arguments
 my_function <- function(fname) {
   paste(fname, "Griffin")
@@ -157,18 +158,18 @@ my_function <- function(fname) {
 my_function("Peter")
 
 
-# will you get an error?
+# Will you get an error?
 my_function() 
 
 
-# Default arguments 
+# Using default arguments 
 my_function <- function(country = "Norway") {
   paste("I am from", country)
 }
 my_function("Sweden")
 
 
-# will you get an error?
+# Will you get an error?
 my_function() 
 
 

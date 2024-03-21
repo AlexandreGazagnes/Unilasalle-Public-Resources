@@ -1,12 +1,11 @@
 #################################
-#  TP 02 - About Data Frames    #
-#        1/2                    #
+#   0201 - About Data Frames    #
+#       TP02 - 1/2              #
 #################################
 
 
 # Written by Alexandre Gazagnes
 # Last update: 2024-02-01
-# Based on https://www.w3schools.com/r/default.asp
 
 
 
@@ -14,7 +13,7 @@
 #########################################
 
 
-# Create vectors
+# Creating vectors
 countries = c("France", "Suisse", "Espagne", "Norway")
 ue = c("Oui", "Non", "Oui", "Non")
 pop = c(66000, 8000, 48000, 5000)
@@ -43,30 +42,33 @@ tail(df, 2) # last 2 rows
 sample(df, 2) # random 2 rows
 
 
-# Access to specific elements
+# Access to ONE specific element
 df[2,3] # 2nd row, 3rd column
 df[2,] # 2nd row, all columns
 df[,3] # all rows, 3rd column
 df[,] # all rows, all columns
 
-
+# Accessing to MULTIPLE elements
 row_index = c(1,3) # => [1, 3]
 col_index = c(1,3) # => [1, 3]
 df[row_index, col_index] # 1st and 3rd rows, 1st and 3rd columns
 
+# Another one 
 row_index = c(3,1) # => [1, 3]
 col_index = c(1,3) # => [1, 3]
 df[row_index, col_index] # 1st and 3rd rows, 1st and 3rd columns
 
 
-
+# Another one
 df[c(1,4), c(1,4)] # 1st and 4th rows, 1st and 4th columns => error ! 
 
-df[1:3] # 1st to 3rd columns
 
+# Using ranges
+df[1:3] # 1st to 3rd columns
 df[1:2, 1:2] # 1st to 2nd rows, 1st to 2nd columns
 
 
+# Using values 
 df["France",] # all columns of France
 df["France"] # all columns of France
 df["France", "population"] # population of France
@@ -101,6 +103,7 @@ df$dummy = c("foo", "bar", "tree", "tom")
 df = df[, -5] # delete the 5th column
 df
 
+
 # What about ?
 df$dummy=NA
 
@@ -109,7 +112,6 @@ df$dummy=NA
 df[-2,] # delete the 2nd row
 df
 
-
 df[-c(2,3),] # delete the 2nd and 3rd rows
 df
 
@@ -117,8 +119,6 @@ df
 # Modifying a value 
 df[1,1] = "Maybe" # change the value of the 1st row, 1st column
 df
-
-
 
 
 ## Filtering
@@ -166,11 +166,9 @@ df[1:3, c("population", "superficie")] # population and superficie of 3 first co
 df$hab_km2 = df$population / df$superficie # compute the number of habitants per km2
 df
 
-
 # Better :) 
 df$hab_km2 = round(df$population / df$superficie, 2) # compute the number of habitants per km2
 df
-
 
 # Cols 2,3,4 of UE countries
 row_indexor = (df$UE == "Oui")
