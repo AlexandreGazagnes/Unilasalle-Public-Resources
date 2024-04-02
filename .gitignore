@@ -164,3 +164,8 @@ cython_debug/
 *.csv
 .venv
 .env
+
+
+.ipynb_checkpoints/
+.ipynb_checkpoints
+.ipynb_checkpoints/*
