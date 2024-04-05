@@ -9,7 +9,7 @@
 # Last update: 2024-02-01
 
 
-## 1 Data Generation
+## Data Generation
 #########################################
 
 
@@ -29,12 +29,12 @@ v
 
 # Why ? 
 # Because mean is already implented in R as a function which compute
-# the mean of a numerical serie (or a vector or any 1d array)
+# the mean of a numerical One-dimensional array
 
 # Let's try to compute the mean of v : 
 mean(v)
 
-# Ok we have an output 
+# We have an output 
 # but is some cases, this confusion between a builtin function
 # and a variable name will be a huge problem
 # to avoid this : 
@@ -83,58 +83,63 @@ hist(binom)
 hist(rbinom(100, 0, 1))
 
 
+# Using Normal Law, mean = 0, std = 1
 rnorm(100,0,1)
 
 
+# In 2 lines
 norm = rnorm(100, 0, 1)
 hist(norm)
 
 
+# With 10000 values
 norm = rnorm(10000, 0, 1)
 hist(norm)
 
 
+# With 1000000 values
 norm = rnorm(1000000, 0, 1)
 hist(norm)
 
 
+# Poisson Law with lambda = 0
 pois1 = rpois(1000000,0)
 hist(pois1)
 
+
+# Poisson Law with lambda = 1
 pois1 = rpois(1000000,1)
 hist(pois1)
 
 
+# Poisson Law with lambda = 2
 pois2 = rpois(1000, 2)
 hist(pois2)
 
 
+# Poisson Law with lambda = 10
 pois10 = rpois(1000,10)
 hist(pois10)
 
 
-
+# Of course, the higher the lambda we have, the more "normal" is the distribution
 pois1000 = rpois(1000,1000)
 hist(pois1000)
 
 
+# Of course, the higher the lambda we have, the more "normal" is the distribution
 pois100000 = rpois(100000,100000)
 hist(pois100000)
 
 
-pois1000000 = rpois(1000000,1000000)
-hist(pois1000000)
-
-
-# OK
+# We can also use the uniform law
 unif100 = runif(1000000, 0, 10)
 hist(unif100)
 
 
-
+# We can make an histogram of the uniform law
 hist(runif(1000000, 0, 10))
 
 
+# We can also use the exponential law
 hist(rexp(1000000, 10))
-
-

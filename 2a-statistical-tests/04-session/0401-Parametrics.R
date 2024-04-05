@@ -14,7 +14,7 @@
 
 # Use Case 1 : 
 
-#Suppose you want to evaluate a new fertilizer for your corn projects
+# Suppose you want to evaluate a new fertilizer for your corn projects
 # We hope that the new fertilizer will give more balanced plans
 # We hope to see a difference
 # It will be “boring” to have the same results with the new fertilizer
@@ -151,7 +151,7 @@ test = t.test( v_unif, # test 2 series with one mean greater than the other
         var.equal=TRUE,
         alternative="g")
 
-# For more inforamtion : https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/t.test
+# For more information : https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/t.test
 
 
 # Test 2 series but with F column factor : 
@@ -363,4 +363,5 @@ prop.test(length(which(rnorm(1000)>=0)),1000,correct=FALSE)
 M=matrix(c(50,50,100,150),2,2)
 M
 
+# Perform the test
 prop.test(M, conf.level=0.9,correct=FALSE)
