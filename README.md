@@ -35,22 +35,3 @@ You have 3 options:
 All the material for this course could be found here.
 - https://github.com/AlexandreGazagnes/Unilassalle-Public-Ressources/tree/main/4a-data-analysis
 
-## Repository structure
-
-```
-.
-├── 2a-statistical-tests    : contains the notebooks for the statistical tests
-│   ├── 01-session          : contains the notebooks for the first session
-│   ├── 02-session          : contains the notebooks for the second session
-│   └── README.md           : contains the description of the content of the directory
-├── 4a-data-analysis        : contains the notebooks for the data analysis
-│   ├── 01-session          : contains the notebooks for the first session
-│   └── 02-session          : contains the notebooks for the second session
-│   └── README.md           : contains the description of the content of the directory
-├── LICENSE                 : contains the license of the repository
-├── README.md               : contains the description of the repository
-├── requirements.txt        : contains the list of the required packages
-└── tests                   : contains the notebooks for the tests
-
-8 directories, 29 files
-```
