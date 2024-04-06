@@ -144,57 +144,60 @@ url = "https://gist.githubusercontent.com/AlexandreGazagnes/579fc858dcca21b2f6b7
 
 
 # You can load the file : 
-# Write some code here
+data  <- read.csv("RICA_isafe_students_vf.csv", header = TRUE)
 
 
 ## First Tour of the Dataset
 ###########################################
 
+
 # Let's have a look at the dataset: 
-# Write some code here
+head(data)
 
 
 # The tail of the dataset
-# Write some code here
+tail(data)
 
 
 # Lets take 10 random rows of the dataset
-# Write some code here
+sample(data, 10)
 
 
 # Let's have a look at the structure of the dataset
-# Write some code here
+str(data)
 
 
 # How many numeric variables do we have?
-# Write some code here
+sum(sapply(data, is.numeric))
 
 
 # How many character variables do we have?
-# Write some code here
+sum(sapply(data, is.character))
 
 
 # Let's have a look at the summary of the dataset
-# Write some code here
+summary(data)
 
 
 # Let's compute the number of missing values
-# Write some code here
+sum(is.na(data))
 
 
 # Let's compute the number of missing values by variable
-# Write some code here
+colSums(is.na(data))
 
 
 # Let's create a selection of the variables
-# Write some code here
+selected_columns = c("A", "B", "C")
+data_selection <- data[, selected_columns]
+
 
 # Let's have a look at the structure of the selection
-# Write some code here
+str(data_selection)
+
 
 # What is the correlation between the variables?
-# Write some code here
-
+cor(data)
 
 
 
