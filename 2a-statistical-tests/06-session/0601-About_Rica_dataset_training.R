@@ -14,7 +14,7 @@
 # You will have:
 
 #   * To use a real dataset from the RICA Data Base.
-#   * Perform a "first Tour" of the dataset.
+#   * Perform a "first tour" of the dataset.
 #   * Understand the variables, the data types, the missing values, the distribution of the variables, etc.
 #   * Answer to the question "What is the dataset about?", "What are the main characteristics of the dataset?" or "What are the main challenges of the dataset?".
 #   * Think about what kind of analysis you could do with this dataset, what kind of questions you could answer, etc.
@@ -34,7 +34,7 @@
 #  You will have succeeded if :
 
 #   * You teach us something unexpected or interesting
-#   * You have taken a rigorous and methodical approach to data selection, cleaning and analysis.
+#   * You have taken a rigorous and methodical approach to data selection, cleaning and analysis (both viz, tests and insights).
 
 
 # Teams :
@@ -51,7 +51,8 @@
 
 # Oral Presentation:
 
-#   * 20 minutes of presentation
+#   * 20 minutes of presentation (TO BE CONFIRMED)
+#   * Powerpoint prez (12 / 20 slides )
 
 
 # Small Random Tips:
@@ -70,7 +71,7 @@
 #   * Use https://stackoverflow.com/ wich is a great website to find solutions to your problems
 #   * Use the R documentation available at https://www.rdocumentation.org/
 #   * Do not hesitate to ask your teammates for help
-#   * Do not hesitate to use ChatGPT -- BUT -- be careful, the answers are not always correct ! 
+#   * Do not hesitate to use ChatGPT -- BUT -- be very careful, the answers are not always correct ! 
 
 
 ## About External Libraries
