@@ -9,6 +9,17 @@ repos:
     # -   id: double-quote-string-fixer
     # -   id: name-tests-test
     # -   id: requirements-txt-fixer
+-   repo: https://github.com/psf/black-pre-commit-mirror
+    rev: 24.1.1
+    hooks:
+    -   id: black-jupyter
+        name: black-jupyter (python)
+        args: [--config=pyproject.toml]
+        # language_version: python3.10
+    -   id: black
+        name: black (python)
+        args : [--config=pyproject.toml]
+        # language_version: python3.10
 # -   repo: https://github.com/asottile/setup-cfg-fmt
 #     rev: v2.5.0
 #     hooks:
@@ -42,8 +53,6 @@ repos:
 #     -   id: mypy
 #         additional_dependencies: [types-all]
 #         exclude: ^testing/resources/
-
-
 # - repo: local
 #   hooks:
 #     - id: clear-sh
@@ -51,8 +60,6 @@ repos:
 #       entry: ./utils/clear.sh
 #       language: script
 #       pass_filenames: false
-
-
 # - repo: local
 #   hooks:
 #     - id: format-sh
@@ -60,3 +67,4 @@ repos:
 #       entry: ./utils/format.sh
 #       language: script
 #       pass_filenames: false
+
