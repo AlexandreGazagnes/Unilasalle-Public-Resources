@@ -17,7 +17,7 @@
 # Structured approach
 # Plan :        1/ Context/Intro 
 #               2/ Data, preparation, cleaning etc 
-#               3/ Insights, analysis, visualisation
+#               3/ Insights, analysis, visualisation, Tests
 #               Conclusion, recommendations, go further 
 
 
@@ -30,7 +30,7 @@
 
 
 # Analysis :
-# - At least : quanti vs quanti / quali vs Quali / quali vs quali
+# - At least : quanti vs quanti / quanti vs quali / quali vs quali (quanti => numercial, quali => categorical)
 # - At least : 3 various types of analysis / questions / line of work for your  "big" problem
 
 
