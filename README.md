@@ -54,9 +54,7 @@ You have 3 options:
 ## Material
 
 All the material for this course could be found here.
-- https://github.com/AlexandreGazagnes/UniLaSalle-Public-Ressources/tree/main/4a-data-analysis
-
-
+- https://github.com/AlexandreGazagnes/Unilasalle-Public-Ressources
 ## Sructure 
 ```.
 ├── 2a-statistical-tests
