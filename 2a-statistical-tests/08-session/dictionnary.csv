@@ -1,0 +1,631 @@
+id,col_name,col_letter,_dtypes,_nunique,FR,EN,unilassale_datatype,modalities,int_values
+1,IDNUM,A,int64,7203,,,num,,
+2,CDEXE,B,int64,5,,,char,"['PBS de 25000 à moins de 50000 euros'
+ 'PBS de 50000 à moins de 100000 euros'
+ 'PBS de 100000 à moins de 250000 euros'
+ 'PBS de 250000 à moins de 500000 euros'
+ 'PBS égale ou supérieure à 500000 euros']","{'6': 'PBS de 25000 à moins de 50000 euros', '7': 'PBS de 50000 à moins de 100000 euros', '8': 'PBS de 100000 à moins de 250000 euros', '9': 'PBS de 250000 à moins de 500000 euros', '10': 'PBS égale ou supérieure à 500000 euros'}"
+3,OTEXE,C,int64,17,Orientation technico-économique en 17 postes (typologie 2007),Technico-economic orientation in 17 positions (2007 typology),char,"['Exploitations spécialisées en céréaliculture et en culture de plantes oléagineuses et protéagineuses'
+ 'Exploitations spécialisées en autres grandes cultures'
+ 'Exploitations spécialisées en culture de légumes et champignons'
+ 'Exploitations spécialisées en culture de fleurs et horticulture diverse'
+ 'Exploitations spécialisées en viticulture de qualité'
+ 'Exploitations spécialisées en autre viticulture'
+ 'Exploitations spécialisées en cultures fruitières et autres cultures permanentes'
+ 'Exploitations bovines spécialisées — orientation lait'
+ 'Exploitations bovines spécialisées — orientation élevage et viande'
+ 'Exploitations bovines — lait, élevage et viande combinés'
+ 'Exploitations avec ovins, caprins et autres herbivores'
+ 'Exploitations granivores' 'Exploitations de polyculture'
+ 'Exploitations de polyélevage à orientation herbivores'
+ 'Exploitations de polyélevage à orientation granivores'
+ 'Exploitations mixtes grandes cultures et herbivores'
+ 'Exploitations de cultures diverses et élevages mixtes']","{'15': 'Exploitations spécialisées en céréaliculture et en culture de plantes oléagineuses et protéagineuses', '16': 'Exploitations spécialisées en autres grandes cultures', '28': 'Exploitations spécialisées en culture de légumes et champignons', '29': 'Exploitations spécialisées en culture de fleurs et horticulture diverse', '37': 'Exploitations spécialisées en viticulture de qualité', '38': 'Exploitations spécialisées en autre viticulture', '39': 'Exploitations spécialisées en cultures fruitières et autres cultures permanentes', '45': 'Exploitations bovines spécialisées — orientation lait', '46': 'Exploitations bovines spécialisées — orientation élevage et viande', '47': 'Exploitations bovines — lait, élevage et viande combinés', '48': 'Exploitations avec ovins, caprins et autres herbivores', '50': 'Exploitations granivores', '61': 'Exploitations de polyculture', '73': 'Exploitations de polyélevage à orientation herbivores', '74': 'Exploitations de polyélevage à orientation granivores', '83': 'Exploitations mixtes grandes cultures et herbivores', '84': 'Exploitations de cultures diverses et élevages mixtes'}"
+4,OTE64F,D,int64,61,Orientation technico-économique en 64 postes (typologie 2007),Technico-economic orientation in 64 positions (2007 typology),char,"['Exploitations spécialisées en céréaliculture (autre que le riz) et en culture de plantes oléagineuses et protéagineuses'
+ 'Exploitations spécialisées rizicoles'
+ 'Exploitations combinant céréales, riz, plantes oléagineuses et protéagineuses'
+ 'Exploitations spécialisées en culture de plantes sarclées'
+ 'Exploitations combinant céréales, plantes oléagineuses et protéagineuses et culture de plantes sarclées'
+ 'Exploitations spécialisées en culture de légumes frais de plein champ'
+ 'Exploitations spécialisées en culture de tabac'
+ 'Exploitations spécialisées en culture de coton'
+ 'Exploitations avec combinaison de diverses grandes cultures'
+ ""Exploitations spécialisées en culture de légumes d'intérieur""
+ 'Exploitations spécialisées en culture de légumes de plein air'
+ 'Exploitations spécialisées dans la culture de champignons'
+ ""Exploitations spécialisées en floriculture et culture de plantes ornementales d'intérieur""
+ ""Exploitations spécialisées en horticulture mixte d'intérieur""
+ 'Exploitations spécialisées en floriculture et culture de plantes ornementales de plein air'
+ 'Exploitations spécialisées en horticulture mixte de plein air'
+ 'Pépinières spécialisées' ""Différents types d'horticulture""
+ ""Exploitations  vinicoles spécialisées dans la production  de vins de qualité bénéficiant d'une AOP""
+ ""Exploitations vinicoles spécialisées dans la production des vins de qualité bénéficiant d'une IGP""
+ 'Exploitations vinicoles spécialisées dans la productiondes vins de qualité AOP et IGP'
+ 'Exploitations spécialisées vinicoles produisant des vins autres que des vins de qualité'
+ 'Exploitations spécialisées dans la production de raisins de table'
+ 'Autres vignobles'
+ ""Exploitations fruitières spécialisées (à l'exception des agrumes, des fruits tropicaux et des fruits à coque)""
+ 'Exploitations agrumicoles spécialisées'
+ 'Exploitations spécialisées dans la production de fruits à coque'
+ 'Exploitations spécialisées dans la production de fruits tropicaux'
+ 'Exploitations spécialisées dans la production de fruits, agrumes, fruits tropicaux et fruits à coque: production mixte'
+ 'Exploitations oléicoles spécialisées'
+ 'Exploitations avec diverses combinaisons de cultures permanentes'
+ 'Exploitations bovines spécialisées — orientation lait'
+ 'Exploitations bovines spécialisées — orientation élevage et viande'
+ 'Exploitations bovines — lait, élevage et viande combinés'
+ 'Exploitations ovines spécialisées'
+ 'Exploitations avec ovins et bovins combinés'
+ 'Exploitations caprines spécialisées' ""Exploitations d'herbivores""
+ ""Exploitations spécialisées porcins d'élevage""
+ ""Exploitations spécialisées porcins d'engraissement""
+ ""Exploitations combinant l'élevage et l'engraissement de porcins""
+ 'Exploitations spécialisées poules pondeuses'
+ 'Exploitations spécialisées volailles de chair'
+ 'Exploitations combinant poules pondeuses et volailles de chair'
+ 'Exploitations avec diverses combinaisons de granivores'
+ 'Horticulture et cultures permanentes combinées'
+ 'Exploitations combinant grandes cultures et horticulture'
+ 'Exploitations combinant grandes cultures et vignes'
+ 'Exploitations combinant grandes cultures et cultures permanentes'
+ 'Exploitations de polyculture à orientation grandes cultures'
+ 'Autres exploitations de polyculture'
+ 'Exploitations de polyélevage à orientation laitière'
+ 'Exploitations de polyélevage à orientation herbivores autres que laitiers'
+ 'Exploitations de polyélevage, granivores et bovins laitiers combinés'
+ 'Exploitations de polyélevage: granivores et herbivores autres que laitiers'
+ 'Exploitations mixtes combinant grandes cultures avec bovins laitiers'
+ 'Exploitations mixtes combinant bovins laitiers avec grandes cultures'
+ 'Exploitations mixtes combinant grandes cultures avec herbivores non laitiers'
+ 'Exploitations mixtes combinant herbivores non laitiers avec grandes cultures'
+ 'Exploitations mixtes combinant grandes cultures et granivores'
+ 'Exploitations mixtes avec cultures permanentes et herbivores'
+ 'Exploitations apicoles'
+ 'Exploitations avec diverses cultures et élevages mixtes'
+ 'Exploitations non classées']","{'1510': 'Exploitations spécialisées en céréaliculture (autre que le riz) et en culture de plantes oléagineuses et protéagineuses', '1520': 'Exploitations spécialisées rizicoles', '1530': 'Exploitations combinant céréales, riz, plantes oléagineuses et protéagineuses', '1610': 'Exploitations spécialisées en culture de plantes sarclées', '1620': 'Exploitations combinant céréales, plantes oléagineuses et protéagineuses et culture de plantes sarclées', '1630': 'Exploitations spécialisées en culture de légumes frais de plein champ', '1640': 'Exploitations spécialisées en culture de tabac', '1650': 'Exploitations spécialisées en culture de coton', '1660': 'Exploitations avec combinaison de diverses grandes cultures', '2811': ""Exploitations spécialisées en culture de légumes d'intérieur"", '2821': 'Exploitations spécialisées en culture de légumes de plein air', '2831': 'Exploitations spécialisées dans la culture de champignons', '2912': ""Exploitations spécialisées en floriculture et culture de plantes ornementales d'intérieur"", '2913': ""Exploitations spécialisées en horticulture mixte d'intérieur"", '2922': 'Exploitations spécialisées en floriculture et culture de plantes ornementales de plein air', '2923': 'Exploitations spécialisées en horticulture mixte de plein air', '2932': 'Pépinières spécialisées', '2933': ""Différents types d'horticulture"", '3511': ""Exploitations  vinicoles spécialisées dans la production  de vins de qualité bénéficiant d'une AOP"", '3512': ""Exploitations vinicoles spécialisées dans la production des vins de qualité bénéficiant d'une IGP"", '3513': 'Exploitations vinicoles spécialisées dans la productiondes vins de qualité AOP et IGP', '3520': 'Exploitations spécialisées vinicoles produisant des vins autres que des vins de qualité', '3530': 'Exploitations spécialisées dans la production de raisins de table', '3540': 'Autres vignobles', '3610': ""Exploitations fruitières spécialisées (à l'exception des agrumes, des fruits tropicaux et des fruits à coque)"", '3620': 'Exploitations agrumicoles spécialisées', '3630': 'Exploitations spécialisées dans la production de fruits à coque', '3640': 'Exploitations spécialisées dans la production de fruits tropicaux', '3650': 'Exploitations spécialisées dans la production de fruits, agrumes, fruits tropicaux et fruits à coque: production mixte', '3700': 'Exploitations oléicoles spécialisées', '3800': 'Exploitations avec diverses combinaisons de cultures permanentes', '4500': 'Exploitations bovines spécialisées — orientation lait', '4600': 'Exploitations bovines spécialisées — orientation élevage et viande', '4700': 'Exploitations bovines — lait, élevage et viande combinés', '4810': 'Exploitations ovines spécialisées', '4820': 'Exploitations avec ovins et bovins combinés', '4830': 'Exploitations caprines spécialisées', '4840': ""Exploitations d'herbivores"", '5110': ""Exploitations spécialisées porcins d'élevage"", '5120': ""Exploitations spécialisées porcins d'engraissement"", '5130': ""Exploitations combinant l'élevage et l'engraissement de porcins"", '5210': 'Exploitations spécialisées poules pondeuses', '5220': 'Exploitations spécialisées volailles de chair', '5230': 'Exploitations combinant poules pondeuses et volailles de chair', '5300': 'Exploitations avec diverses combinaisons de granivores', '6110': 'Horticulture et cultures permanentes combinées', '6120': 'Exploitations combinant grandes cultures et horticulture', '6130': 'Exploitations combinant grandes cultures et vignes', '6140': 'Exploitations combinant grandes cultures et cultures permanentes', '6150': 'Exploitations de polyculture à orientation grandes cultures', '6160': 'Autres exploitations de polyculture', '7310': 'Exploitations de polyélevage à orientation laitière', '7320': 'Exploitations de polyélevage à orientation herbivores autres que laitiers', '7410': 'Exploitations de polyélevage, granivores et bovins laitiers combinés', '7420': 'Exploitations de polyélevage: granivores et herbivores autres que laitiers', '8310': 'Exploitations mixtes combinant grandes cultures avec bovins laitiers', '8320': 'Exploitations mixtes combinant bovins laitiers avec grandes cultures', '8330': 'Exploitations mixtes combinant grandes cultures avec herbivores non laitiers', '8340': 'Exploitations mixtes combinant herbivores non laitiers avec grandes cultures', '8410': 'Exploitations mixtes combinant grandes cultures et granivores', '8420': 'Exploitations mixtes avec cultures permanentes et herbivores', '8430': 'Exploitations apicoles', '8440': 'Exploitations avec diverses cultures et élevages mixtes', '9000': 'Exploitations non classées'}"
+5,OTEFDD,E,int64,15,Orientation technico-économique en 16 postes (typologie 2007),Technico-economic orientation in 16 positions (2007 typology),char,"['Exploitations spécialisées en céréaliculture et en culture de plantes oléagineuses et protéagineuses'
+ 'Exploitations spécialisées en autres grandes cultures'
+ 'Exploitations spécialisées en culture de légumes et champignons'
+ 'Exploitations spécialisées en culture de fleurs et horticulture diverse'
+ 'Exploitations spécialisées en viticulture'
+ 'Exploitations spécialisées en cultures fruitières et autres cultures permanentes'
+ 'Exploitations bovines spécialisées — orientation lait'
+ 'Exploitations bovines spécialisées — orientation élevage et viande'
+ 'Exploitations bovines — lait, élevage et viande combinés'
+ 'Exploitations spécialisées ovines et caprines'
+ 'Exploitations avec ovins, caprins et autres herbivores'
+ 'Exploitations porcines spécialisées'
+ 'Exploitations avicoles spécialisées'
+ 'Exploitations avec diverses combinaisons de granivores'
+ 'Exploitations de polyculture et polyélevage'
+ 'Exploitations non classées']","{'1500': 'Exploitations spécialisées en céréaliculture et en culture de plantes oléagineuses et protéagineuses', '1600': 'Exploitations spécialisées en autres grandes cultures', '2800': 'Exploitations spécialisées en culture de légumes et champignons', '2900': 'Exploitations spécialisées en culture de fleurs et horticulture diverse', '3500': 'Exploitations spécialisées en viticulture', '3900': 'Exploitations spécialisées en cultures fruitières et autres cultures permanentes', '4500': 'Exploitations bovines spécialisées — orientation lait', '4600': 'Exploitations bovines spécialisées — orientation élevage et viande', '4700': 'Exploitations bovines — lait, élevage et viande combinés', '4813': 'Exploitations spécialisées ovines et caprines', '4840': 'Exploitations avec ovins, caprins et autres herbivores', '5100': 'Exploitations porcines spécialisées', '5200': 'Exploitations avicoles spécialisées', '5374': 'Exploitations avec diverses combinaisons de granivores', '6184': 'Exploitations de polyculture et polyélevage', '9000': 'Exploitations non classées'}"
+6,OTEFDA,F,int64,10,Orientation technico-économique en 11 postes (typologie 2007),Technico-economic orientation in 11 positions (2007 typology),char,"['Exploitations spécialisées en grandes cultures'
+ 'Exploitations spécialisées en maraîchage et horticulture'
+ 'Exploitations spécialisées en viticulture'
+ 'Exploitations spécialisées en cultures fruitières et autres cultures permanentes'
+ 'Exploitations bovines spécialisées — orientation lait'
+ 'Exploitations bovines spécialisées — orientation élevage et viande'
+ 'Exploitations bovines — lait, élevage et viande combinés'
+ 'Exploitations avec ovins, caprins et autres herbivores'
+ ""Exploitations d'élevage hors sol""
+ 'Exploitations de polyculture et polyélevage'
+ 'Exploitations non classées']","{'1516': 'Exploitations spécialisées en grandes cultures', '2829': 'Exploitations spécialisées en maraîchage et horticulture', '3500': 'Exploitations spécialisées en viticulture', '3900': 'Exploitations spécialisées en cultures fruitières et autres cultures permanentes', '4500': 'Exploitations bovines spécialisées — orientation lait', '4600': 'Exploitations bovines spécialisées — orientation élevage et viande', '4700': 'Exploitations bovines — lait, élevage et viande combinés', '4800': 'Exploitations avec ovins, caprins et autres herbivores', '5074': ""Exploitations d'élevage hors sol"", '6184': 'Exploitations de polyculture et polyélevage', '9000': 'Exploitations non classées'}"
+7,EXTR2,G,float64,924,,,num,,
+8,NREG,H,int64,13,Code Région (périmètre depuis réforme territoriale 2015),Region Code (perimeter since the 2015 territorial reform),char,,
+9,ZDEFA,I,int64,4,Code Zone défavorisée,Disadvantaged Area Code,char,"[""Majeure partie de l'exploitation non située en zone défavorisée""
+ ""Majeure partie de l'exploitation située en ZSCN""
+ ""Majeure partie de l'exploitation située en ZSCS""
+ ""Majeure partie de l'exploitation située en zone de montagne""]","{'1': ""Majeure partie de l'exploitation non située en zone défavorisée"", '21': ""Majeure partie de l'exploitation située en ZSCN"", '22': ""Majeure partie de l'exploitation située en ZSCS"", '3': ""Majeure partie de l'exploitation située en zone de montagne""}"
+10,ZENVI,J,int64,2,Code Zone soumise à des contraintes environnementales,Code Area subject to environmental constraints,char,"['La majeure partie de la SAU n’est pas en zone Natura 2000'
+ 'La majeure partie de la SAU est située en zone Natura 2000']","{'0': 'La majeure partie de la SAU n’est pas en zone Natura 2000', '1': 'La majeure partie de la SAU est située en zone Natura 2000'}"
+11,FOAGR,K,int64,6,Code Formation agricole du chef d'exploitation,Code Agricultural training of the farm manager,char,"['Aucune formation ou stage adulte de moins de 120 heures'
+ 'Formation agricole primaire (BAA, CAPA, stage-type de 200 ou 320 heures)'
+ 'Formation agricole secondaire cycle court (BEA, BPA, BEPA)'
+ ""Formation agricole secondaire cycle long (BTA, BATA, Bac série D')""
+ 'Formation agricole supérieure courte (BTSA, DUT)'
+ 'Formation agricole supérieure longue (Ingénieur, Licence, Maîtrise)']","{'0': 'Aucune formation ou stage adulte de moins de 120 heures', '1': 'Formation agricole primaire (BAA, CAPA, stage-type de 200 ou 320 heures)', '2': 'Formation agricole secondaire cycle court (BEA, BPA, BEPA)', '3': ""Formation agricole secondaire cycle long (BTA, BATA, Bac série D')"", '4': 'Formation agricole supérieure courte (BTSA, DUT)', '5': 'Formation agricole supérieure longue (Ingénieur, Licence, Maîtrise)'}"
+12,FOGEN,L,int64,5,Code Formation non agricole du chef d'exploitation,Code Non-farm training of the farm manager,char,"['Aucune formation générale' ""Certificat d'études primaires""
+ 'Enseignement secondaire de cycle court'
+ 'Enseignement secondaire de cycle long' 'Enseignement supérieur']","{'0': 'Aucune formation générale', '1': ""Certificat d'études primaires"", '2': 'Enseignement secondaire de cycle court', '3': 'Enseignement secondaire de cycle long', '4': 'Enseignement supérieur'}"
+13,TRA05,M,int64,14,Tranche d'âge du chef d'exploitation,Age range of the farm manager,char,"['Moins de 21 ans' '21 à 25 ans' '26 à 30 ans' '31 à 35 ans' '36 à 40 ans'
+ '41 à 45 ans' '46 à 50 ans' '51 à 55 ans' '56 à 60 ans' '61 à 65 ans'
+ '66 à 70 ans' '71 à 75 ans' '76 à 80 ans' 'Plus de 80 ans' 'Sans objet']","{'1': 'Moins de 21 ans', '2': '21 à 25 ans', '3': '26 à 30 ans', '4': '31 à 35 ans', '5': '36 à 40 ans', '6': '41 à 45 ans', '7': '46 à 50 ans', '8': '51 à 55 ans', '9': '56 à 60 ans', '10': '61 à 65 ans', '11': '66 à 70 ans', '12': '71 à 75 ans', '13': '76 à 80 ans', '14': 'Plus de 80 ans', '15': 'Sans objet'}"
+14,SEXEP,N,int64,3,Code Sexe du chef d'exploitation,Code Gender of the farm manager,char,['Sans objet' 'Homme' 'Femme'],"{'blanc': 'Sans objet', '1': 'Homme', '2': 'Femme'}"
+15,EFF10,O,int64,6,Effectif de main d'œuvre permanente salariée hors chef d'exploitation (tranche),Number of permanent salaried employees other than the operating manager (portion),char,"['Effectif nul' 'Effectif non nul et inférieur à 3'
+ 'Effectif égal ou supérieur à 3 et inférieur à 5'
+ 'Effectif égal ou supérieur à 5 et inférieur à 7'
+ 'Effectif égal ou supérieur à 7 et inférieur à 10'
+ 'Effectif égal ou supérieur à 10']","{'0': 'Effectif nul', '1': 'Effectif non nul et inférieur à 3', '2': 'Effectif égal ou supérieur à 3 et inférieur à 5', '3': 'Effectif égal ou supérieur à 5 et inférieur à 7', '4': 'Effectif égal ou supérieur à 7 et inférieur à 10', '5': 'Effectif égal ou supérieur à 10'}"
+16,UTANS,P,float64,146,Nombre d'UTA non salariées (en UTA),Number of non-salaried AWUs (in AWUs),num,,
+17,UTARG,Q,float64,489,Nombre d'UTA permanentes salariées ou non salariées (en UTA),Number of permanent salaried or non-salaried AWUs (in AWUs),num,,
+18,UTASA,R,float64,731,Nombre d'UTA salariées (en UTA),Number of salaried AWUs (in AWUs),num,,
+19,UTATO,S,float64,835,Nombre d'UTA total (en UTA),Total number of AWUs (in AWUs),num,,
+20,UGBBO,T,int64,49,UGB bovins (tranche),Cattle LU (slice),char,"[""Nombre d'UGB nul"" ""Nombre d'UGB non nul et inférieur à 5""
+ ""Nombre d'UGB égal ou supérieur à 5 et inférieur à 10""
+ ""Nombre d'UGB égal ou supérieur à 10 et inférieur à 15""
+ ""Nombre d'UGB égal ou supérieur à 15 et inférieur à 20""
+ ""Nombre d'UGB égal ou supérieur à 20 et inférieur à 25""
+ ""Nombre d'UGB égal ou supérieur à 25 et inférieur à 30""
+ ""Nombre d'UGB égal ou supérieur à 30 et inférieur à 35""
+ ""Nombre d'UGB égal ou supérieur à 35 et inférieur à 40""
+ ""Nombre d'UGB égal ou supérieur à 40 et inférieur à 45""
+ ""Nombre d'UGB égal ou supérieur à 45 et inférieur à 50""
+ ""Nombre d'UGB égal ou supérieur à 50 et inférieur à 55""
+ ""Nombre d'UGB égal ou supérieur à 55 et inférieur à 60""
+ ""Nombre d'UGB égal ou supérieur à 60 et inférieur à 65""
+ ""Nombre d'UGB égal ou supérieur à 65 et inférieur à 70""
+ ""Nombre d'UGB égal ou supérieur à 70 et inférieur à 75""
+ ""Nombre d'UGB égal ou supérieur à 75 et inférieur à 80""
+ ""Nombre d'UGB égal ou supérieur à 80 et inférieur à 85""
+ ""Nombre d'UGB égal ou supérieur à 85 et inférieur à 90""
+ ""Nombre d'UGB égal ou supérieur à 90 et inférieur à 95""
+ ""Nombre d'UGB égal ou supérieur à 95 et inférieur à 100""
+ ""Nombre d'UGB égal ou supérieur à 100 et inférieur à 105""
+ ""Nombre d'UGB égal ou supérieur à 105 et inférieur à 110""
+ ""Nombre d'UGB égal ou supérieur à 110 et inférieur à 115""
+ ""Nombre d'UGB égal ou supérieur à 115 et inférieur à 120""
+ ""Nombre d'UGB égal ou supérieur à 120 et inférieur à 125""
+ ""Nombre d'UGB égal ou supérieur à 125 et inférieur à 130""
+ ""Nombre d'UGB égal ou supérieur à 130 et inférieur à 135""
+ ""Nombre d'UGB égal ou supérieur à 135 et inférieur à 140""
+ ""Nombre d'UGB égal ou supérieur à 140 et inférieur à 145""
+ ""Nombre d'UGB égal ou supérieur à 145 et inférieur à 150""
+ ""Nombre d'UGB égal ou supérieur à 150 et inférieur à 160""
+ ""Nombre d'UGB égal ou supérieur à 160 et inférieur à 170""
+ ""Nombre d'UGB égal ou supérieur à 170 et inférieur à 180""
+ ""Nombre d'UGB égal ou supérieur à 180 et inférieur à 190""
+ ""Nombre d'UGB égal ou supérieur à 190 et inférieur à 200""
+ ""Nombre d'UGB égal ou supérieur à 200 et inférieur à 210""
+ ""Nombre d'UGB égal ou supérieur à 210 et inférieur à 220""
+ ""Nombre d'UGB égal ou supérieur à 220 et inférieur à 230""
+ ""Nombre d'UGB égal ou supérieur à 230 et inférieur à 240""
+ ""Nombre d'UGB égal ou supérieur à 240 et inférieur à 250""
+ ""Nombre d'UGB égal ou supérieur à 250 et inférieur à 260""
+ ""Nombre d'UGB égal ou supérieur à 260 et inférieur à 270""
+ ""Nombre d'UGB égal ou supérieur à 270 et inférieur à 280""
+ ""Nombre d'UGB égal ou supérieur à 280 et inférieur à 290""
+ ""Nombre d'UGB égal ou supérieur à 290 et inférieur à 300""
+ ""Nombre d'UGB égal ou supérieur à 300 et inférieur à 350""
+ ""Nombre d'UGB égal ou supérieur à 350 et inférieur à 400""
+ ""Nombre d'UGB égal ou supérieur à 400""]","{'0': ""Nombre d'UGB nul"", '1': ""Nombre d'UGB non nul et inférieur à 5"", '2': ""Nombre d'UGB égal ou supérieur à 5 et inférieur à 10"", '3': ""Nombre d'UGB égal ou supérieur à 10 et inférieur à 15"", '4': ""Nombre d'UGB égal ou supérieur à 15 et inférieur à 20"", '5': ""Nombre d'UGB égal ou supérieur à 20 et inférieur à 25"", '6': ""Nombre d'UGB égal ou supérieur à 25 et inférieur à 30"", '7': ""Nombre d'UGB égal ou supérieur à 30 et inférieur à 35"", '8': ""Nombre d'UGB égal ou supérieur à 35 et inférieur à 40"", '9': ""Nombre d'UGB égal ou supérieur à 40 et inférieur à 45"", '10': ""Nombre d'UGB égal ou supérieur à 45 et inférieur à 50"", '11': ""Nombre d'UGB égal ou supérieur à 50 et inférieur à 55"", '12': ""Nombre d'UGB égal ou supérieur à 55 et inférieur à 60"", '13': ""Nombre d'UGB égal ou supérieur à 60 et inférieur à 65"", '14': ""Nombre d'UGB égal ou supérieur à 65 et inférieur à 70"", '15': ""Nombre d'UGB égal ou supérieur à 70 et inférieur à 75"", '16': ""Nombre d'UGB égal ou supérieur à 75 et inférieur à 80"", '17': ""Nombre d'UGB égal ou supérieur à 80 et inférieur à 85"", '18': ""Nombre d'UGB égal ou supérieur à 85 et inférieur à 90"", '19': ""Nombre d'UGB égal ou supérieur à 90 et inférieur à 95"", '20': ""Nombre d'UGB égal ou supérieur à 95 et inférieur à 100"", '21': ""Nombre d'UGB égal ou supérieur à 100 et inférieur à 105"", '22': ""Nombre d'UGB égal ou supérieur à 105 et inférieur à 110"", '23': ""Nombre d'UGB égal ou supérieur à 110 et inférieur à 115"", '24': ""Nombre d'UGB égal ou supérieur à 115 et inférieur à 120"", '25': ""Nombre d'UGB égal ou supérieur à 120 et inférieur à 125"", '26': ""Nombre d'UGB égal ou supérieur à 125 et inférieur à 130"", '27': ""Nombre d'UGB égal ou supérieur à 130 et inférieur à 135"", '28': ""Nombre d'UGB égal ou supérieur à 135 et inférieur à 140"", '29': ""Nombre d'UGB égal ou supérieur à 140 et inférieur à 145"", '30': ""Nombre d'UGB égal ou supérieur à 145 et inférieur à 150"", '31': ""Nombre d'UGB égal ou supérieur à 150 et inférieur à 160"", '32': ""Nombre d'UGB égal ou supérieur à 160 et inférieur à 170"", '33': ""Nombre d'UGB égal ou supérieur à 170 et inférieur à 180"", '34': ""Nombre d'UGB égal ou supérieur à 180 et inférieur à 190"", '35': ""Nombre d'UGB égal ou supérieur à 190 et inférieur à 200"", '36': ""Nombre d'UGB égal ou supérieur à 200 et inférieur à 210"", '37': ""Nombre d'UGB égal ou supérieur à 210 et inférieur à 220"", '38': ""Nombre d'UGB égal ou supérieur à 220 et inférieur à 230"", '39': ""Nombre d'UGB égal ou supérieur à 230 et inférieur à 240"", '40': ""Nombre d'UGB égal ou supérieur à 240 et inférieur à 250"", '41': ""Nombre d'UGB égal ou supérieur à 250 et inférieur à 260"", '42': ""Nombre d'UGB égal ou supérieur à 260 et inférieur à 270"", '43': ""Nombre d'UGB égal ou supérieur à 270 et inférieur à 280"", '44': ""Nombre d'UGB égal ou supérieur à 280 et inférieur à 290"", '45': ""Nombre d'UGB égal ou supérieur à 290 et inférieur à 300"", '46': ""Nombre d'UGB égal ou supérieur à 300 et inférieur à 350"", '47': ""Nombre d'UGB égal ou supérieur à 350 et inférieur à 400"", '48': ""Nombre d'UGB égal ou supérieur à 400""}"
+21,UGBCA,U,int64,29,UGB caprins (tranche),GBU goats (slice),char,"[""Nombre d'UGB nul"" ""Nombre d'UGB non nul et inférieur à 5""
+ ""Nombre d'UGB égal ou supérieur à 5 et inférieur à 10""
+ ""Nombre d'UGB égal ou supérieur à 10 et inférieur à 15""
+ ""Nombre d'UGB égal ou supérieur à 15 et inférieur à 20""
+ ""Nombre d'UGB égal ou supérieur à 20 et inférieur à 25""
+ ""Nombre d'UGB égal ou supérieur à 25 et inférieur à 30""
+ ""Nombre d'UGB égal ou supérieur à 30 et inférieur à 35""
+ ""Nombre d'UGB égal ou supérieur à 35 et inférieur à 40""
+ ""Nombre d'UGB égal ou supérieur à 40 et inférieur à 45""
+ ""Nombre d'UGB égal ou supérieur à 45 et inférieur à 50""
+ ""Nombre d'UGB égal ou supérieur à 50 et inférieur à 55""
+ ""Nombre d'UGB égal ou supérieur à 55 et inférieur à 60""
+ ""Nombre d'UGB égal ou supérieur à 60 et inférieur à 65""
+ ""Nombre d'UGB égal ou supérieur à 65 et inférieur à 70""
+ ""Nombre d'UGB égal ou supérieur à 70 et inférieur à 75""
+ ""Nombre d'UGB égal ou supérieur à 75 et inférieur à 80""
+ ""Nombre d'UGB égal ou supérieur à 80 et inférieur à 85""
+ ""Nombre d'UGB égal ou supérieur à 85 et inférieur à 90""
+ ""Nombre d'UGB égal ou supérieur à 90 et inférieur à 95""
+ ""Nombre d'UGB égal ou supérieur à 95 et inférieur à 100""
+ ""Nombre d'UGB égal ou supérieur à 100 et inférieur à 105""
+ ""Nombre d'UGB égal ou supérieur à 105 et inférieur à 110""
+ ""Nombre d'UGB égal ou supérieur à 110 et inférieur à 115""
+ ""Nombre d'UGB égal ou supérieur à 115 et inférieur à 120""
+ ""Nombre d'UGB égal ou supérieur à 120 et inférieur à 125""
+ ""Nombre d'UGB égal ou supérieur à 125 et inférieur à 130""
+ ""Nombre d'UGB égal ou supérieur à 130 et inférieur à 135""
+ ""Nombre d'UGB égal ou supérieur à 135 et inférieur à 140""
+ ""Nombre d'UGB égal ou supérieur à 140 et inférieur à 145""
+ ""Nombre d'UGB égal ou supérieur à 145 et inférieur à 150""
+ ""Nombre d'UGB égal ou supérieur à 150 et inférieur à 160""
+ ""Nombre d'UGB égal ou supérieur à 160 et inférieur à 170""
+ ""Nombre d'UGB égal ou supérieur à 170 et inférieur à 180""
+ ""Nombre d'UGB égal ou supérieur à 180 et inférieur à 190""
+ ""Nombre d'UGB égal ou supérieur à 190 et inférieur à 200""
+ ""Nombre d'UGB égal ou supérieur à 200 et inférieur à 210""
+ ""Nombre d'UGB égal ou supérieur à 210 et inférieur à 220""
+ ""Nombre d'UGB égal ou supérieur à 220 et inférieur à 230""
+ ""Nombre d'UGB égal ou supérieur à 230 et inférieur à 240""
+ ""Nombre d'UGB égal ou supérieur à 240 et inférieur à 250""
+ ""Nombre d'UGB égal ou supérieur à 250 et inférieur à 260""
+ ""Nombre d'UGB égal ou supérieur à 260 et inférieur à 270""
+ ""Nombre d'UGB égal ou supérieur à 270 et inférieur à 280""
+ ""Nombre d'UGB égal ou supérieur à 280 et inférieur à 290""
+ ""Nombre d'UGB égal ou supérieur à 290 et inférieur à 300""
+ ""Nombre d'UGB égal ou supérieur à 300 et inférieur à 350""
+ ""Nombre d'UGB égal ou supérieur à 350 et inférieur à 400""
+ ""Nombre d'UGB égal ou supérieur à 400""]","{'0': ""Nombre d'UGB nul"", '1': ""Nombre d'UGB non nul et inférieur à 5"", '2': ""Nombre d'UGB égal ou supérieur à 5 et inférieur à 10"", '3': ""Nombre d'UGB égal ou supérieur à 10 et inférieur à 15"", '4': ""Nombre d'UGB égal ou supérieur à 15 et inférieur à 20"", '5': ""Nombre d'UGB égal ou supérieur à 20 et inférieur à 25"", '6': ""Nombre d'UGB égal ou supérieur à 25 et inférieur à 30"", '7': ""Nombre d'UGB égal ou supérieur à 30 et inférieur à 35"", '8': ""Nombre d'UGB égal ou supérieur à 35 et inférieur à 40"", '9': ""Nombre d'UGB égal ou supérieur à 40 et inférieur à 45"", '10': ""Nombre d'UGB égal ou supérieur à 45 et inférieur à 50"", '11': ""Nombre d'UGB égal ou supérieur à 50 et inférieur à 55"", '12': ""Nombre d'UGB égal ou supérieur à 55 et inférieur à 60"", '13': ""Nombre d'UGB égal ou supérieur à 60 et inférieur à 65"", '14': ""Nombre d'UGB égal ou supérieur à 65 et inférieur à 70"", '15': ""Nombre d'UGB égal ou supérieur à 70 et inférieur à 75"", '16': ""Nombre d'UGB égal ou supérieur à 75 et inférieur à 80"", '17': ""Nombre d'UGB égal ou supérieur à 80 et inférieur à 85"", '18': ""Nombre d'UGB égal ou supérieur à 85 et inférieur à 90"", '19': ""Nombre d'UGB égal ou supérieur à 90 et inférieur à 95"", '20': ""Nombre d'UGB égal ou supérieur à 95 et inférieur à 100"", '21': ""Nombre d'UGB égal ou supérieur à 100 et inférieur à 105"", '22': ""Nombre d'UGB égal ou supérieur à 105 et inférieur à 110"", '23': ""Nombre d'UGB égal ou supérieur à 110 et inférieur à 115"", '24': ""Nombre d'UGB égal ou supérieur à 115 et inférieur à 120"", '25': ""Nombre d'UGB égal ou supérieur à 120 et inférieur à 125"", '26': ""Nombre d'UGB égal ou supérieur à 125 et inférieur à 130"", '27': ""Nombre d'UGB égal ou supérieur à 130 et inférieur à 135"", '28': ""Nombre d'UGB égal ou supérieur à 135 et inférieur à 140"", '29': ""Nombre d'UGB égal ou supérieur à 140 et inférieur à 145"", '30': ""Nombre d'UGB égal ou supérieur à 145 et inférieur à 150"", '31': ""Nombre d'UGB égal ou supérieur à 150 et inférieur à 160"", '32': ""Nombre d'UGB égal ou supérieur à 160 et inférieur à 170"", '33': ""Nombre d'UGB égal ou supérieur à 170 et inférieur à 180"", '34': ""Nombre d'UGB égal ou supérieur à 180 et inférieur à 190"", '35': ""Nombre d'UGB égal ou supérieur à 190 et inférieur à 200"", '36': ""Nombre d'UGB égal ou supérieur à 200 et inférieur à 210"", '37': ""Nombre d'UGB égal ou supérieur à 210 et inférieur à 220"", '38': ""Nombre d'UGB égal ou supérieur à 220 et inférieur à 230"", '39': ""Nombre d'UGB égal ou supérieur à 230 et inférieur à 240"", '40': ""Nombre d'UGB égal ou supérieur à 240 et inférieur à 250"", '41': ""Nombre d'UGB égal ou supérieur à 250 et inférieur à 260"", '42': ""Nombre d'UGB égal ou supérieur à 260 et inférieur à 270"", '43': ""Nombre d'UGB égal ou supérieur à 270 et inférieur à 280"", '44': ""Nombre d'UGB égal ou supérieur à 280 et inférieur à 290"", '45': ""Nombre d'UGB égal ou supérieur à 290 et inférieur à 300"", '46': ""Nombre d'UGB égal ou supérieur à 300 et inférieur à 350"", '47': ""Nombre d'UGB égal ou supérieur à 350 et inférieur à 400"", '48': ""Nombre d'UGB égal ou supérieur à 400""}"
+22,UGBHE,V,int64,49,UGB herbivores (tranche),Herbivorous LUs (slice),char,"[""Nombre d'UGB nul"" ""Nombre d'UGB non nul et inférieur à 5""
+ ""Nombre d'UGB égal ou supérieur à 5 et inférieur à 10""
+ ""Nombre d'UGB égal ou supérieur à 10 et inférieur à 15""
+ ""Nombre d'UGB égal ou supérieur à 15 et inférieur à 20""
+ ""Nombre d'UGB égal ou supérieur à 20 et inférieur à 25""
+ ""Nombre d'UGB égal ou supérieur à 25 et inférieur à 30""
+ ""Nombre d'UGB égal ou supérieur à 30 et inférieur à 35""
+ ""Nombre d'UGB égal ou supérieur à 35 et inférieur à 40""
+ ""Nombre d'UGB égal ou supérieur à 40 et inférieur à 45""
+ ""Nombre d'UGB égal ou supérieur à 45 et inférieur à 50""
+ ""Nombre d'UGB égal ou supérieur à 50 et inférieur à 55""
+ ""Nombre d'UGB égal ou supérieur à 55 et inférieur à 60""
+ ""Nombre d'UGB égal ou supérieur à 60 et inférieur à 65""
+ ""Nombre d'UGB égal ou supérieur à 65 et inférieur à 70""
+ ""Nombre d'UGB égal ou supérieur à 70 et inférieur à 75""
+ ""Nombre d'UGB égal ou supérieur à 75 et inférieur à 80""
+ ""Nombre d'UGB égal ou supérieur à 80 et inférieur à 85""
+ ""Nombre d'UGB égal ou supérieur à 85 et inférieur à 90""
+ ""Nombre d'UGB égal ou supérieur à 90 et inférieur à 95""
+ ""Nombre d'UGB égal ou supérieur à 95 et inférieur à 100""
+ ""Nombre d'UGB égal ou supérieur à 100 et inférieur à 105""
+ ""Nombre d'UGB égal ou supérieur à 105 et inférieur à 110""
+ ""Nombre d'UGB égal ou supérieur à 110 et inférieur à 115""
+ ""Nombre d'UGB égal ou supérieur à 115 et inférieur à 120""
+ ""Nombre d'UGB égal ou supérieur à 120 et inférieur à 125""
+ ""Nombre d'UGB égal ou supérieur à 125 et inférieur à 130""
+ ""Nombre d'UGB égal ou supérieur à 130 et inférieur à 135""
+ ""Nombre d'UGB égal ou supérieur à 135 et inférieur à 140""
+ ""Nombre d'UGB égal ou supérieur à 140 et inférieur à 145""
+ ""Nombre d'UGB égal ou supérieur à 145 et inférieur à 150""
+ ""Nombre d'UGB égal ou supérieur à 150 et inférieur à 160""
+ ""Nombre d'UGB égal ou supérieur à 160 et inférieur à 170""
+ ""Nombre d'UGB égal ou supérieur à 170 et inférieur à 180""
+ ""Nombre d'UGB égal ou supérieur à 180 et inférieur à 190""
+ ""Nombre d'UGB égal ou supérieur à 190 et inférieur à 200""
+ ""Nombre d'UGB égal ou supérieur à 200 et inférieur à 210""
+ ""Nombre d'UGB égal ou supérieur à 210 et inférieur à 220""
+ ""Nombre d'UGB égal ou supérieur à 220 et inférieur à 230""
+ ""Nombre d'UGB égal ou supérieur à 230 et inférieur à 240""
+ ""Nombre d'UGB égal ou supérieur à 240 et inférieur à 250""
+ ""Nombre d'UGB égal ou supérieur à 250 et inférieur à 260""
+ ""Nombre d'UGB égal ou supérieur à 260 et inférieur à 270""
+ ""Nombre d'UGB égal ou supérieur à 270 et inférieur à 280""
+ ""Nombre d'UGB égal ou supérieur à 280 et inférieur à 290""
+ ""Nombre d'UGB égal ou supérieur à 290 et inférieur à 300""
+ ""Nombre d'UGB égal ou supérieur à 300 et inférieur à 350""
+ ""Nombre d'UGB égal ou supérieur à 350 et inférieur à 400""
+ ""Nombre d'UGB égal ou supérieur à 400""]","{'0': ""Nombre d'UGB nul"", '1': ""Nombre d'UGB non nul et inférieur à 5"", '2': ""Nombre d'UGB égal ou supérieur à 5 et inférieur à 10"", '3': ""Nombre d'UGB égal ou supérieur à 10 et inférieur à 15"", '4': ""Nombre d'UGB égal ou supérieur à 15 et inférieur à 20"", '5': ""Nombre d'UGB égal ou supérieur à 20 et inférieur à 25"", '6': ""Nombre d'UGB égal ou supérieur à 25 et inférieur à 30"", '7': ""Nombre d'UGB égal ou supérieur à 30 et inférieur à 35"", '8': ""Nombre d'UGB égal ou supérieur à 35 et inférieur à 40"", '9': ""Nombre d'UGB égal ou supérieur à 40 et inférieur à 45"", '10': ""Nombre d'UGB égal ou supérieur à 45 et inférieur à 50"", '11': ""Nombre d'UGB égal ou supérieur à 50 et inférieur à 55"", '12': ""Nombre d'UGB égal ou supérieur à 55 et inférieur à 60"", '13': ""Nombre d'UGB égal ou supérieur à 60 et inférieur à 65"", '14': ""Nombre d'UGB égal ou supérieur à 65 et inférieur à 70"", '15': ""Nombre d'UGB égal ou supérieur à 70 et inférieur à 75"", '16': ""Nombre d'UGB égal ou supérieur à 75 et inférieur à 80"", '17': ""Nombre d'UGB égal ou supérieur à 80 et inférieur à 85"", '18': ""Nombre d'UGB égal ou supérieur à 85 et inférieur à 90"", '19': ""Nombre d'UGB égal ou supérieur à 90 et inférieur à 95"", '20': ""Nombre d'UGB égal ou supérieur à 95 et inférieur à 100"", '21': ""Nombre d'UGB égal ou supérieur à 100 et inférieur à 105"", '22': ""Nombre d'UGB égal ou supérieur à 105 et inférieur à 110"", '23': ""Nombre d'UGB égal ou supérieur à 110 et inférieur à 115"", '24': ""Nombre d'UGB égal ou supérieur à 115 et inférieur à 120"", '25': ""Nombre d'UGB égal ou supérieur à 120 et inférieur à 125"", '26': ""Nombre d'UGB égal ou supérieur à 125 et inférieur à 130"", '27': ""Nombre d'UGB égal ou supérieur à 130 et inférieur à 135"", '28': ""Nombre d'UGB égal ou supérieur à 135 et inférieur à 140"", '29': ""Nombre d'UGB égal ou supérieur à 140 et inférieur à 145"", '30': ""Nombre d'UGB égal ou supérieur à 145 et inférieur à 150"", '31': ""Nombre d'UGB égal ou supérieur à 150 et inférieur à 160"", '32': ""Nombre d'UGB égal ou supérieur à 160 et inférieur à 170"", '33': ""Nombre d'UGB égal ou supérieur à 170 et inférieur à 180"", '34': ""Nombre d'UGB égal ou supérieur à 180 et inférieur à 190"", '35': ""Nombre d'UGB égal ou supérieur à 190 et inférieur à 200"", '36': ""Nombre d'UGB égal ou supérieur à 200 et inférieur à 210"", '37': ""Nombre d'UGB égal ou supérieur à 210 et inférieur à 220"", '38': ""Nombre d'UGB égal ou supérieur à 220 et inférieur à 230"", '39': ""Nombre d'UGB égal ou supérieur à 230 et inférieur à 240"", '40': ""Nombre d'UGB égal ou supérieur à 240 et inférieur à 250"", '41': ""Nombre d'UGB égal ou supérieur à 250 et inférieur à 260"", '42': ""Nombre d'UGB égal ou supérieur à 260 et inférieur à 270"", '43': ""Nombre d'UGB égal ou supérieur à 270 et inférieur à 280"", '44': ""Nombre d'UGB égal ou supérieur à 280 et inférieur à 290"", '45': ""Nombre d'UGB égal ou supérieur à 290 et inférieur à 300"", '46': ""Nombre d'UGB égal ou supérieur à 300 et inférieur à 350"", '47': ""Nombre d'UGB égal ou supérieur à 350 et inférieur à 400"", '48': ""Nombre d'UGB égal ou supérieur à 400""}"
+23,UGBOV,W,int64,46,UGB ovins (tranche),Ovine LU (slice),char,"[""Nombre d'UGB nul"" ""Nombre d'UGB non nul et inférieur à 5""
+ ""Nombre d'UGB égal ou supérieur à 5 et inférieur à 10""
+ ""Nombre d'UGB égal ou supérieur à 10 et inférieur à 15""
+ ""Nombre d'UGB égal ou supérieur à 15 et inférieur à 20""
+ ""Nombre d'UGB égal ou supérieur à 20 et inférieur à 25""
+ ""Nombre d'UGB égal ou supérieur à 25 et inférieur à 30""
+ ""Nombre d'UGB égal ou supérieur à 30 et inférieur à 35""
+ ""Nombre d'UGB égal ou supérieur à 35 et inférieur à 40""
+ ""Nombre d'UGB égal ou supérieur à 40 et inférieur à 45""
+ ""Nombre d'UGB égal ou supérieur à 45 et inférieur à 50""
+ ""Nombre d'UGB égal ou supérieur à 50 et inférieur à 55""
+ ""Nombre d'UGB égal ou supérieur à 55 et inférieur à 60""
+ ""Nombre d'UGB égal ou supérieur à 60 et inférieur à 65""
+ ""Nombre d'UGB égal ou supérieur à 65 et inférieur à 70""
+ ""Nombre d'UGB égal ou supérieur à 70 et inférieur à 75""
+ ""Nombre d'UGB égal ou supérieur à 75 et inférieur à 80""
+ ""Nombre d'UGB égal ou supérieur à 80 et inférieur à 85""
+ ""Nombre d'UGB égal ou supérieur à 85 et inférieur à 90""
+ ""Nombre d'UGB égal ou supérieur à 90 et inférieur à 95""
+ ""Nombre d'UGB égal ou supérieur à 95 et inférieur à 100""
+ ""Nombre d'UGB égal ou supérieur à 100 et inférieur à 105""
+ ""Nombre d'UGB égal ou supérieur à 105 et inférieur à 110""
+ ""Nombre d'UGB égal ou supérieur à 110 et inférieur à 115""
+ ""Nombre d'UGB égal ou supérieur à 115 et inférieur à 120""
+ ""Nombre d'UGB égal ou supérieur à 120 et inférieur à 125""
+ ""Nombre d'UGB égal ou supérieur à 125 et inférieur à 130""
+ ""Nombre d'UGB égal ou supérieur à 130 et inférieur à 135""
+ ""Nombre d'UGB égal ou supérieur à 135 et inférieur à 140""
+ ""Nombre d'UGB égal ou supérieur à 140 et inférieur à 145""
+ ""Nombre d'UGB égal ou supérieur à 145 et inférieur à 150""
+ ""Nombre d'UGB égal ou supérieur à 150 et inférieur à 160""
+ ""Nombre d'UGB égal ou supérieur à 160 et inférieur à 170""
+ ""Nombre d'UGB égal ou supérieur à 170 et inférieur à 180""
+ ""Nombre d'UGB égal ou supérieur à 180 et inférieur à 190""
+ ""Nombre d'UGB égal ou supérieur à 190 et inférieur à 200""
+ ""Nombre d'UGB égal ou supérieur à 200 et inférieur à 210""
+ ""Nombre d'UGB égal ou supérieur à 210 et inférieur à 220""
+ ""Nombre d'UGB égal ou supérieur à 220 et inférieur à 230""
+ ""Nombre d'UGB égal ou supérieur à 230 et inférieur à 240""
+ ""Nombre d'UGB égal ou supérieur à 240 et inférieur à 250""
+ ""Nombre d'UGB égal ou supérieur à 250 et inférieur à 260""
+ ""Nombre d'UGB égal ou supérieur à 260 et inférieur à 270""
+ ""Nombre d'UGB égal ou supérieur à 270 et inférieur à 280""
+ ""Nombre d'UGB égal ou supérieur à 280 et inférieur à 290""
+ ""Nombre d'UGB égal ou supérieur à 290 et inférieur à 300""
+ ""Nombre d'UGB égal ou supérieur à 300 et inférieur à 350""
+ ""Nombre d'UGB égal ou supérieur à 350 et inférieur à 400""
+ ""Nombre d'UGB égal ou supérieur à 400""]","{'0': ""Nombre d'UGB nul"", '1': ""Nombre d'UGB non nul et inférieur à 5"", '2': ""Nombre d'UGB égal ou supérieur à 5 et inférieur à 10"", '3': ""Nombre d'UGB égal ou supérieur à 10 et inférieur à 15"", '4': ""Nombre d'UGB égal ou supérieur à 15 et inférieur à 20"", '5': ""Nombre d'UGB égal ou supérieur à 20 et inférieur à 25"", '6': ""Nombre d'UGB égal ou supérieur à 25 et inférieur à 30"", '7': ""Nombre d'UGB égal ou supérieur à 30 et inférieur à 35"", '8': ""Nombre d'UGB égal ou supérieur à 35 et inférieur à 40"", '9': ""Nombre d'UGB égal ou supérieur à 40 et inférieur à 45"", '10': ""Nombre d'UGB égal ou supérieur à 45 et inférieur à 50"", '11': ""Nombre d'UGB égal ou supérieur à 50 et inférieur à 55"", '12': ""Nombre d'UGB égal ou supérieur à 55 et inférieur à 60"", '13': ""Nombre d'UGB égal ou supérieur à 60 et inférieur à 65"", '14': ""Nombre d'UGB égal ou supérieur à 65 et inférieur à 70"", '15': ""Nombre d'UGB égal ou supérieur à 70 et inférieur à 75"", '16': ""Nombre d'UGB égal ou supérieur à 75 et inférieur à 80"", '17': ""Nombre d'UGB égal ou supérieur à 80 et inférieur à 85"", '18': ""Nombre d'UGB égal ou supérieur à 85 et inférieur à 90"", '19': ""Nombre d'UGB égal ou supérieur à 90 et inférieur à 95"", '20': ""Nombre d'UGB égal ou supérieur à 95 et inférieur à 100"", '21': ""Nombre d'UGB égal ou supérieur à 100 et inférieur à 105"", '22': ""Nombre d'UGB égal ou supérieur à 105 et inférieur à 110"", '23': ""Nombre d'UGB égal ou supérieur à 110 et inférieur à 115"", '24': ""Nombre d'UGB égal ou supérieur à 115 et inférieur à 120"", '25': ""Nombre d'UGB égal ou supérieur à 120 et inférieur à 125"", '26': ""Nombre d'UGB égal ou supérieur à 125 et inférieur à 130"", '27': ""Nombre d'UGB égal ou supérieur à 130 et inférieur à 135"", '28': ""Nombre d'UGB égal ou supérieur à 135 et inférieur à 140"", '29': ""Nombre d'UGB égal ou supérieur à 140 et inférieur à 145"", '30': ""Nombre d'UGB égal ou supérieur à 145 et inférieur à 150"", '31': ""Nombre d'UGB égal ou supérieur à 150 et inférieur à 160"", '32': ""Nombre d'UGB égal ou supérieur à 160 et inférieur à 170"", '33': ""Nombre d'UGB égal ou supérieur à 170 et inférieur à 180"", '34': ""Nombre d'UGB égal ou supérieur à 180 et inférieur à 190"", '35': ""Nombre d'UGB égal ou supérieur à 190 et inférieur à 200"", '36': ""Nombre d'UGB égal ou supérieur à 200 et inférieur à 210"", '37': ""Nombre d'UGB égal ou supérieur à 210 et inférieur à 220"", '38': ""Nombre d'UGB égal ou supérieur à 220 et inférieur à 230"", '39': ""Nombre d'UGB égal ou supérieur à 230 et inférieur à 240"", '40': ""Nombre d'UGB égal ou supérieur à 240 et inférieur à 250"", '41': ""Nombre d'UGB égal ou supérieur à 250 et inférieur à 260"", '42': ""Nombre d'UGB égal ou supérieur à 260 et inférieur à 270"", '43': ""Nombre d'UGB égal ou supérieur à 270 et inférieur à 280"", '44': ""Nombre d'UGB égal ou supérieur à 280 et inférieur à 290"", '45': ""Nombre d'UGB égal ou supérieur à 290 et inférieur à 300"", '46': ""Nombre d'UGB égal ou supérieur à 300 et inférieur à 350"", '47': ""Nombre d'UGB égal ou supérieur à 350 et inférieur à 400"", '48': ""Nombre d'UGB égal ou supérieur à 400""}"
+24,UGBPO,X,int64,51,UGB porcins (tranche),GBU pork (slice),char,"[""Nombre d'UGB nul"" ""Nombre d'UGB non nul et inférieur à 5""
+ ""Nombre d'UGB égal ou supérieur à 5 et inférieur à 10""
+ ""Nombre d'UGB égal ou supérieur à 10 et inférieur à 15""
+ ""Nombre d'UGB égal ou supérieur à 15 et inférieur à 20""
+ ""Nombre d'UGB égal ou supérieur à 20 et inférieur à 25""
+ ""Nombre d'UGB égal ou supérieur à 25 et inférieur à 30""
+ ""Nombre d'UGB égal ou supérieur à 30 et inférieur à 35""
+ ""Nombre d'UGB égal ou supérieur à 35 et inférieur à 40""
+ ""Nombre d'UGB égal ou supérieur à 40 et inférieur à 45""
+ ""Nombre d'UGB égal ou supérieur à 45 et inférieur à 50""
+ ""Nombre d'UGB égal ou supérieur à 50 et inférieur à 55""
+ ""Nombre d'UGB égal ou supérieur à 55 et inférieur à 60""
+ ""Nombre d'UGB égal ou supérieur à 60 et inférieur à 65""
+ ""Nombre d'UGB égal ou supérieur à 65 et inférieur à 70""
+ ""Nombre d'UGB égal ou supérieur à 70 et inférieur à 75""
+ ""Nombre d'UGB égal ou supérieur à 75 et inférieur à 80""
+ ""Nombre d'UGB égal ou supérieur à 80 et inférieur à 85""
+ ""Nombre d'UGB égal ou supérieur à 85 et inférieur à 90""
+ ""Nombre d'UGB égal ou supérieur à 90 et inférieur à 95""
+ ""Nombre d'UGB égal ou supérieur à 95 et inférieur à 100""
+ ""Nombre d'UGB égal ou supérieur à 100 et inférieur à 105""
+ ""Nombre d'UGB égal ou supérieur à 105 et inférieur à 110""
+ ""Nombre d'UGB égal ou supérieur à 110 et inférieur à 115""
+ ""Nombre d'UGB égal ou supérieur à 115 et inférieur à 120""
+ ""Nombre d'UGB égal ou supérieur à 120 et inférieur à 125""
+ ""Nombre d'UGB égal ou supérieur à 125 et inférieur à 130""
+ ""Nombre d'UGB égal ou supérieur à 130 et inférieur à 135""
+ ""Nombre d'UGB égal ou supérieur à 135 et inférieur à 140""
+ ""Nombre d'UGB égal ou supérieur à 140 et inférieur à 145""
+ ""Nombre d'UGB égal ou supérieur à 145 et inférieur à 150""
+ ""Nombre d'UGB égal ou supérieur à 150 et inférieur à 160""
+ ""Nombre d'UGB égal ou supérieur à 160 et inférieur à 170""
+ ""Nombre d'UGB égal ou supérieur à 170 et inférieur à 180""
+ ""Nombre d'UGB égal ou supérieur à 180 et inférieur à 190""
+ ""Nombre d'UGB égal ou supérieur à 190 et inférieur à 200""
+ ""Nombre d'UGB égal ou supérieur à 200 et inférieur à 210""
+ ""Nombre d'UGB égal ou supérieur à 210 et inférieur à 220""
+ ""Nombre d'UGB égal ou supérieur à 220 et inférieur à 230""
+ ""Nombre d'UGB égal ou supérieur à 230 et inférieur à 240""
+ ""Nombre d'UGB égal ou supérieur à 240 et inférieur à 250""
+ ""Nombre d'UGB égal ou supérieur à 250 et inférieur à 260""
+ ""Nombre d'UGB égal ou supérieur à 260 et inférieur à 270""
+ ""Nombre d'UGB égal ou supérieur à 270 et inférieur à 280""
+ ""Nombre d'UGB égal ou supérieur à 280 et inférieur à 290""
+ ""Nombre d'UGB égal ou supérieur à 290 et inférieur à 300""
+ ""Nombre d'UGB égal ou supérieur à 300 et inférieur à 350""
+ ""Nombre d'UGB égal ou supérieur à 350 et inférieur à 400""
+ ""Nombre d'UGB égal ou supérieur à 400 et inférieur à 450""
+ ""Nombre d'UGB égal ou supérieur à 450 et inférieur à 500""
+ ""Nombre d'UGB égal ou supérieur à 500""]","{'0': ""Nombre d'UGB nul"", '1': ""Nombre d'UGB non nul et inférieur à 5"", '2': ""Nombre d'UGB égal ou supérieur à 5 et inférieur à 10"", '3': ""Nombre d'UGB égal ou supérieur à 10 et inférieur à 15"", '4': ""Nombre d'UGB égal ou supérieur à 15 et inférieur à 20"", '5': ""Nombre d'UGB égal ou supérieur à 20 et inférieur à 25"", '6': ""Nombre d'UGB égal ou supérieur à 25 et inférieur à 30"", '7': ""Nombre d'UGB égal ou supérieur à 30 et inférieur à 35"", '8': ""Nombre d'UGB égal ou supérieur à 35 et inférieur à 40"", '9': ""Nombre d'UGB égal ou supérieur à 40 et inférieur à 45"", '10': ""Nombre d'UGB égal ou supérieur à 45 et inférieur à 50"", '11': ""Nombre d'UGB égal ou supérieur à 50 et inférieur à 55"", '12': ""Nombre d'UGB égal ou supérieur à 55 et inférieur à 60"", '13': ""Nombre d'UGB égal ou supérieur à 60 et inférieur à 65"", '14': ""Nombre d'UGB égal ou supérieur à 65 et inférieur à 70"", '15': ""Nombre d'UGB égal ou supérieur à 70 et inférieur à 75"", '16': ""Nombre d'UGB égal ou supérieur à 75 et inférieur à 80"", '17': ""Nombre d'UGB égal ou supérieur à 80 et inférieur à 85"", '18': ""Nombre d'UGB égal ou supérieur à 85 et inférieur à 90"", '19': ""Nombre d'UGB égal ou supérieur à 90 et inférieur à 95"", '20': ""Nombre d'UGB égal ou supérieur à 95 et inférieur à 100"", '21': ""Nombre d'UGB égal ou supérieur à 100 et inférieur à 105"", '22': ""Nombre d'UGB égal ou supérieur à 105 et inférieur à 110"", '23': ""Nombre d'UGB égal ou supérieur à 110 et inférieur à 115"", '24': ""Nombre d'UGB égal ou supérieur à 115 et inférieur à 120"", '25': ""Nombre d'UGB égal ou supérieur à 120 et inférieur à 125"", '26': ""Nombre d'UGB égal ou supérieur à 125 et inférieur à 130"", '27': ""Nombre d'UGB égal ou supérieur à 130 et inférieur à 135"", '28': ""Nombre d'UGB égal ou supérieur à 135 et inférieur à 140"", '29': ""Nombre d'UGB égal ou supérieur à 140 et inférieur à 145"", '30': ""Nombre d'UGB égal ou supérieur à 145 et inférieur à 150"", '31': ""Nombre d'UGB égal ou supérieur à 150 et inférieur à 160"", '32': ""Nombre d'UGB égal ou supérieur à 160 et inférieur à 170"", '33': ""Nombre d'UGB égal ou supérieur à 170 et inférieur à 180"", '34': ""Nombre d'UGB égal ou supérieur à 180 et inférieur à 190"", '35': ""Nombre d'UGB égal ou supérieur à 190 et inférieur à 200"", '36': ""Nombre d'UGB égal ou supérieur à 200 et inférieur à 210"", '37': ""Nombre d'UGB égal ou supérieur à 210 et inférieur à 220"", '38': ""Nombre d'UGB égal ou supérieur à 220 et inférieur à 230"", '39': ""Nombre d'UGB égal ou supérieur à 230 et inférieur à 240"", '40': ""Nombre d'UGB égal ou supérieur à 240 et inférieur à 250"", '41': ""Nombre d'UGB égal ou supérieur à 250 et inférieur à 260"", '42': ""Nombre d'UGB égal ou supérieur à 260 et inférieur à 270"", '43': ""Nombre d'UGB égal ou supérieur à 270 et inférieur à 280"", '44': ""Nombre d'UGB égal ou supérieur à 280 et inférieur à 290"", '45': ""Nombre d'UGB égal ou supérieur à 290 et inférieur à 300"", '46': ""Nombre d'UGB égal ou supérieur à 300 et inférieur à 350"", '47': ""Nombre d'UGB égal ou supérieur à 350 et inférieur à 400"", '48': ""Nombre d'UGB égal ou supérieur à 400 et inférieur à 450"", '49': ""Nombre d'UGB égal ou supérieur à 450 et inférieur à 500"", '50': ""Nombre d'UGB égal ou supérieur à 500""}"
+25,UGBTO,Y,int64,51,UGB total (tranche),Total GBU (tranche),char,"[""Nombre d'UGB nul"" ""Nombre d'UGB non nul et inférieur à 5""
+ ""Nombre d'UGB égal ou supérieur à 5 et inférieur à 10""
+ ""Nombre d'UGB égal ou supérieur à 10 et inférieur à 15""
+ ""Nombre d'UGB égal ou supérieur à 15 et inférieur à 20""
+ ""Nombre d'UGB égal ou supérieur à 20 et inférieur à 25""
+ ""Nombre d'UGB égal ou supérieur à 25 et inférieur à 30""
+ ""Nombre d'UGB égal ou supérieur à 30 et inférieur à 35""
+ ""Nombre d'UGB égal ou supérieur à 35 et inférieur à 40""
+ ""Nombre d'UGB égal ou supérieur à 40 et inférieur à 45""
+ ""Nombre d'UGB égal ou supérieur à 45 et inférieur à 50""
+ ""Nombre d'UGB égal ou supérieur à 50 et inférieur à 55""
+ ""Nombre d'UGB égal ou supérieur à 55 et inférieur à 60""
+ ""Nombre d'UGB égal ou supérieur à 60 et inférieur à 65""
+ ""Nombre d'UGB égal ou supérieur à 65 et inférieur à 70""
+ ""Nombre d'UGB égal ou supérieur à 70 et inférieur à 75""
+ ""Nombre d'UGB égal ou supérieur à 75 et inférieur à 80""
+ ""Nombre d'UGB égal ou supérieur à 80 et inférieur à 85""
+ ""Nombre d'UGB égal ou supérieur à 85 et inférieur à 90""
+ ""Nombre d'UGB égal ou supérieur à 90 et inférieur à 95""
+ ""Nombre d'UGB égal ou supérieur à 95 et inférieur à 100""
+ ""Nombre d'UGB égal ou supérieur à 100 et inférieur à 105""
+ ""Nombre d'UGB égal ou supérieur à 105 et inférieur à 110""
+ ""Nombre d'UGB égal ou supérieur à 110 et inférieur à 115""
+ ""Nombre d'UGB égal ou supérieur à 115 et inférieur à 120""
+ ""Nombre d'UGB égal ou supérieur à 120 et inférieur à 125""
+ ""Nombre d'UGB égal ou supérieur à 125 et inférieur à 130""
+ ""Nombre d'UGB égal ou supérieur à 130 et inférieur à 135""
+ ""Nombre d'UGB égal ou supérieur à 135 et inférieur à 140""
+ ""Nombre d'UGB égal ou supérieur à 140 et inférieur à 145""
+ ""Nombre d'UGB égal ou supérieur à 145 et inférieur à 150""
+ ""Nombre d'UGB égal ou supérieur à 150 et inférieur à 160""
+ ""Nombre d'UGB égal ou supérieur à 160 et inférieur à 170""
+ ""Nombre d'UGB égal ou supérieur à 170 et inférieur à 180""
+ ""Nombre d'UGB égal ou supérieur à 180 et inférieur à 190""
+ ""Nombre d'UGB égal ou supérieur à 190 et inférieur à 200""
+ ""Nombre d'UGB égal ou supérieur à 200 et inférieur à 210""
+ ""Nombre d'UGB égal ou supérieur à 210 et inférieur à 220""
+ ""Nombre d'UGB égal ou supérieur à 220 et inférieur à 230""
+ ""Nombre d'UGB égal ou supérieur à 230 et inférieur à 240""
+ ""Nombre d'UGB égal ou supérieur à 240 et inférieur à 250""
+ ""Nombre d'UGB égal ou supérieur à 250 et inférieur à 260""
+ ""Nombre d'UGB égal ou supérieur à 260 et inférieur à 270""
+ ""Nombre d'UGB égal ou supérieur à 270 et inférieur à 280""
+ ""Nombre d'UGB égal ou supérieur à 280 et inférieur à 290""
+ ""Nombre d'UGB égal ou supérieur à 290 et inférieur à 300""
+ ""Nombre d'UGB égal ou supérieur à 300 et inférieur à 350""
+ ""Nombre d'UGB égal ou supérieur à 350 et inférieur à 400""
+ ""Nombre d'UGB égal ou supérieur à 400 et inférieur à 450""
+ ""Nombre d'UGB égal ou supérieur à 450 et inférieur à 500""
+ ""Nombre d'UGB égal ou supérieur à 500""]","{'0': ""Nombre d'UGB nul"", '1': ""Nombre d'UGB non nul et inférieur à 5"", '2': ""Nombre d'UGB égal ou supérieur à 5 et inférieur à 10"", '3': ""Nombre d'UGB égal ou supérieur à 10 et inférieur à 15"", '4': ""Nombre d'UGB égal ou supérieur à 15 et inférieur à 20"", '5': ""Nombre d'UGB égal ou supérieur à 20 et inférieur à 25"", '6': ""Nombre d'UGB égal ou supérieur à 25 et inférieur à 30"", '7': ""Nombre d'UGB égal ou supérieur à 30 et inférieur à 35"", '8': ""Nombre d'UGB égal ou supérieur à 35 et inférieur à 40"", '9': ""Nombre d'UGB égal ou supérieur à 40 et inférieur à 45"", '10': ""Nombre d'UGB égal ou supérieur à 45 et inférieur à 50"", '11': ""Nombre d'UGB égal ou supérieur à 50 et inférieur à 55"", '12': ""Nombre d'UGB égal ou supérieur à 55 et inférieur à 60"", '13': ""Nombre d'UGB égal ou supérieur à 60 et inférieur à 65"", '14': ""Nombre d'UGB égal ou supérieur à 65 et inférieur à 70"", '15': ""Nombre d'UGB égal ou supérieur à 70 et inférieur à 75"", '16': ""Nombre d'UGB égal ou supérieur à 75 et inférieur à 80"", '17': ""Nombre d'UGB égal ou supérieur à 80 et inférieur à 85"", '18': ""Nombre d'UGB égal ou supérieur à 85 et inférieur à 90"", '19': ""Nombre d'UGB égal ou supérieur à 90 et inférieur à 95"", '20': ""Nombre d'UGB égal ou supérieur à 95 et inférieur à 100"", '21': ""Nombre d'UGB égal ou supérieur à 100 et inférieur à 105"", '22': ""Nombre d'UGB égal ou supérieur à 105 et inférieur à 110"", '23': ""Nombre d'UGB égal ou supérieur à 110 et inférieur à 115"", '24': ""Nombre d'UGB égal ou supérieur à 115 et inférieur à 120"", '25': ""Nombre d'UGB égal ou supérieur à 120 et inférieur à 125"", '26': ""Nombre d'UGB égal ou supérieur à 125 et inférieur à 130"", '27': ""Nombre d'UGB égal ou supérieur à 130 et inférieur à 135"", '28': ""Nombre d'UGB égal ou supérieur à 135 et inférieur à 140"", '29': ""Nombre d'UGB égal ou supérieur à 140 et inférieur à 145"", '30': ""Nombre d'UGB égal ou supérieur à 145 et inférieur à 150"", '31': ""Nombre d'UGB égal ou supérieur à 150 et inférieur à 160"", '32': ""Nombre d'UGB égal ou supérieur à 160 et inférieur à 170"", '33': ""Nombre d'UGB égal ou supérieur à 170 et inférieur à 180"", '34': ""Nombre d'UGB égal ou supérieur à 180 et inférieur à 190"", '35': ""Nombre d'UGB égal ou supérieur à 190 et inférieur à 200"", '36': ""Nombre d'UGB égal ou supérieur à 200 et inférieur à 210"", '37': ""Nombre d'UGB égal ou supérieur à 210 et inférieur à 220"", '38': ""Nombre d'UGB égal ou supérieur à 220 et inférieur à 230"", '39': ""Nombre d'UGB égal ou supérieur à 230 et inférieur à 240"", '40': ""Nombre d'UGB égal ou supérieur à 240 et inférieur à 250"", '41': ""Nombre d'UGB égal ou supérieur à 250 et inférieur à 260"", '42': ""Nombre d'UGB égal ou supérieur à 260 et inférieur à 270"", '43': ""Nombre d'UGB égal ou supérieur à 270 et inférieur à 280"", '44': ""Nombre d'UGB égal ou supérieur à 280 et inférieur à 290"", '45': ""Nombre d'UGB égal ou supérieur à 290 et inférieur à 300"", '46': ""Nombre d'UGB égal ou supérieur à 300 et inférieur à 350"", '47': ""Nombre d'UGB égal ou supérieur à 350 et inférieur à 400"", '48': ""Nombre d'UGB égal ou supérieur à 400 et inférieur à 450"", '49': ""Nombre d'UGB égal ou supérieur à 450 et inférieur à 500"", '50': ""Nombre d'UGB égal ou supérieur à 500""}"
+26,SAFVD,Z,int64,28,SAU en faire-valoir direct (tranche),UAA in direct equity (tranche),char,"['Surface nulle' 'Surface non nulle et inférieure à 5 ha'
+ 'Surface égale ou supérieure à 5 ha et inférieure à 10 ha'
+ 'Surface égale ou supérieure à 10 ha et inférieure à 15 ha'
+ 'Surface égale ou supérieure à 15 ha et inférieure à 20 ha'
+ 'Surface égale ou supérieure à 20 ha et inférieure à 25 ha'
+ 'Surface égale ou supérieure à 25 ha et inférieure à 30 ha'
+ 'Surface égale ou supérieure à 30 ha et inférieure à 35 ha'
+ 'Surface égale ou supérieure à 35 ha et inférieure à 40 ha'
+ 'Surface égale ou supérieure à 40 ha et inférieure à 45 ha'
+ 'Surface égale ou supérieure à 45 ha et inférieure à 50 ha'
+ 'Surface égale ou supérieure à 50 ha et inférieure à 60 ha'
+ 'Surface égale ou supérieure à 60 ha et inférieure à 70 ha'
+ 'Surface égale ou supérieure à 70 ha et inférieure à 80 ha'
+ 'Surface égale ou supérieure à 80 ha et inférieure à 90 ha'
+ 'Surface égale ou supérieure à 90 ha et inférieure à 100 ha'
+ 'Surface égale ou supérieure à 100 ha et inférieure à 110 ha'
+ 'Surface égale ou supérieure à 110 ha et inférieure à 120 ha'
+ 'Surface égale ou supérieure à 120 ha et inférieure à 130 ha'
+ 'Surface égale ou supérieure à 130 ha et inférieure à 140 ha'
+ 'Surface égale ou supérieure à 140 ha et inférieure à 150 ha'
+ 'Surface égale ou supérieure à 150 ha et inférieure à 160 ha'
+ 'Surface égale ou supérieure à 160 ha et inférieure à 170 ha'
+ 'Surface égale ou supérieure à 170 ha et inférieure à 180 ha'
+ 'Surface égale ou supérieure à 180 ha et inférieure à 190 ha'
+ 'Surface égale ou supérieure à 190 ha et inférieure à 200 ha'
+ 'Surface égale ou supérieure à 200 ha et inférieure à 250 ha'
+ 'Surface égale ou supérieure à 250 ha et inférieure à 300 ha'
+ 'Surface égale ou supérieure à 300 ha et inférieure à 350 ha'
+ 'Surface égale ou supérieure à 350 ha et inférieure à 400 ha'
+ 'Surface égale ou supérieure 400 ha']","{'0': 'Surface nulle', '1': 'Surface non nulle et inférieure à 5 ha', '2': 'Surface égale ou supérieure à 5 ha et inférieure à 10 ha', '3': 'Surface égale ou supérieure à 10 ha et inférieure à 15 ha', '4': 'Surface égale ou supérieure à 15 ha et inférieure à 20 ha', '5': 'Surface égale ou supérieure à 20 ha et inférieure à 25 ha', '6': 'Surface égale ou supérieure à 25 ha et inférieure à 30 ha', '7': 'Surface égale ou supérieure à 30 ha et inférieure à 35 ha', '8': 'Surface égale ou supérieure à 35 ha et inférieure à 40 ha', '9': 'Surface égale ou supérieure à 40 ha et inférieure à 45 ha', '10': 'Surface égale ou supérieure à 45 ha et inférieure à 50 ha', '11': 'Surface égale ou supérieure à 50 ha et inférieure à 60 ha', '12': 'Surface égale ou supérieure à 60 ha et inférieure à 70 ha', '13': 'Surface égale ou supérieure à 70 ha et inférieure à 80 ha', '14': 'Surface égale ou supérieure à 80 ha et inférieure à 90 ha', '15': 'Surface égale ou supérieure à 90 ha et inférieure à 100 ha', '16': 'Surface égale ou supérieure à 100 ha et inférieure à 110 ha', '17': 'Surface égale ou supérieure à 110 ha et inférieure à 120 ha', '18': 'Surface égale ou supérieure à 120 ha et inférieure à 130 ha', '19': 'Surface égale ou supérieure à 130 ha et inférieure à 140 ha', '20': 'Surface égale ou supérieure à 140 ha et inférieure à 150 ha', '21': 'Surface égale ou supérieure à 150 ha et inférieure à 160 ha', '22': 'Surface égale ou supérieure à 160 ha et inférieure à 170 ha', '23': 'Surface égale ou supérieure à 170 ha et inférieure à 180 ha', '24': 'Surface égale ou supérieure à 180 ha et inférieure à 190 ha', '25': 'Surface égale ou supérieure à 190 ha et inférieure à 200 ha', '26': 'Surface égale ou supérieure à 200 ha et inférieure à 250 ha', '27': 'Surface égale ou supérieure à 250 ha et inférieure à 300 ha', '28': 'Surface égale ou supérieure à 300 ha et inférieure à 350 ha', '29': 'Surface égale ou supérieure à 350 ha et inférieure à 400 ha', '30': 'Surface égale ou supérieure 400 ha'}"
+27,SAFER,AA,int64,31,SAU en fermage (tranche),UAA in fermage (slice),char,"['Surface nulle' 'Surface non nulle et inférieure à 5 ha'
+ 'Surface égale ou supérieure à 5 ha et inférieure à 10 ha'
+ 'Surface égale ou supérieure à 10 ha et inférieure à 15 ha'
+ 'Surface égale ou supérieure à 15 ha et inférieure à 20 ha'
+ 'Surface égale ou supérieure à 20 ha et inférieure à 25 ha'
+ 'Surface égale ou supérieure à 25 ha et inférieure à 30 ha'
+ 'Surface égale ou supérieure à 30 ha et inférieure à 35 ha'
+ 'Surface égale ou supérieure à 35 ha et inférieure à 40 ha'
+ 'Surface égale ou supérieure à 40 ha et inférieure à 45 ha'
+ 'Surface égale ou supérieure à 45 ha et inférieure à 50 ha'
+ 'Surface égale ou supérieure à 50 ha et inférieure à 60 ha'
+ 'Surface égale ou supérieure à 60 ha et inférieure à 70 ha'
+ 'Surface égale ou supérieure à 70 ha et inférieure à 80 ha'
+ 'Surface égale ou supérieure à 80 ha et inférieure à 90 ha'
+ 'Surface égale ou supérieure à 90 ha et inférieure à 100 ha'
+ 'Surface égale ou supérieure à 100 ha et inférieure à 110 ha'
+ 'Surface égale ou supérieure à 110 ha et inférieure à 120 ha'
+ 'Surface égale ou supérieure à 120 ha et inférieure à 130 ha'
+ 'Surface égale ou supérieure à 130 ha et inférieure à 140 ha'
+ 'Surface égale ou supérieure à 140 ha et inférieure à 150 ha'
+ 'Surface égale ou supérieure à 150 ha et inférieure à 160 ha'
+ 'Surface égale ou supérieure à 160 ha et inférieure à 170 ha'
+ 'Surface égale ou supérieure à 170 ha et inférieure à 180 ha'
+ 'Surface égale ou supérieure à 180 ha et inférieure à 190 ha'
+ 'Surface égale ou supérieure à 190 ha et inférieure à 200 ha'
+ 'Surface égale ou supérieure à 200 ha et inférieure à 250 ha'
+ 'Surface égale ou supérieure à 250 ha et inférieure à 300 ha'
+ 'Surface égale ou supérieure à 300 ha et inférieure à 350 ha'
+ 'Surface égale ou supérieure à 350 ha et inférieure à 400 ha'
+ 'Surface égale ou supérieure 400 ha']","{'0': 'Surface nulle', '1': 'Surface non nulle et inférieure à 5 ha', '2': 'Surface égale ou supérieure à 5 ha et inférieure à 10 ha', '3': 'Surface égale ou supérieure à 10 ha et inférieure à 15 ha', '4': 'Surface égale ou supérieure à 15 ha et inférieure à 20 ha', '5': 'Surface égale ou supérieure à 20 ha et inférieure à 25 ha', '6': 'Surface égale ou supérieure à 25 ha et inférieure à 30 ha', '7': 'Surface égale ou supérieure à 30 ha et inférieure à 35 ha', '8': 'Surface égale ou supérieure à 35 ha et inférieure à 40 ha', '9': 'Surface égale ou supérieure à 40 ha et inférieure à 45 ha', '10': 'Surface égale ou supérieure à 45 ha et inférieure à 50 ha', '11': 'Surface égale ou supérieure à 50 ha et inférieure à 60 ha', '12': 'Surface égale ou supérieure à 60 ha et inférieure à 70 ha', '13': 'Surface égale ou supérieure à 70 ha et inférieure à 80 ha', '14': 'Surface égale ou supérieure à 80 ha et inférieure à 90 ha', '15': 'Surface égale ou supérieure à 90 ha et inférieure à 100 ha', '16': 'Surface égale ou supérieure à 100 ha et inférieure à 110 ha', '17': 'Surface égale ou supérieure à 110 ha et inférieure à 120 ha', '18': 'Surface égale ou supérieure à 120 ha et inférieure à 130 ha', '19': 'Surface égale ou supérieure à 130 ha et inférieure à 140 ha', '20': 'Surface égale ou supérieure à 140 ha et inférieure à 150 ha', '21': 'Surface égale ou supérieure à 150 ha et inférieure à 160 ha', '22': 'Surface égale ou supérieure à 160 ha et inférieure à 170 ha', '23': 'Surface égale ou supérieure à 170 ha et inférieure à 180 ha', '24': 'Surface égale ou supérieure à 180 ha et inférieure à 190 ha', '25': 'Surface égale ou supérieure à 190 ha et inférieure à 200 ha', '26': 'Surface égale ou supérieure à 200 ha et inférieure à 250 ha', '27': 'Surface égale ou supérieure à 250 ha et inférieure à 300 ha', '28': 'Surface égale ou supérieure à 300 ha et inférieure à 350 ha', '29': 'Surface égale ou supérieure à 350 ha et inférieure à 400 ha', '30': 'Surface égale ou supérieure 400 ha'}"
+28,SAUTI,AB,int64,31,SAU totale (tranche),Total UAA (tranche),char,"['Surface nulle' 'Surface non nulle et inférieure à 5 ha'
+ 'Surface égale ou supérieure à 5 ha et inférieure à 10 ha'
+ 'Surface égale ou supérieure à 10 ha et inférieure à 15 ha'
+ 'Surface égale ou supérieure à 15 ha et inférieure à 20 ha'
+ 'Surface égale ou supérieure à 20 ha et inférieure à 25 ha'
+ 'Surface égale ou supérieure à 25 ha et inférieure à 30 ha'
+ 'Surface égale ou supérieure à 30 ha et inférieure à 35 ha'
+ 'Surface égale ou supérieure à 35 ha et inférieure à 40 ha'
+ 'Surface égale ou supérieure à 40 ha et inférieure à 45 ha'
+ 'Surface égale ou supérieure à 45 ha et inférieure à 50 ha'
+ 'Surface égale ou supérieure à 50 ha et inférieure à 60 ha'
+ 'Surface égale ou supérieure à 60 ha et inférieure à 70 ha'
+ 'Surface égale ou supérieure à 70 ha et inférieure à 80 ha'
+ 'Surface égale ou supérieure à 80 ha et inférieure à 90 ha'
+ 'Surface égale ou supérieure à 90 ha et inférieure à 100 ha'
+ 'Surface égale ou supérieure à 100 ha et inférieure à 110 ha'
+ 'Surface égale ou supérieure à 110 ha et inférieure à 120 ha'
+ 'Surface égale ou supérieure à 120 ha et inférieure à 130 ha'
+ 'Surface égale ou supérieure à 130 ha et inférieure à 140 ha'
+ 'Surface égale ou supérieure à 140 ha et inférieure à 150 ha'
+ 'Surface égale ou supérieure à 150 ha et inférieure à 160 ha'
+ 'Surface égale ou supérieure à 160 ha et inférieure à 170 ha'
+ 'Surface égale ou supérieure à 170 ha et inférieure à 180 ha'
+ 'Surface égale ou supérieure à 180 ha et inférieure à 190 ha'
+ 'Surface égale ou supérieure à 190 ha et inférieure à 200 ha'
+ 'Surface égale ou supérieure à 200 ha et inférieure à 250 ha'
+ 'Surface égale ou supérieure à 250 ha et inférieure à 300 ha'
+ 'Surface égale ou supérieure à 300 ha et inférieure à 350 ha'
+ 'Surface égale ou supérieure à 350 ha et inférieure à 400 ha'
+ 'Surface égale ou supérieure 400 ha']","{'0': 'Surface nulle', '1': 'Surface non nulle et inférieure à 5 ha', '2': 'Surface égale ou supérieure à 5 ha et inférieure à 10 ha', '3': 'Surface égale ou supérieure à 10 ha et inférieure à 15 ha', '4': 'Surface égale ou supérieure à 15 ha et inférieure à 20 ha', '5': 'Surface égale ou supérieure à 20 ha et inférieure à 25 ha', '6': 'Surface égale ou supérieure à 25 ha et inférieure à 30 ha', '7': 'Surface égale ou supérieure à 30 ha et inférieure à 35 ha', '8': 'Surface égale ou supérieure à 35 ha et inférieure à 40 ha', '9': 'Surface égale ou supérieure à 40 ha et inférieure à 45 ha', '10': 'Surface égale ou supérieure à 45 ha et inférieure à 50 ha', '11': 'Surface égale ou supérieure à 50 ha et inférieure à 60 ha', '12': 'Surface égale ou supérieure à 60 ha et inférieure à 70 ha', '13': 'Surface égale ou supérieure à 70 ha et inférieure à 80 ha', '14': 'Surface égale ou supérieure à 80 ha et inférieure à 90 ha', '15': 'Surface égale ou supérieure à 90 ha et inférieure à 100 ha', '16': 'Surface égale ou supérieure à 100 ha et inférieure à 110 ha', '17': 'Surface égale ou supérieure à 110 ha et inférieure à 120 ha', '18': 'Surface égale ou supérieure à 120 ha et inférieure à 130 ha', '19': 'Surface égale ou supérieure à 130 ha et inférieure à 140 ha', '20': 'Surface égale ou supérieure à 140 ha et inférieure à 150 ha', '21': 'Surface égale ou supérieure à 150 ha et inférieure à 160 ha', '22': 'Surface égale ou supérieure à 160 ha et inférieure à 170 ha', '23': 'Surface égale ou supérieure à 170 ha et inférieure à 180 ha', '24': 'Surface égale ou supérieure à 180 ha et inférieure à 190 ha', '25': 'Surface égale ou supérieure à 190 ha et inférieure à 200 ha', '26': 'Surface égale ou supérieure à 200 ha et inférieure à 250 ha', '27': 'Surface égale ou supérieure à 250 ha et inférieure à 300 ha', '28': 'Surface égale ou supérieure à 300 ha et inférieure à 350 ha', '29': 'Surface égale ou supérieure à 350 ha et inférieure à 400 ha', '30': 'Surface égale ou supérieure 400 ha'}"
+29,SUTOT,AC,int64,31,Superficie totale (SAU et hors SAU) (tranche),Total area (UAA and non-UAA) (portion),char,"['Surface nulle' 'Surface non nulle et inférieure à 5 ha'
+ 'Surface égale ou supérieure à 5 ha et inférieure à 10 ha'
+ 'Surface égale ou supérieure à 10 ha et inférieure à 15 ha'
+ 'Surface égale ou supérieure à 15 ha et inférieure à 20 ha'
+ 'Surface égale ou supérieure à 20 ha et inférieure à 25 ha'
+ 'Surface égale ou supérieure à 25 ha et inférieure à 30 ha'
+ 'Surface égale ou supérieure à 30 ha et inférieure à 35 ha'
+ 'Surface égale ou supérieure à 35 ha et inférieure à 40 ha'
+ 'Surface égale ou supérieure à 40 ha et inférieure à 45 ha'
+ 'Surface égale ou supérieure à 45 ha et inférieure à 50 ha'
+ 'Surface égale ou supérieure à 50 ha et inférieure à 60 ha'
+ 'Surface égale ou supérieure à 60 ha et inférieure à 70 ha'
+ 'Surface égale ou supérieure à 70 ha et inférieure à 80 ha'
+ 'Surface égale ou supérieure à 80 ha et inférieure à 90 ha'
+ 'Surface égale ou supérieure à 90 ha et inférieure à 100 ha'
+ 'Surface égale ou supérieure à 100 ha et inférieure à 110 ha'
+ 'Surface égale ou supérieure à 110 ha et inférieure à 120 ha'
+ 'Surface égale ou supérieure à 120 ha et inférieure à 130 ha'
+ 'Surface égale ou supérieure à 130 ha et inférieure à 140 ha'
+ 'Surface égale ou supérieure à 140 ha et inférieure à 150 ha'
+ 'Surface égale ou supérieure à 150 ha et inférieure à 160 ha'
+ 'Surface égale ou supérieure à 160 ha et inférieure à 170 ha'
+ 'Surface égale ou supérieure à 170 ha et inférieure à 180 ha'
+ 'Surface égale ou supérieure à 180 ha et inférieure à 190 ha'
+ 'Surface égale ou supérieure à 190 ha et inférieure à 200 ha'
+ 'Surface égale ou supérieure à 200 ha et inférieure à 250 ha'
+ 'Surface égale ou supérieure à 250 ha et inférieure à 300 ha'
+ 'Surface égale ou supérieure à 300 ha et inférieure à 350 ha'
+ 'Surface égale ou supérieure à 350 ha et inférieure à 400 ha'
+ 'Surface égale ou supérieure 400 ha']","{'0': 'Surface nulle', '1': 'Surface non nulle et inférieure à 5 ha', '2': 'Surface égale ou supérieure à 5 ha et inférieure à 10 ha', '3': 'Surface égale ou supérieure à 10 ha et inférieure à 15 ha', '4': 'Surface égale ou supérieure à 15 ha et inférieure à 20 ha', '5': 'Surface égale ou supérieure à 20 ha et inférieure à 25 ha', '6': 'Surface égale ou supérieure à 25 ha et inférieure à 30 ha', '7': 'Surface égale ou supérieure à 30 ha et inférieure à 35 ha', '8': 'Surface égale ou supérieure à 35 ha et inférieure à 40 ha', '9': 'Surface égale ou supérieure à 40 ha et inférieure à 45 ha', '10': 'Surface égale ou supérieure à 45 ha et inférieure à 50 ha', '11': 'Surface égale ou supérieure à 50 ha et inférieure à 60 ha', '12': 'Surface égale ou supérieure à 60 ha et inférieure à 70 ha', '13': 'Surface égale ou supérieure à 70 ha et inférieure à 80 ha', '14': 'Surface égale ou supérieure à 80 ha et inférieure à 90 ha', '15': 'Surface égale ou supérieure à 90 ha et inférieure à 100 ha', '16': 'Surface égale ou supérieure à 100 ha et inférieure à 110 ha', '17': 'Surface égale ou supérieure à 110 ha et inférieure à 120 ha', '18': 'Surface égale ou supérieure à 120 ha et inférieure à 130 ha', '19': 'Surface égale ou supérieure à 130 ha et inférieure à 140 ha', '20': 'Surface égale ou supérieure à 140 ha et inférieure à 150 ha', '21': 'Surface égale ou supérieure à 150 ha et inférieure à 160 ha', '22': 'Surface égale ou supérieure à 160 ha et inférieure à 170 ha', '23': 'Surface égale ou supérieure à 170 ha et inférieure à 180 ha', '24': 'Surface égale ou supérieure à 180 ha et inférieure à 190 ha', '25': 'Surface égale ou supérieure à 190 ha et inférieure à 200 ha', '26': 'Surface égale ou supérieure à 200 ha et inférieure à 250 ha', '27': 'Surface égale ou supérieure à 250 ha et inférieure à 300 ha', '28': 'Surface égale ou supérieure à 300 ha et inférieure à 350 ha', '29': 'Surface égale ou supérieure à 350 ha et inférieure à 400 ha', '30': 'Surface égale ou supérieure 400 ha'}"
+30,SFPTO,AD,int64,31,SAU : superficie fourragère principale (tranche),UAA: Main Forage Area (slice),char,"['Surface nulle' 'Surface non nulle et inférieure à 5 ha'
+ 'Surface égale ou supérieure à 5 ha et inférieure à 10 ha'
+ 'Surface égale ou supérieure à 10 ha et inférieure à 15 ha'
+ 'Surface égale ou supérieure à 15 ha et inférieure à 20 ha'
+ 'Surface égale ou supérieure à 20 ha et inférieure à 25 ha'
+ 'Surface égale ou supérieure à 25 ha et inférieure à 30 ha'
+ 'Surface égale ou supérieure à 30 ha et inférieure à 35 ha'
+ 'Surface égale ou supérieure à 35 ha et inférieure à 40 ha'
+ 'Surface égale ou supérieure à 40 ha et inférieure à 45 ha'
+ 'Surface égale ou supérieure à 45 ha et inférieure à 50 ha'
+ 'Surface égale ou supérieure à 50 ha et inférieure à 60 ha'
+ 'Surface égale ou supérieure à 60 ha et inférieure à 70 ha'
+ 'Surface égale ou supérieure à 70 ha et inférieure à 80 ha'
+ 'Surface égale ou supérieure à 80 ha et inférieure à 90 ha'
+ 'Surface égale ou supérieure à 90 ha et inférieure à 100 ha'
+ 'Surface égale ou supérieure à 100 ha et inférieure à 110 ha'
+ 'Surface égale ou supérieure à 110 ha et inférieure à 120 ha'
+ 'Surface égale ou supérieure à 120 ha et inférieure à 130 ha'
+ 'Surface égale ou supérieure à 130 ha et inférieure à 140 ha'
+ 'Surface égale ou supérieure à 140 ha et inférieure à 150 ha'
+ 'Surface égale ou supérieure à 150 ha et inférieure à 160 ha'
+ 'Surface égale ou supérieure à 160 ha et inférieure à 170 ha'
+ 'Surface égale ou supérieure à 170 ha et inférieure à 180 ha'
+ 'Surface égale ou supérieure à 180 ha et inférieure à 190 ha'
+ 'Surface égale ou supérieure à 190 ha et inférieure à 200 ha'
+ 'Surface égale ou supérieure à 200 ha et inférieure à 250 ha'
+ 'Surface égale ou supérieure à 250 ha et inférieure à 300 ha'
+ 'Surface égale ou supérieure à 300 ha et inférieure à 350 ha'
+ 'Surface égale ou supérieure à 350 ha et inférieure à 400 ha'
+ 'Surface égale ou supérieure 400 ha']","{'0': 'Surface nulle', '1': 'Surface non nulle et inférieure à 5 ha', '2': 'Surface égale ou supérieure à 5 ha et inférieure à 10 ha', '3': 'Surface égale ou supérieure à 10 ha et inférieure à 15 ha', '4': 'Surface égale ou supérieure à 15 ha et inférieure à 20 ha', '5': 'Surface égale ou supérieure à 20 ha et inférieure à 25 ha', '6': 'Surface égale ou supérieure à 25 ha et inférieure à 30 ha', '7': 'Surface égale ou supérieure à 30 ha et inférieure à 35 ha', '8': 'Surface égale ou supérieure à 35 ha et inférieure à 40 ha', '9': 'Surface égale ou supérieure à 40 ha et inférieure à 45 ha', '10': 'Surface égale ou supérieure à 45 ha et inférieure à 50 ha', '11': 'Surface égale ou supérieure à 50 ha et inférieure à 60 ha', '12': 'Surface égale ou supérieure à 60 ha et inférieure à 70 ha', '13': 'Surface égale ou supérieure à 70 ha et inférieure à 80 ha', '14': 'Surface égale ou supérieure à 80 ha et inférieure à 90 ha', '15': 'Surface égale ou supérieure à 90 ha et inférieure à 100 ha', '16': 'Surface égale ou supérieure à 100 ha et inférieure à 110 ha', '17': 'Surface égale ou supérieure à 110 ha et inférieure à 120 ha', '18': 'Surface égale ou supérieure à 120 ha et inférieure à 130 ha', '19': 'Surface égale ou supérieure à 130 ha et inférieure à 140 ha', '20': 'Surface égale ou supérieure à 140 ha et inférieure à 150 ha', '21': 'Surface égale ou supérieure à 150 ha et inférieure à 160 ha', '22': 'Surface égale ou supérieure à 160 ha et inférieure à 170 ha', '23': 'Surface égale ou supérieure à 170 ha et inférieure à 180 ha', '24': 'Surface égale ou supérieure à 180 ha et inférieure à 190 ha', '25': 'Surface égale ou supérieure à 190 ha et inférieure à 200 ha', '26': 'Surface égale ou supérieure à 200 ha et inférieure à 250 ha', '27': 'Surface égale ou supérieure à 250 ha et inférieure à 300 ha', '28': 'Surface égale ou supérieure à 300 ha et inférieure à 350 ha', '29': 'Surface égale ou supérieure à 350 ha et inférieure à 400 ha', '30': 'Surface égale ou supérieure 400 ha'}"
+31,CHAFF,AE,float64,7171,Chiffre d'affaires (en euros),Revenues (in euros),num,,
+32,PRODV,AF,float64,5806,Produit brut des produits végétaux (en euros),Gross product of plant products (in euros),num,,
+33,PRODH,AG,float64,886,Produit brut des produits horticoles (en euros),Gross product of horticultural products (in euros),num,,
+34,PRODT,AH,float64,3429,Produit brut des produits végétaux transformés (en euros),Gross product of processed plant products (in euros),num,,
+35,PRODA,AI,float64,4077,Produit brut des animaux (en euros),Gross animal product (in euros),num,,
+36,ACHAN,AJ,float64,1712,,,num,,
+37,PRODP,AK,float64,2432,,,num,,
+38,PROEX,AL,float64,7174,,,num,,
+39,PBRTCOU,AM,float64,7189,,,num,,
+40,PBRTO,AN,float64,7191,,,num,,
+41,PBRTEXC,AO,float64,4659,,,num,,
+42,PITOT,AP,float64,2735,,,num,,
+43,PROBR,AQ,float64,7190,,,num,,
+44,VAFER,AR,float64,7167,,,num,,
+45,VAPBR,AS,float64,7152,Valeur ajoutée (en euros),Added value (in euros),num,,
+46,EBEXP,AT,float64,7173,Excédent brut d'exploitation (en euros),Gross operating surplus (in euros),num,,
+47,RESEX,AU,float64,7159,Résultat d'exploitation (en euros),Operating income (in euros),num,,
+48,RESFI,AV,float64,6053,Résultat financier (en euros),Net financial income (in euros),num,,
+49,RESCO,AW,float64,7174,Résultat courant avant impôt (RCAI) (en euros),Income from ordinary activities before tax (in euros),num,,
+50,RESCP,AX,float64,4908,Résultat exceptionnel (en euros),Exceptional items (in euros),num,,
+51,RESE3,AY,float64,7175,Résultat de l'exercice (en euros),Net income for the year (in euros),num,,
+52,TAIM5,AZ,float64,7179,Actif immobilisé (clôture) (en euros),Fixed assets (closing) (in euros),num,,
+53,TCIR5,BA,float64,7173,Actif circulant yc solde TVA (clôture) (en euros),Current assets including VAT balance (closing) (in euros),num,,
+54,TCAP3,BB,float64,7191,Capitaux propres (clôture) (en euros),Shareholders' equity (closing) (in euros),num,,
+55,TDTE3,BC,float64,7159,Dettes (clôture) (en euros),Debts (closing) (in euros),num,,
+56,CHRAM,BD,float64,2063,Charge réelle d'amendements (en euros),Actual cost of amendments (in euros),num,,
+57,CHRSE,BE,float64,5633,Charge réelle de semences et plants (en euros),Actual cost of seeds and seedlings (in euros),num,,
+58,CHRPH,BF,float64,6018,Charge réelle de produits de défense des végétaux (en euros),Actual cost of plant protection products (in euros),num,,
+59,CHRAC,BG,float64,3827,Charge réelle d'aliments concentrés (total en euros),Actual feed concentrate Feed (total in euros),num,,
+60,CHRAG,BH,float64,1676,Charge réelle d'aliments grossiers (en euros),Actual load of coarse feed (in euros),num,,
+61,CHRPV,BI,float64,3678,Charge réelle de produits vétérinaires et de reproduction animale (en euros),Actual load of veterinary and animal reproduction products (in euros),num,,
+62,CHRCA,BJ,float64,6193,Charge réelle de carburants et lubrifiants stockés (en euros),Actual load of stored fuels and lubricants (in euros),num,,
+63,ELECTQUA,BK,float64,6062,Charges d'électricité (en kilowattheures),Electricity loads (in kilowatt-hours),num,,
+64,ENTBT,BL,float64,3937,Charges d'entretien des bâtiments (en euros),Building maintenance expenses (in euros),num,,
+65,ENTMT,BM,float64,6593,Charges d'entretien du matériel (en euros),Equipment maintenance expenses (in euros),num,,
+66,LFERM,BN,float64,6242,Charges de fermages et loyers du foncier (en euros),Rental expenses and land rent (in euros),num,,
+67,LMATE,BO,float64,2662,Charges de loyers du matériel (en euros),Equipment rental expenses (in euros),num,,
+68,ASSRE,BP,float64,3136,Charges d'assurance-récolte (en euros),Crop insurance expenses (in euros),num,,
+69,ASSAU,BQ,float64,6346,Charges d'autres primes d'assurances (en euros),Other insurance premium expenses (in euros),num,,
+70,TVANR,BR,float64,15,,,num,,
+71,TXPRO,BS,float64,3999,Charges de taxes professionnelles sur les produits de l'exploitation (en euros),Business tax expenses on operating income (in euros),num,,
+72,TAXES,BT,float64,1686,Charges de taxes foncières (en euros),Property tax charges (in euros),num,,
+73,AIMTX,BU,float64,3380,Charges d'impôts divers (en euros),Miscellaneous tax expenses (in euros),num,,
+74,FPERS,BV,float64,3536,Charges de rémunérations (en euros),Compensation costs (in euros),num,,
+75,CHSOC,BW,float64,3180,Charges sociales (en euros),Social security charges (in euros),num,,
+76,CFINL,BX,float64,5405,Charges d'intérêts des emprunts long et moyen terme (en euros),Interest expense on long and medium-term borrowings (in euros),num,,
+77,CAGR4,BY,float64,3370,Charges d'intérêts des emprunts court terme et autres charges financières (en euros),Interest expense on short-term borrowings and other financial expenses (in euros),num,,
