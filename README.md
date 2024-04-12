@@ -1,6 +1,6 @@
-![image](https://raw.githubusercontent.com/AlexandreGazagnes/Unilassalle-Public-Ressources/main/docs/unilassalle_banner.png)
+![image](https://raw.githubusercontent.com/AlexandreGazagnes/UniLaSalle-Public-Ressources/main/docs/UniLaSalle_banner.png)
 
-# Unilassalle Public Ressources 
+# UniLaSalle Public Ressources 
  
 ## About
 
@@ -15,9 +15,9 @@
   </tr>
 </table> 
 
-This public repository contains the notebooks and the data used for both 
-- 2nd Year - Practical Statistical tests 
-- 4th Year - Data Analysis with Python
+This public repository contains the notebooks and the data used for both :
+- **2nd** Year - Practical Statistical Tests 
+- **4th** Year - Data Analysis with Python
 
 
 The repository is organized in two main directories: `2a-statistical-tests` and `4a-data-analysis`.
@@ -36,7 +36,7 @@ You have 3 options:
 
     - **Install Anaconda https://www.anaconda.com/ or Jupyter https://jupyter.org/install on your machine**
 
-    - Use Anaconda or Jupyter installed on the Unilasalle PC (**Warning ⚠️**: some packages may be missing) 
+    - Use Anaconda or Jupyter installed on the UniLaSalle PC (**Warning ⚠️**: some packages may be missing) 
 
 
 - Online:
@@ -48,5 +48,37 @@ You have 3 options:
 ## Material
 
 All the material for this course could be found here.
-- https://github.com/AlexandreGazagnes/Unilassalle-Public-Ressources/tree/main/4a-data-analysis
+- https://github.com/AlexandreGazagnes/UniLaSalle-Public-Ressources/tree/main/4a-data-analysis
 
+
+## Sructure 
+.
+├── 2a-statistical-tests
+│   ├── 01-session
+│   ├── 02-session
+│   ├── 03-session
+│   ├── 04-session
+│   ├── 05-session
+│   ├── 06-session
+│   ├── 07-session
+│   ├── 08-session
+│   └── 09-session
+├── 4a-data-analysis
+│   ├── 01-session
+│   ├── 02-session
+│   ├── 03-session
+│   ├── 04-session
+│   └── 05-exam
+├── CHANGELOG.md
+├── docs                // NOT USEFULL
+├── LICENSE             // NOT USEFULL
+├── poetry.lock         // NOT USEFULL
+├── pyproject.toml      // NOT USEFULL
+├── README.md           // NOT USEFULL
+├── requirements.txt    
+
+
+
+## Troubleshooting
+
+For any question, please feel free to open an issue on : [issue page](https://github.com/AlexandreGazagnes/Unilassalle-Public-Ressources/issues)

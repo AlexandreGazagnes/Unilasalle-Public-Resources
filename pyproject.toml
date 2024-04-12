@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "unilassalle-public-ressources"
+name = "unilasalle-public-ressources"
 version = "0.0.12"
-description = ""
+description = "This public repository contains the notebooks and the data used for both 2nd Year - Practical Statistical Tests and 4th Year - Data Analysis with Python"
 authors = ["AlexandreGazagnes"]
 readme = "README.md"
 
@@ -28,8 +28,28 @@ pre-commit = "^3.7.0"
 streamlit = "^1.33.0"
 scipy = "^1.13.0"
 statsmodels = "^0.14.1"
+black = {extras = ["jupyter"], version = "^24.3.0"}
+missingno = "^0.5.2"
+
+
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.23.0"
+
+
+
+
+[tool.poetry.group.test.dependencies]
+
+
+
+[tool.poetry.group.qa.dependencies]
+
+[tool.poetry.group.docs.dependencies]
 mkdocs = "^1.5.3"
 mkdocs-material = "^9.5.17"
+
+[tool.poetry.group.viz.dependencies]
 
 
 [build-system]
