@@ -36,14 +36,14 @@
 
 # Visualisations :
 # - At least 5 different types of visualisation
-# - Box plots, pie charts, histograms, scatter plots, etc
+# - Box plots, pie charts, histograms, scatter plots, bar plots etc
 # - Feel free to use interactive visualisations, stacked bar charts, percentage bar charts, etc
 
 
 # Test hypothesis :
 # At least 5 different statistical tests such as : 
 #   1 correlation
-#   2 t test
+#   1 or 2 t test
 #   1 var test
 #   1 shapiro test
 #   1 chi2  (indepedance, homogeneity, etc)

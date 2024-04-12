@@ -1,6 +1,7 @@
-# Problems and Questions
-
-
+#################################
+#   0901 - Questions            #
+#   TP09 - 1/1                  #
+#################################
 
 
 ### "4th"  ==> Charline Lucille Edouard Antho
@@ -10,10 +11,10 @@
     # - Are the young farmers more likely to have a specific type of production ?
     # - What about top 10 yound farmers  or old farmer?
     # - Do male/female managers have different production types ?
+# New One ?
 
 
-
-### "5th Orjete" ==>O riane Tessa & Jeanne
+### "5th Orjete" ==> Oriane Tessa & Jeanne
 # - **Charges**  (regading production type) vs surface according region ?
 # - Have certain specific regions or areas specific tax levels
 # - What is the link between type of production and costs? => what is this difference about?
@@ -28,13 +29,11 @@
 # - How Cattle production is significatively different from other production type ?
 
 
-### "FEA 7" aka "normandy forever" ==> Jeanne clement salame
+### "FEA 7" aka "Normandy forever" ==> Jeanne Clement Salame
 # - Normandy vs Rest of France? 
 # - Do we have a specific type of production in Normandy?
 # - Are your farm in Normandy more likely to have a specific financial result score ? 
 # - What patterns do we have regarding the famers'profiles ?
-
-
 
 
 ### "The Best"  ==> Coretin, Theresa, Kyle, Kate
@@ -48,7 +47,7 @@
     # Farm types = production type => what age  sex and size of farm are the most profitable ? 
 
 
-### 2nd group
+### 2nd group => Charlotte Simon & Gabriel
 # - Does sustainablable practices / areas impact economic viabililiy?
 # - What are the main characterics of specific environmental areas => manager profile / financial results / production type
 # - Are the farms in these areas more profitable than the others ?
