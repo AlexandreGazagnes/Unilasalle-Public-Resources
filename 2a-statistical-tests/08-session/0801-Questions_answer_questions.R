@@ -1,6 +1,6 @@
 #################################
-#   0801 - About Data Frames    #
-#       TP08 - 1/2              #
+#   0801 - Questions and Ans    #
+#       TP08 - 1/1              #
 #################################
 
 
@@ -59,7 +59,6 @@
 
 
 
-
 # Select columns by name
 
 
@@ -72,12 +71,10 @@
 # Or using filter for conditional slicing
 
 
-
 # Summarize missing values
 
 
 # Or for a more comprehensive overview
-
 
 
 # Compute correlation matrix for numerical columns
@@ -86,12 +83,10 @@
 # Visualizing the correlation matrix can also be very informative
 
 
-
 # To get a quick overview of all data types
 
 
 # Or to get just the data types in a more concise format
-
 
 
 # Assuming 'data' is your dataframe and it's already known which columns are categorical
@@ -118,7 +113,6 @@
 # Adding titles and improving aesthetics
 
 
-
 # Basic pie chart with base R
 
 
@@ -135,7 +129,6 @@
 # Simple example of imputing missing values
 
 
-
 # Counting unique values
 
 
@@ -143,8 +136,6 @@
 
 
 # Getting the structure of the dataset
-
-
 
 
 # Compute mean
@@ -156,7 +147,6 @@
 # Compute maximum
 
 
-
 # Compute quantiles
 
 
@@ -166,13 +156,10 @@
 # Summary statistics for the entire dataframe
 
 
-
-
 # Shapiro-Wilk normality test
 
 
 # Print the results
-
 
 
 # Install and load GGally for pair plots
@@ -185,8 +172,8 @@
 # Count distribution between two categorical variables
 
 
-
 # Chi-Square test of independence
+
 
 # Print the test result
 
@@ -194,22 +181,14 @@
 # Mosaic plot with base R
 
 
-
-
-
 # Stacked bar plot
-
 
 
 # Assuming your dataframe is named 'data', and it has columns 'age', 'financial_result', and 'sex'
 # where 'sex' is a factor with levels 'H' (for male) and 'F' (for female)
 
 
-
-
 # Load the ggplot2 package
 
 # Assuming 'data' is your dataframe, and it contains columns for 'age', 'region', 'number_of_farms', and 'category_of_production'
 # The data should be aggregated appropriately to reflect the number of farms for each age, region, and category_of_production
-
-    

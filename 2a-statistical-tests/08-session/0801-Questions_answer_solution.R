@@ -1,6 +1,6 @@
 #################################
-#   081 -                       #
-#       TP08 - 1/2              #
+#   0801 - Questions and Ans    #
+#       TP08 - 1/1              #
 #################################
 
 
@@ -59,7 +59,6 @@ data <- read.csv("path_to_your_file.csv")
 # install.packages("readxl")
 # library(readxl)
 # data <- read_excel("path_to_your_file.xlsx")
-
 
 
 
