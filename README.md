@@ -1,16 +1,31 @@
-![image](https://raw.githubusercontent.com/AlexandreGazagnes/Unilassalle-Public-Ressources/main/docs/homepage_campus_rouen.jpg)# Unilassalle Public Ressources 
+![image](https://raw.githubusercontent.com/AlexandreGazagnes/Unilassalle-Public-Ressources/main/docs/unilassalle_banner.png)
 
-
+# Unilassalle Public Ressources 
+ 
 ## About
 
-This public repository contains the notebooks and the data used for the statistical tests and the data analysis of the Unilassalle courses. 
+<table>
+  <tr>
+    <th>Session</th>
+    <th>Author </th>
+  </tr>
+  <tr>
+    <td>2023/2024</td>
+    <td>Alexandre Gazagnes</td>
+  </tr>
+</table> 
+
+This public repository contains the notebooks and the data used for both 
+- 2nd Year - Practical Statistical tests 
+- 4th Year - Data Analysis with Python
+
 
 The repository is organized in two main directories: `2a-statistical-tests` and `4a-data-analysis`.
 
- The first directory contains the notebooks for the statistical tests, while the second directory contains the notebooks for the data analysis. Each of these directories is organized in two subdirectories, one for each session of the project. 
+Each of these directories is organized in subdirectories, one for each session of the course. 
  
  
-`.tests` and ```.utils``` directories contains technicals tools not usefull for the courses.
+⚠️ `tests`, `.github`, `docs` and `.utils` directories contains technicals tools not usefull for the course.
 
 
 
