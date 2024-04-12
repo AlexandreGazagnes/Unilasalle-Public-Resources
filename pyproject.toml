@@ -7,49 +7,53 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "3.10.12"
-pandas = "^2.2.2"
-numpy = "^1.26.4"
-scikit-learn = "^1.4.2"
-matplotlib = "^3.8.4"
-plotly = "^5.20.0"
-seaborn = "^0.13.2"
+# pep8
+# autopep8
+
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.23.0"
+pre-commit = "^3.7.0"
 requests = "^2.31.0"
-pytest = "^8.1.1"
-coverage = "^7.4.4"
+
+
+[tool.poetry.group.notebook.dependencies]
 jupyter = "^1.0.0"
 notebook = "^7.1.2"
 jupyterlab = "^4.1.6"
 jupytext = "^1.16.1"
 nbconvert = "^7.16.3"
-mypy = "^1.9.0"
-ruff = "^0.3.7"
-isort = "^5.13.2"
-pre-commit = "^3.7.0"
-streamlit = "^1.33.0"
+
+
+[tool.poetry.group.data.dependencies]
+pandas = "^2.2.2"
+numpy = "^1.26.4"
+scikit-learn = "^1.4.2"
 scipy = "^1.13.0"
 statsmodels = "^0.14.1"
-black = {extras = ["jupyter"], version = "^24.3.0"}
-missingno = "^0.5.2"
-
-
-
-[tool.poetry.group.dev.dependencies]
-ipython = "^8.23.0"
-
-
 
 
 [tool.poetry.group.test.dependencies]
+pytest = "^8.1.1"
+coverage = "^7.4.4"
 
+
+[tool.poetry.group.viz.dependencies]
+matplotlib = "^3.8.4"
+seaborn = "^0.13.2"
+plotly = "^5.20.0"
+streamlit = "^1.33.0"
 
 
 [tool.poetry.group.qa.dependencies]
+mypy = "^1.9.0"
+ruff = "^0.3.7"
+isort = "^5.13.2"
+
 
 [tool.poetry.group.docs.dependencies]
 mkdocs = "^1.5.3"
 mkdocs-material = "^9.5.17"
-
-[tool.poetry.group.viz.dependencies]
 
 
 [build-system]

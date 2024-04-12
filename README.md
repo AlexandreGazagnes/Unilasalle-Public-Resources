@@ -1,5 +1,19 @@
 ![image](https://raw.githubusercontent.com/AlexandreGazagnes/UniLaSalle-Public-Ressources/main/docs/UniLaSalle_banner.png)
 
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+![image](https://github.com/AlexandreGazagnes/awdible/blob/main/docs/assets/img/image.png?raw=true)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+![Python](https://img.shields.io/badge/python-3.10.x-green.svg)
+![Repo Size](https://img.shields.io/github/repo-size/AlexandreGazagnes/awdible)
+[![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
+[![Poetry](https://img.shields.io/endpoint?url=https://python-poetry.org/badge/v0.json)](https://python-poetry.org/)
+<!-- ![Coverage](https://github.com/AlexandreGazagnes/awdible/blob/main/docs/assets/img/cov.svg?raw=true) -->
+![Tests](https://github.com/AlexandreGazagnes/awdible/actions/workflows/tests.yaml/badge.svg)
+![Statics](https://github.com/AlexandreGazagnes/awdible/actions/workflows/statics.yaml/badge.svg)
+![Doc](https://github.com/AlexandreGazagnes/awdible/actions/workflows/docs.yaml/badge.svg)
+<!-- ![Pypi](https://github.com/AlexandreGazagnes/awdible/actions/workflows/publish.yaml/badge.svg) -->
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/AlexandreGazagnes/awdible)
 # UniLaSalle Public Ressources 
  
 ## About
@@ -69,16 +83,18 @@ All the material for this course could be found here.
 │   ├── 03-session
 │   ├── 04-session
 │   └── 05-exam
-├── CHANGELOG.md
+├── CODE_OF_CONDUCT.md  // NOT USEFULL
+├── CHANGELOG.md        // NOT USEFULL
 ├── docs                // NOT USEFULL
 ├── LICENSE             // NOT USEFULL
 ├── poetry.lock         // NOT USEFULL
 ├── pyproject.toml      // NOT USEFULL
 ├── README.md           // NOT USEFULL
+├── SECURITY.md         // NOT USEFULL
 ├── requirements.txt    
 
 
 
 ## Troubleshooting
 
-For any question, please feel free to open an issue on : [issue page](https://github.com/AlexandreGazagnes/Unilassalle-Public-Ressources/issues)
+For any question, please feel free to open an issue on the  [issue page](https://github.com/AlexandreGazagnes/Unilassalle-Public-Ressources/issues)
