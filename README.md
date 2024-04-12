@@ -74,14 +74,6 @@ https://github.com/AlexandreGazagnes/Unilasalle-Public-Ressources).
 │   ├── 03-session
 │   ├── 04-session
 │   └── 05-exam
-├── CODE_OF_CONDUCT.md  // NOT USEFULL
-├── CHANGELOG.md        // NOT USEFULL
-├── docs                // NOT USEFULL
-├── LICENSE             // NOT USEFULL
-├── poetry.lock         // NOT USEFULL
-├── pyproject.toml      // NOT USEFULL
-├── README.md           // NOT USEFULL
-├── SECURITY.md         // NOT USEFULL
 ├── requirements.txt    
 ```
 
