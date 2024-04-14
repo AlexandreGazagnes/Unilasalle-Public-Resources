@@ -14,7 +14,7 @@ You will find in this repository the following files:
 
 - ```0502-Data_Analytics_With_Python_test.ipynb``` : a jupyter notebook you can download, jus as a warm up, to be sure that you will be able to load the notebook, the external libraries and the dataset. ⚠️ If you are not able to run this notebook, you have to worry about your exam !  
 
-- iris_example.csv: a csv file containing the data used in the exam.
+- ```iris_example.csv``` : a csv file containing the data used in the exam.
 
 
 
