@@ -10,7 +10,7 @@ You will find in this repository the following files:
 
 - ```README.md```: (this file) a markdown file containing the description of the repository, and losts of usefull information to help you for this exam.
 
-- ```0502-Data_Analytics_With_Python_examination.ipynb```: a jupyter notebook containing the exam. **THIS FILE WILL BE UPLOADED on 2024-04-15 at 7am**. That is the file you will have to download, use and send back fully completed at the end of your exam.
+- ```0502-Data_Analytics_With_Python_exam.ipynb```: a jupyter notebook containing the exam. **THIS FILE WILL BE UPLOADED on 2024-04-15 at 7am**. That is the file you will have to download, use and send back fully completed at the end of your exam.
 
 - ```0502-Data_Analytics_With_Python_test.ipynb``` : a jupyter notebook you can download, jus as a warm up, to be sure that you will be able to load the notebook, the external libraries and the dataset. ⚠️ If you are not able to run this notebook, you have to worry about your exam !  
 
@@ -51,7 +51,7 @@ For instance, if the command `import pandas as pd` is working, you are good to g
 
 1. Take a big breath and, as we say in the [The Hitchhiker's Guide to the Galaxy](https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy): Don't Panic.
 
-2. Go on this web page, download the ```0502-Data_Analytics_With_Python_examination.ipynb``` notebook. **THIS FILE WILL BE UPLOADED on 2024-04-15 at 7am**.
+2. Go on this web page, download the ```0502-Data_Analytics_With_Python_exam.ipynb``` notebook. **THIS FILE WILL BE UPLOADED on 2024-04-15 at 7am**.
 
 3. Load this notebook on your personnal laptop with Anaconda or Jupyter Notebook or Google Colab or your favorite IDE (pyCharm, VScode etc...).
 
