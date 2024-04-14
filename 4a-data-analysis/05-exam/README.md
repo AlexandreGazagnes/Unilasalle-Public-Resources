@@ -39,7 +39,7 @@ Please use the ```0502-Data_Analytics_With_Python_test.ipynb``` notebook to be s
 
 For instance, if the command `import pandas as pd` is working, you are good to go. If not, you should install the package using the command `!pip install pandas` in a cell of your jupyter notebook or in the terminal of your IDE.
 
-3. Feel free to download the data and take a look at it.
+3. Feel free to download the data and take a look at it. Please to the same for the ```0502-Data_Analytics_With_Python_test.ipynb``` file.
 
 4. Spend some time reading all the online material you will find on this repository. Keep in mind that a good understanding of what, why and how do prevails on your code's expertise. 
 
