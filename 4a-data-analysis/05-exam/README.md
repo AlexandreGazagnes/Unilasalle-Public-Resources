@@ -49,7 +49,7 @@ For instance, if the command `import pandas as pd` is working, you are good to g
 
 ## What you should do - DURING - the exam. 
 
-1. Take a big breath and, as we say in the The [The Hitchhiker's Guide to the Galaxy](https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy): Don't Panic.
+1. Take a big breath and, as we say in the [The Hitchhiker's Guide to the Galaxy](https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy): Don't Panic.
 
 2. Go on this web page, download the ```0502-Data_Analytics_With_Python_examination.ipynb``` notebook. **THIS FILE WILL BE UPLOADED on 2024-04-15 at 7am**.
 
