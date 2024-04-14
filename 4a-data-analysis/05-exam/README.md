@@ -4,6 +4,8 @@
 Welcome to the exam of the course Data Analysis! 
 
 
+## About
+
 You will find in this repository the following files:
 
 - ```README.md```: (this file) a markdown file containing the description of the repository, and losts of usefull information to help you for this exam.
@@ -16,7 +18,7 @@ You will find in this repository the following files:
 
 
 
-# What you should do - BEFORE - the exam. 
+## What you should do - BEFORE - the exam. 
 
 1. Install on your local laptop/UniLasalle's computer ```Anaconda``` or ``` Jupyter notebook``` (Anaconda is better than Jupyter) OR be sure you are able to use ```google colab```. 
 
@@ -45,7 +47,7 @@ For instance, if the command `import pandas as pd` is working, you are good to g
 
 
 
-# What you should do - DURING - the exam. 
+## What you should do - DURING - the exam. 
 
 1. Take a big breath and, as we say in the The Hitchhikker's Guide to the Galaxy: Don't Panic.
 
@@ -58,3 +60,9 @@ For instance, if the command `import pandas as pd` is working, you are good to g
 5. Go threw the notebook, fill empty lines of code and comment lines.
 
 6. Save, and download, if needed the last and good version of your notebook, and send the ```*.ipynb``` version of the document to you teacher ```Paul.LANTHIER@unilasalle.fr```
+
+
+
+## Troubleshooting
+
+For any question, please feel free to open an issue on the  [issue page](https://github.com/AlexandreGazagnes/Unilasalle-Public-Ressources/issues)
