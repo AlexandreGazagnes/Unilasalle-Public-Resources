@@ -236,8 +236,6 @@ Correlation but no causation
 
 ### 1.3 Living in a Post-Truth World
 
-
-
 #### 1.3.1 Somes stories false but not critical
 
 <br> 
@@ -282,7 +280,7 @@ Colin Powell, 2003, UN, Iraq, blufing as pro poker player :
 
 --- 
 
-### 1.3.4 New challenges for everyone
+#### 1.3.4 New challenges for everyone
 
 <br>
 <br>
@@ -299,6 +297,7 @@ Colin Powell, 2003, UN, Iraq, blufing as pro poker player :
 ---
 
 ### 1.4 Conclusion
+
 <br>
 <br>
 By understanding the power of data, historical lessons, and the risks of misinterpretation, we can develop a more informed, critical approach to decision-making in a data-driven world.
@@ -482,7 +481,7 @@ Examples:
 
 ---
 
-### 2.8 Bivariate/Muli-variate Analysis
+### 2.8 Bivariate/Mulivariate Analysis
 
 
 ### 2.8.1 Bivariate Analysis
@@ -511,7 +510,7 @@ Examples:
 ---
 
 
-### 2.8.2 Multi variate analysis
+### 2.8.2 Multivariate analysis
 
 Correlation matrix : 
 * Heatmap
@@ -594,7 +593,7 @@ Do you really need all of them ?
 
 ---
 
-### Grouping the columns with Principal Component Analysis 
+### G3.3 rouping the columns with Principal Component Analysis 
 
 
 - **ACP /PCA : Principal Component Analysis**
@@ -678,7 +677,7 @@ Projection of the data in the new dimensions :
 
 --- 
 
-### Grouping the lines with clustering : K-Means
+### 3.4 rouping the lines with clustering : K-Means
 
 - **K-means** 
 
@@ -743,3 +742,273 @@ Using Box plot to evaluate the quality of the clusters :
 </div>
 
 --- 
+
+
+Using Box plot to evaluate the quality of the clusters :
+
+<br>
+
+<div style="text-align: center;">
+  <img src="image-29.png" alt="K-means" style="max-width: 80%;">
+</div>
+
+
+--- 
+
+Using Box plot to evaluate the quality of the clusters :
+
+<br>
+
+<div style="text-align: center;">
+  <img src="image-30.png" alt="K-means" style="max-width: 80%;">
+</div>
+
+
+--- 
+
+Using Box plot to evaluate the quality of the clusters :
+
+<br>
+
+<div style="text-align: center;">
+  <img src="image-31.png" alt="K-means" style="max-width: 80%;">
+</div>
+
+
+--- 
+
+About our groups : 
+
+<br>
+
+<div style="text-align: center;">
+  <img src="image-32.png" alt="K-means" style="max-width: 80%;">
+</div>
+
+
+
+--- 
+
+About our groups : 
+
+<br>
+
+<div style="text-align: center;">
+  <img src="image-33.png" alt="K-means" style="max-width: 80%;">
+</div>
+
+
+--- 
+
+About our groups : 
+
+<br>
+
+<div style="text-align: center;">
+  <img src="image-34.png" alt="K-means" style="max-width: 80%;">
+</div>
+
+<div style="text-align: center;">
+  <img src="image-35.png" alt="K-means" style="max-width: 80%;">
+</div>
+
+
+
+--- 
+
+Conclusion 
+
+<div style="text-align: center;">
+
+| Feature       | Cluster A | Cluster C   | Cluster x   |
+|---------------|-----------|-------------|-------------|
+| dispo int     | =         |             |      ?      |
+| import        | --        | - (-)       |      ?      |
+| dispo alim    | --        | +           |      ?      |
+| pop           | ++        | =           |      ?      |
+| dependance    | --        | --          |      ?      |
+| delta         | ++        | ++          |      ?      |
+| dispo alim (modified) |   | + (+)       |      ?      |
+
+</div>
+
+
+--- 
+
+### Clustering is about  making consistent groups of data points.
+
+Simple example in a 2d space : 
+<br>
+<div style="text-align: center;">
+  <img src="image-36.png" alt="K-means" style="max-width: 80%;">
+</div>
+
+--- 
+### How to define a good clustering ? 
+
+* Maximising extra-cluster variance
+* Minimising intra-cluster variance
+
+<div style="text-align: center;">
+  <img src="image-37.png" alt="K-means" style="max-width: 80%;">
+</div>
+
+
+
+--- 
+
+#### How defining a good number of clusters ? 
+
+About The elbow method : 
+* Finding the elbow in the curve of the intra-cluster variance
+
+<div style="text-align: center;">
+  <img src="image-38.png" alt="K-means" style="max-width: 80%;">
+</div>
+
+
+
+
+---
+
+Computing Within-cluster variance for different number of clusters :
+
+<br>
+
+<div style="text-align: center;">
+  <img src="image-39.png" alt="K-means" style="max-width: 80%;">
+</div>
+
+---
+
+Displaying the elbow :
+
+<br>
+
+<div style="text-align: center;">
+  <img src="image-40.png" alt="K-means" style="max-width: 80%;">
+</div>
+
+
+---
+
+## 4 Python and Data Analysis 
+
+---
+
+### 4.1 Why Python for Data Analysis?
+
+
+
+Python is the best candidate : 
+* Easy to learn
+* Huge community
+* Many libraries
+* Many tools 
+* Used in many fields IRL
+
+
+---
+
+### 4.2 Using Python for Data Analysis
+
+ 
+
+You have 2 options: 
+- Locally: 
+
+    - **Install Anaconda https://www.anaconda.com/ or Jupyter https://jupyter.org/install on your machine**
+
+    - Use Anaconda or Jupyter installed on the Unilasalle PC (**Warning ⚠️**: some packages may be missing) 
+
+
+---
+
+- Online:
+
+    - **Use Google Colab https://colab.research.google.com/** (you have to be connected to your google account)
+
+    - **Open this notebook on Google colab URL**
+        * Badge
+
+    - Use Jupyter online  https://jupyter.org/try-jupyter (**Warning ⚠️**: External packages cannot be installed) 
+
+
+---
+
+
+### 4.3 Material
+
+All the material for this course could be found here.
+- https://github.com/AlexandreGazagnes/Unilassalle-Public-Ressources/tree/main/4a-data-analysis
+
+External ressources : 
+
+
+- On Youtube : 
+    - https://www.youtube.com/watch?v=8KeJZBZGtYo
+    - https://www.youtube.com/watch?v=JJYZ3OE_lGo
+    - https://www.youtube.com/watch?v=tCVXoTV12dE
+
+
+---
+
+- On Youtube : 
+    - https://www.youtube.com/watch?v=ovlID7gefzE
+    - https://www.youtube.com/watch?v=IMrxB8Mq5KU
+    - https://www.youtube.com/watch?v=Ou-7G9VQugg
+    - https://www.youtube.com/watch?v=5pf0_bpNbkw
+
+---
+
+### 4.4 Context of  the pratical work
+
+
+<br>
+
+You are a new employee of the NPO named "NPO".
+
+You are in charged of data analysis.
+
+First project is about GHG emissions, more precisely regarding Bovine Meat.
+
+
+--- 
+
+### 4.5 Data
+
+After a quick look on the internet, you find a very interesting dataset on the FAO website. It contains a list of various indicators. You decide to use this dataset to identify segments of countries.
+
+- Find relevant data : 
+    - https://www.kaggle.com/datasets/unitednations/global-food-agriculture-statistics
+    - https://www.kaggle.com/datasets/dorbicycle/world-foodfeed-production
+    - https://www.fao.org/faostat/en/
+    - https://fr-en.openfoodfacts.org/
+    - https://fr-en.openfoodfacts.org/data
+
+
+--- 
+
+<br>
+<br>
+<br>
+<br>
+
+
+**You can use a preprocessed version of the dataset [here](https://gist.githubusercontent.com/AlexandreGazagnes/2000e5c0e9149ffdb8c682a751ac448a/raw/35ad83320c26155415b7cccff8a4150ee80ee501/FAO_Unilassalle_raw.csv).** (Best option)
+
+
+---
+
+### 4.6 Mission 
+
+
+Our job is to : 
+* Prepare notebook environment
+* Load data / Explore data
+* Clean data ==> Select relevant data
+* Clean data ==> Handle missing values
+* Clean data ==> Handle duplicates ?  / Handle outliers ?
+* Perform some basic analysis and data inspection
+* Perform some basic visualisation
+* Export our data
