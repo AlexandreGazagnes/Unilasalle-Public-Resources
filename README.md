@@ -19,6 +19,10 @@
     <td>2023/2024</td>
     <td>Alexandre Gazagnes</td>
   </tr>
+    <tr>
+    <td>2024/2025</td>
+    <td>Alexandre Gazagnes</td>
+  </tr>
 </table> 
 
 This public repository contains the notebooks and the data used for both :
@@ -37,19 +41,20 @@ Each of these directories is organized in subdirectories, one for each session o
 
 ## About python, jupyter notebooks and the requirements
 
-You have 3 options: 
-- Locally: 
+You have 2 options: 
+- Online:
+
+    - **Use Google Colab https://colab.research.google.com/** (you have to be connected to your google account)
+
+    - Use Jupyter online  https://jupyter.org/try-jupyter (**Warning ⚠️**: External packages cannot be installed) 
+- Locally - for more advanced users only or  if you are comfortable with python and jupyter notebooks :
 
     - **Install Anaconda https://www.anaconda.com/ or Jupyter https://jupyter.org/install on your machine**
 
     - Use Anaconda or Jupyter installed on the UniLaSalle PC (**Warning ⚠️**: some packages may be missing) 
 
 
-- Online:
 
-    - **Use Google Colab https://colab.research.google.com/** (you have to be connected to your google account)
-
-    - Use Jupyter online  https://jupyter.org/try-jupyter (**Warning ⚠️**: External packages cannot be installed) 
 
 ## Material
 
@@ -69,6 +74,7 @@ https://github.com/AlexandreGazagnes/Unilasalle-Public-Ressources).
 │   ├── 08-session
 │   └── 09-session
 ├── 4a-data-analysis
+│   ├── 00-session
 │   ├── 01-session
 │   ├── 02-session
 │   ├── 03-session
