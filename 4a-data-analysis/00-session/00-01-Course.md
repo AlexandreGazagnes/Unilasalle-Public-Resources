@@ -11,7 +11,7 @@ theme: gaia
 <br>
 
 <div style="text-align: center;">
-  <img src="image-13.png" alt="Mesopotamian Trade Records" style="max-width: 80%;">
+  <img src="./img/image-13.png" alt="Mesopotamian Trade Records" style="max-width: 80%;">
 </div>
 
 <br>
@@ -42,7 +42,7 @@ theme: gaia
 1. **Writing Invention - Mesopotamia**: The earliest form of data recording—cuneiform tablets used to track trade, taxes, and inventories.
 
 <div style="text-align: center;">
-  <img src="image.png" alt="Mesopotamian Trade Records" style="max-width: 80%;">
+  <img src="./img/image.png" alt="Mesopotamian Trade Records" style="max-width: 80%;">
 </div>
 
 
@@ -51,7 +51,7 @@ theme: gaia
 2. **Gutenberg’s Printing Press**: Made books accessible, empowering the spread of knowledge and enhancing religious and political influence.
 
 <div style="text-align: center;">
-  <img src="image-6.png" alt="Cuneiform " style="max-width: 80%;">
+  <img src="./img/image-6.png" alt="Cuneiform " style="max-width: 80%;">
 </div>
 
 
@@ -59,7 +59,7 @@ theme: gaia
 
 3. **Telegraph / Phone**: Instant communication across distances revolutionized commerce and personal connectivity. 
 <div style="text-align: center;">
-  <img src="image-5.png" alt="Telegraph and Morse Code " style="max-width: 80%;">
+  <img src="./img/image-5.png" alt="Telegraph and Morse Code " style="max-width: 80%;">
 </div>
 
 ---
@@ -68,7 +68,7 @@ theme: gaia
 communication and business.
 
 <div style="text-align: center;">
-  <img src="image-4.png" alt="Internet Revolution" style="max-width: 80%;">
+  <img src="./img/image-4.png" alt="Internet Revolution" style="max-width: 80%;">
 </div>
 
 
@@ -94,7 +94,7 @@ communication and business.
 1. **Mesopotamian Trade Records**: Early accounting systems to track wealth.
 
 <div style="text-align: center;">
-  <img src="image.png" alt="Mesopotamian Trade Records" style="max-width: 80%;">
+  <img src="./img/image.png" alt="Mesopotamian Trade Records" style="max-width: 80%;">
 </div>
 
 ---
@@ -102,7 +102,7 @@ communication and business.
 2. **Domesday Book (England)**: Commissioned by William the Conqueror to assess land and taxes.
 
 <div style="text-align: center;">
-  <img src="image-1.png" alt="Domesday Book (England)" style="max-width: 80%;">
+  <img src="./img/image-1.png" alt="Domesday Book (England)" style="max-width: 80%;">
 </div>
 
 --- 
@@ -111,7 +111,7 @@ communication and business.
 
 
 <div style="text-align: center;">
-  <img src="image-2.png" alt="Florence Nightingale’s Data Visualization" style="max-width: 80%;">
+  <img src="./img/image-2.png" alt="Florence Nightingale’s Data Visualization" style="max-width: 80%;">
 </div>
 
 --- 
@@ -119,7 +119,7 @@ communication and business.
 4. **London Cholera Epidemic**: John Snow’s mapping of cholera clusters linked to contaminated water sources.
 
 <div style="text-align: center;">
-  <img src="image-3.png" alt="London Cholera Epidemic" style="max-width: 80%;">
+  <img src="./img/image-3.png" alt="London Cholera Epidemic" style="max-width: 80%;">
 </div>
 
 ---
@@ -129,7 +129,7 @@ communication and business.
 #### 1.2.1 WWII Plane Armor
 
 <div style="text-align: center;">
-  <img src="image-7.png" alt="WWII Plane Armor" style="max-width: 80%;">
+  <img src="./img/image-7.png" alt="WWII Plane Armor" style="max-width: 80%;">
 </div>
 
 ---
@@ -159,7 +159,7 @@ communication and business.
 <br>
 <br>
 <div style="text-align: center;">
-  <img src="image-8.png" alt="Occam's Razor" style="max-width: 80%;">
+  <img src="./img/image-8.png" alt="Occam's Razor" style="max-width: 80%;">
 </div>
 
 ---
@@ -178,7 +178,7 @@ communication and business.
 #### 1.2.4 Spurious Correlations and Hidden Variables
 
 <div style="text-align: center;">
-  <img src="image-9.png" alt="Spurious Correlations" style="max-width: 80%;">
+  <img src="./img/image-9.png" alt="Spurious Correlations" style="max-width: 80%;">
 </div>
 
 <br>
@@ -219,7 +219,7 @@ Correlation but no causation
 <br>
 <br>
 <div style="text-align: center;">
-  <img src="image-10.png" alt>
+  <img src="./img/image-10.png" alt>
 </div>
 
 --- 
@@ -241,7 +241,7 @@ Correlation but no causation
 <br> 
 
 <div style="text-align: center;">
-  <img src="image-11.png" alt="Coca-Cola Santa Claus" style="max-width: 80%;">
+  <img src="./img/image-11.png" alt="Coca-Cola Santa Claus" style="max-width: 80%;">
 
 --- 
 
@@ -249,7 +249,7 @@ Correlation but no causation
 
 <br>
 <div style="text-align: center;">
-    <img src="image-12.png" alt="fake footage" style="max-width: 80%;">
+    <img src="./img/image-12.png" alt="fake footage" style="max-width: 80%;">
 </div>
 
 
@@ -259,21 +259,20 @@ Correlation but no causation
 50% of the population at least "not" sure in US Gen Z
 
 <div style="text-align: center;">
-  <img src="image-14.png" alt="fake footage" style="max-width: 80%;">
+  <img src="./img/image-14.png" alt="fake footage" style="max-width: 80%;">
 </div>
 
 ---
 
+### 1.3.3 Somes "conspiracies" migh be true 
 
-### 1.3.3 Somes "conspiracies" are true 
-
-Colin Powell, 2003, UN, Iraq, blufing as pro poker player : 
+Colin Powell, 2003, UN, "blufing" like pro poker player : 
 
 <br>
 <br>
 
 <div style="text-align: center;">
-  <img src="image-15.png" alt="fake footage" style="max-width: 90%;">
+  <img src="./img/image-15.png" alt="fake footage" style="max-width: 90%;">
 </div>
 
 
@@ -291,7 +290,7 @@ Colin Powell, 2003, UN, Iraq, blufing as pro poker player :
 
 - Tons of short videos, generated by IA with huge click rate
 
-- Governmentals Secrets Services farms to generate fake news and manipulate public opinion
+- Origanized farms to generate fake news and manipulate public opinion
 
 
 ---
@@ -366,7 +365,7 @@ Think in reverse:
 
 Examples:
 - User database: someone listed as 198 years old?
-- Many users 1750m tall? (Maybe data is in cm?)
+- Many users 1750m tall? (Maybe data is in cm, in mm?)
 - dataset with 95% of missing values?
 
 ---
@@ -459,7 +458,7 @@ Examples:
 
 
 <div style="text-align: center;">
-  <img src="image-16.png" alt="Histograms" style="max-width: 60%;">
+  <img src="./img/image-16.png" alt="Histograms" style="max-width: 60%;">
 </div>
 
 - Graphs:
@@ -504,7 +503,7 @@ Examples:
 
 
 <div style="text-align: center;">
-  <img src="image-17.png" alt="Bivariate Analysis" style="max-width: 80%;">
+  <img src="./img/image-17.png" alt="Bivariate Analysis" style="max-width: 80%;">
 </div>
 
 ---
@@ -541,13 +540,13 @@ Data selection is key to avoid the curse of dimentionality
 
 --- 
 
-Having 100 or 1000 columns is a garantee of having a good dataset ! 
+Having 100 or 1000 columns is a garantee of having a good dataset ? 
 
 <br>
 <br>
 
 <div style="text-align: center;">
-  <img src="image-18.png" alt="Dimentionality Reduction" style="max-width: 130%;">   
+  <img src="./img/image-18.png" alt="Dimentionality Reduction" style="max-width: 130%;">   
 </div>
 
 Do you really need all of them ?
@@ -593,7 +592,7 @@ Do you really need all of them ?
 
 ---
 
-### G3.3 rouping the columns with Principal Component Analysis 
+### G3.3 "Grouping the columns" with Principal Component Analysis 
 
 
 - **ACP /PCA : Principal Component Analysis**
@@ -622,7 +621,7 @@ Raw data :
 <br>
 
 <div style="text-align: center;">
-  <img src="image-19.png" alt="ACP" style="max-width: 80%;">
+  <img src="./img/image-19.png" alt="ACP" style="max-width: 80%;">
 </div>
 
 ---
@@ -630,7 +629,7 @@ Raw data :
 Standardized data :
 
 <div style="text-align: center;">
-  <img src="image-20.png" alt="ACP" style="max-width: 80%;">
+  <img src="./img/image-20.png" alt="ACP" style="max-width: 80%;">
 </div>
 
 ---
@@ -640,7 +639,7 @@ New dimensions :
 <br>
 
 <div style="text-align: center;">
-  <img src="image-22.png" alt="ACP" style="max-width: 80%;">
+  <img src="./img/image-22.png" alt="ACP" style="max-width: 80%;">
 </div>
 
 ---
@@ -650,7 +649,7 @@ Explained variance ratio :
 <br>
 
 <div style="text-align: center;">
-  <img src="image-21.png" alt="ACP" style="max-width: 80%;">
+  <img src="./img/image-21.png" alt="ACP" style="max-width: 80%;">
 </div>
 
 --- 
@@ -661,7 +660,7 @@ Correlation between the new dimensions and the old ones :
 <br>
 
 <div style="text-align: center;">
-  <img src="image-23.png" alt="ACP" style="max-width: 80%;">
+  <img src="./img/image-23.png" alt="ACP" style="max-width: 80%;">
 </div>
 
 ---
@@ -671,13 +670,13 @@ Projection of the data in the new dimensions :
 <br>
 
 <div style="text-align: center;">
-  <img src="image-24.png" alt="ACP" style="max-width: 80%;">
+  <img src="./img/image-24.png" alt="ACP" style="max-width: 80%;">
 </div>
 
 
 --- 
 
-### 3.4 rouping the lines with clustering : K-Means
+### 3.4 "Grouping the lines" with clustering : K-Means
 
 - **K-means** 
 
@@ -708,7 +707,7 @@ Running the Kmeans :
 
 
 <div style="text-align: center;">
-  <img src="image-27.png" alt="K-means" style="max-width: 80%;">
+  <img src="./img/image-27.png" alt="K-means" style="max-width: 80%;">
 </div>
 
 --- 
@@ -718,7 +717,7 @@ Assigning letters to  the clusters :
 <br>
 
 <div style="text-align: center;">
-  <img src="image-28.png" alt="K-means" style="max-width: 80%;">
+  <img src="./img/image-28.png" alt="K-means" style="max-width: 80%;">
 </div>
 
 ---
@@ -728,7 +727,7 @@ Displaying the clusters :
 <br>
 
 <div style="text-align: center;">
-  <img src="image-26.png" alt="K-means" style="max-width: 80%;">
+  <img src="./img/image-26.png" alt="K-means" style="max-width: 80%;">
 </div>
 
 --- 
@@ -738,7 +737,7 @@ Using Box plot to evaluate the quality of the clusters :
 <br>
 
 <div style="text-align: center;">
-  <img src="image-25.png" alt="K-means" style="max-width: 80%;">
+  <img src="./img/image-25.png" alt="K-means" style="max-width: 80%;">
 </div>
 
 --- 
@@ -749,18 +748,7 @@ Using Box plot to evaluate the quality of the clusters :
 <br>
 
 <div style="text-align: center;">
-  <img src="image-29.png" alt="K-means" style="max-width: 80%;">
-</div>
-
-
---- 
-
-Using Box plot to evaluate the quality of the clusters :
-
-<br>
-
-<div style="text-align: center;">
-  <img src="image-30.png" alt="K-means" style="max-width: 80%;">
+  <img src="./img/image-29.png" alt="K-means" style="max-width: 80%;">
 </div>
 
 
@@ -771,7 +759,18 @@ Using Box plot to evaluate the quality of the clusters :
 <br>
 
 <div style="text-align: center;">
-  <img src="image-31.png" alt="K-means" style="max-width: 80%;">
+  <img src="./img/image-30.png" alt="K-means" style="max-width: 80%;">
+</div>
+
+
+--- 
+
+Using Box plot to evaluate the quality of the clusters :
+
+<br>
+
+<div style="text-align: center;">
+  <img src="./img/image-31.png" alt="K-means" style="max-width: 80%;">
 </div>
 
 
@@ -782,7 +781,7 @@ About our groups :
 <br>
 
 <div style="text-align: center;">
-  <img src="image-32.png" alt="K-means" style="max-width: 80%;">
+  <img src="./img/image-32.png" alt="K-means" style="max-width: 80%;">
 </div>
 
 
@@ -792,9 +791,8 @@ About our groups :
 About our groups : 
 
 <br>
-
 <div style="text-align: center;">
-  <img src="image-33.png" alt="K-means" style="max-width: 80%;">
+  <img src="./img/image-33.png" alt="K-means" style="max-width: 80%;">
 </div>
 
 
@@ -805,11 +803,11 @@ About our groups :
 <br>
 
 <div style="text-align: center;">
-  <img src="image-34.png" alt="K-means" style="max-width: 80%;">
+  <img src="./img/image-34.png" alt="K-means" style="max-width: 80%;">
 </div>
 
 <div style="text-align: center;">
-  <img src="image-35.png" alt="K-means" style="max-width: 80%;">
+  <img src="./img/image-35.png" alt="K-means" style="max-width: 80%;">
 </div>
 
 
@@ -840,7 +838,7 @@ Conclusion
 Simple example in a 2d space : 
 <br>
 <div style="text-align: center;">
-  <img src="image-36.png" alt="K-means" style="max-width: 80%;">
+  <img src="./img/image-36.png" alt="K-means" style="max-width: 80%;">
 </div>
 
 --- 
@@ -850,7 +848,7 @@ Simple example in a 2d space :
 * Minimising intra-cluster variance
 
 <div style="text-align: center;">
-  <img src="image-37.png" alt="K-means" style="max-width: 80%;">
+  <img src="./img/image-37.png" alt="K-means" style="max-width: 80%;">
 </div>
 
 
@@ -863,7 +861,7 @@ About The elbow method :
 * Finding the elbow in the curve of the intra-cluster variance
 
 <div style="text-align: center;">
-  <img src="image-38.png" alt="K-means" style="max-width: 80%;">
+  <img src="./img/image-38.png" alt="K-means" style="max-width: 80%;">
 </div>
 
 
@@ -876,7 +874,7 @@ Computing Within-cluster variance for different number of clusters :
 <br>
 
 <div style="text-align: center;">
-  <img src="image-39.png" alt="K-means" style="max-width: 80%;">
+  <img src="./img/image-39.png" alt="K-means" style="max-width: 80%;">
 </div>
 
 ---
@@ -886,7 +884,7 @@ Displaying the elbow :
 <br>
 
 <div style="text-align: center;">
-  <img src="image-40.png" alt="K-means" style="max-width: 80%;">
+  <img src="./img/image-40.png" alt="K-means" style="max-width: 80%;">
 </div>
 
 
@@ -914,7 +912,7 @@ Python is the best candidate :
 
  
 
-You have 2 options: 
+<!-- You have 2 options: 
 - Locally: 
 
     - **Install Anaconda https://www.anaconda.com/ or Jupyter https://jupyter.org/install on your machine**
@@ -922,14 +920,15 @@ You have 2 options:
     - Use Anaconda or Jupyter installed on the Unilasalle PC (**Warning ⚠️**: some packages may be missing) 
 
 
----
+--- -->
 
 - Online:
 
     - **Use Google Colab https://colab.research.google.com/** (you have to be connected to your google account)
 
-    - **Open this notebook on Google colab URL**
-        * Badge
+    <!-- - **Open this notebook on Google colab URL**
+        * Badge -->
+
 
     - Use Jupyter online  https://jupyter.org/try-jupyter (**Warning ⚠️**: External packages cannot be installed) 
 
@@ -1012,3 +1011,11 @@ Our job is to :
 * Perform some basic analysis and data inspection
 * Perform some basic visualisation
 * Export our data
+
+--- 
+
+### 4.7 Time To practice !  
+
+
+
+* Let's Go ! 
